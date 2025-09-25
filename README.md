@@ -285,4 +285,85 @@
                     </div>
                     <div class="card p-2">
                         <img src="https://placehold.co/400x300/4CAF50/ffffff?text=Image+2+Conference+Award" alt="Conference/Award Photo" class="gallery-image">
-                        <p class="text-center text-xs text-gray-60
+                        <p class="text-center text-xs text-gray-600 mt-1">Presenting at an International Conference.</p>
+                    </div>
+                    <div class="card p-2">
+                        <img src="https://placehold.co/400x300/FF5A5F/ffffff?text=Image+3+Teaching+or+Group" alt="Teaching/Group Photo" class="gallery-image">
+                        <p class="text-center text-xs text-gray-600 mt-1">Group photo with students/colleagues.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact" class="content-section">
+                <h2 class="text-xl font-bold section-heading">Contact & References</h2>
+                <div class="grid md:grid-cols-2 gap-2">
+                    <div class="card card-content">
+                        <h3 class="text-sm font-semibold text-gray-800">Contact Information</h3>
+                        <span class="text-gray-700 text-xs">Phone: **7981541047 / 6304608610**. Email: <a href="mailto:Sushmitha.jntu@gmail.com" class="text-blue-600">Sushmitha.jntu@gmail.com</a> | <a href="mailto:sushmitha.d.nitw@gmail.com" class="text-blue-600">sushmitha.d.nitw@gmail.com</a></span>
+                    </div>
+                    <div class="card card-content">
+                        <h3 class="text-sm font-semibold text-gray-800">Online Research Profiles</h3>
+                        <span class="text-gray-700 text-xs">**Google Scholar**: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank" class="text-blue-600 hover:underline">View Profile</a>. **ORCID ID**: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank" class="text-blue-600 hover:underline">0000-0002-1125-6904</a>. **Scopus ID**: 57213192955.</span>
+                    </div>
+                    <div class="card card-content md:col-span-2">
+                        <h3 class="text-sm font-semibold text-gray-800">References (Available Upon Request)</h3>
+                        <span class="text-gray-700 text-xs">Dr. S. Srinath (Assoc. Prof & Head, NIT-W) | Dr. Shirish Hari Sonawane (Prof, NIT-W) | Dr. K. Anand Kishore (Rtd Prof, NIT-W) | Dr. Pramod Kumar (Prof, JNTU-H).</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-white shadow-inner py-3 mt-4">
+        <div class="container mx-auto px-6 text-center text-gray-600 text-xs">
+            <p>&copy; 2023 Chemical Engineering Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.content-section');
+            const projectButtons = document.querySelectorAll('[data-target]');
+            
+            const showSection = (targetId) => {
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                }
+            };
+
+            const setActiveLink = (targetId) => {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+                const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            };
+
+            // Event listener for all interactive elements
+            [...navLinks, ...projectButtons].forEach(element => {
+                element.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = e.currentTarget.getAttribute('data-target');
+                    showSection(targetId);
+                    setActiveLink(targetId);
+                    window.history.pushState(null, '', `#${targetId}`);
+                });
+            });
+
+            // Handle initial load based on URL hash
+            const initialSection = window.location.hash.substring(1) || 'about';
+            showSection(initialSection);
+            setActiveLink(initialSection);
+        });
+    </script>
+
+</body>
+</html>
