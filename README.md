@@ -280,16 +280,16 @@
                 <h2 class="text-xl font-bold section-heading">Gallery (Professional & Academic Photos)</h2>
                 <div class="grid md:grid-cols-3 gap-4">
                     <div class="card p-2">
-                        <img src="https://placehold.co/400x300/2C7A7B/ffffff?text=Image+1+Research+Lab" alt="Lab/Research Photo" class="gallery-image">
-                        <p class="text-center text-xs text-gray-600 mt-1">Research work in the lab.</p>
+                        <img src="https://placehold.co/400x300/2C7A7B/ffffff?text=Image+1+Paste+URL+or+Base64" alt="Lab/Research Photo" class="gallery-image">
+                        <p class="text-center text-xs text-gray-600 mt-1">Research work in the lab (Replace URL above).</p>
                     </div>
                     <div class="card p-2">
-                        <img src="https://placehold.co/400x300/4CAF50/ffffff?text=Image+2+Conference+Award" alt="Conference/Award Photo" class="gallery-image">
-                        <p class="text-center text-xs text-gray-600 mt-1">Presenting at an International Conference.</p>
+                        <img src="https://placehold.co/400x300/4CAF50/ffffff?text=Image+2+Paste+URL+or+Base64" alt="Conference/Award Photo" class="gallery-image">
+                        <p class="text-center text-xs text-gray-600 mt-1">Presenting at an International Conference (Replace URL above).</p>
                     </div>
                     <div class="card p-2">
-                        <img src="https://placehold.co/400x300/FF5A5F/ffffff?text=Image+3+Teaching+or+Group" alt="Teaching/Group Photo" class="gallery-image">
-                        <p class="text-center text-xs text-gray-600 mt-1">Group photo with students/colleagues.</p>
+                        <img src="https://placehold.co/400x300/FF5A5F/ffffff?text=Image+3+Paste+URL+or+Base64" alt="Teaching/Group Photo" class="gallery-image">
+                        <p class="text-center text-xs text-gray-600 mt-1">Group photo with students/colleagues (Replace URL above).</p>
                     </div>
                 </div>
             </section>
