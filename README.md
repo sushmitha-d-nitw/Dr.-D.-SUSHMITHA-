@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
     <style>
         /* FINAL EXACT BLUE BACKGROUND: #2A52BE */
         body {
@@ -154,7 +154,7 @@
                         <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
                         <h3 class="text-xl font-semibold mt-2 highlight">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
-                            [cite_start]I leverage <span class="highlight">over 10 years 7 months of experience</span> across academia, research, and management[cite: 4]. [cite_start]My core expertise is in <span class="highlight">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="highlight">ASPEN</span> and <span class="highlight">ANSYS</span>[cite: 23, 35].
+                            I leverage <span class="highlight">over 10 years 7 months of experience</span> across academia, research, and management. My core expertise is in <span class="highlight">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="highlight">ASPEN</span> and <span class="highlight">ANSYS</span>.
                         </p>
                         <div class="flex justify-center md:justify-start space-x-4 mt-4">
                             <a href="#experience" class="btn btn-projects text-sm" data-target="experience">View Career</a>
@@ -169,39 +169,39 @@
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Asst. Professor (Temporary)</h3>
-                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | [cite_start]<span class="highlight">Jan 2025 - Present</span>[cite: 6].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Batches: B.Tech 2nd year, M.Sc 2nd year Regular Batch[cite: 7].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Subjects taught: <span class="highlight">Process engineering principles</span>[cite: 8].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Labs: <span class="highlight">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>[cite: 9].</span>
+                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | <span class="highlight">Jan 2025 - Present</span>.</span>
+                        <span class="text-sm inline-block detail-line">Batches: B.Tech 2nd year, M.Sc 2nd year Regular Batch.</span>
+                        <span class="text-sm inline-block detail-line">Subjects taught: <span class="highlight">Process engineering principles</span>.</span>
+                        <span class="text-sm inline-block detail-line">Labs: <span class="highlight">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Asst. Professor & Coordinator</h3>
-                        <span class="text-sm inline-block mr-2">Petrochemical Tech, Excel Engg College | [cite_start]<span class="highlight">May - Nov 2022</span>[cite: 11].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">B.Tech Courses taught: <span class="highlight">Electrochem. process tech (CE8091), CRE-I (PE8091), CRE-II (CE8601), Catalytic Engg (PE8072), Fluid mechanics (CH8301)</span>[cite: 12, 13, 14].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Academic Responsibilities: <span class="highlight">Placement Co-ordinator, Class Advisor/Mentor, Class committee Co-ordinator, Hostel Warden, Internship Co-ordinator</span>[cite: 14, 15].</span>
+                        <span class="text-sm inline-block mr-2">Petrochemical Tech, Excel Engg College | <span class="highlight">May - Nov 2022</span>.</span>
+                        <span class="text-sm inline-block detail-line">B.Tech Courses taught: <span class="highlight">Electrochem. process tech (CE8091), CRE-I (PE8091), CRE-II (CE8601), Catalytic Engg (PE8072), Fluid mechanics (CH8301)</span>.</span>
+                        <span class="text-sm inline-block detail-line">Academic Responsibilities: <span class="highlight">Placement Co-ordinator, Class Advisor/Mentor, Class committee Co-ordinator, Hostel Warden, Internship Co-ordinator</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Business Development & Sales Manager</h3>
-                        <span class="text-sm inline-block mr-2">Riss InfoTech | [cite_start]<span class="highlight">Jul - Aug 2023</span>[cite: 17].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Manager Responsibilities: Maintaining <span class="highlight">70 employee data base in CRM</span>, <span class="highlight">Digital marketing for Lead generation</span>, Acquired <span class="highlight">Leadership skills</span>[cite: 18, 19].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Sales/HR Responsibilities: Scheduling Client meetings, Lead/Client information management in CRM, <span class="highlight">Pay roll generation</span>, Department Allocation[cite: 21, 22].</span>
+                        <span class="text-sm inline-block mr-2">Riss InfoTech | <span class="highlight">Jul - Aug 2023</span>.</span>
+                        <span class="text-sm inline-block detail-line">Manager Responsibilities: Maintaining <span class="highlight">70 employee data base in CRM software</span>, <span class="highlight">Digital marketing for Lead generation</span>, Acquired <span class="highlight">Leadership skills</span>.</span>
+                        <span class="text-sm inline-block detail-line">Sales/HR Responsibilities: Scheduling Client meetings, Lead/Client information management in CRM, <span class="highlight">Pay roll generation</span>, Department Allocation.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Researcher (Ph.D. Scholar)</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">May 2015 - Jul 2021</span>[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Project Focus: Process development for <span class="highlight">Intensification on delignification</span>, Process Simulation, Optimization[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Software: <span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling)</span>[cite: 23].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | <span class="highlight">May 2015 - Jul 2021</span>.</span>
+                        <span class="text-sm inline-block detail-line">Project Focus: Process development for <span class="highlight">Intensification on delignification</span>, Process Simulation, Optimization.</span>
+                        <span class="text-sm inline-block detail-line">Software: <span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling)</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Asst. Professor</h3>
-                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | [cite_start]<span class="highlight">Dec 2011 - Apr 2014</span>[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">M.Tech Courses taught: <span class="highlight">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>[cite: 24, 25, 26, 27].</span>
-                        <span class="text-sm inline-block detail-line">Labs handled: Process engineering principles lab; [cite_start]Bioprocess engineering lab[cite: 28].</span>
+                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | <span class="highlight">Dec 2011 - Apr 2014</span>.</span>
+                        <span class="text-sm inline-block detail-line">M.Tech Courses taught: <span class="highlight">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>.</span>
+                        <span class="text-sm inline-block detail-line">Labs handled: Process engineering principles lab; Bioprocess engineering lab.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Industrial Training</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2"><span class="highlight">Vizag Steel Plant</span> (2010-2011), KERBS, Indo American Pharmaceuticals[cite: 29, 30, 32].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Training Focus: Equipment and Processes, <span class="highlight">Bulk Drug Production</span>[cite: 31, 32].</span>
+                        <span class="text-sm inline-block mr-2"><span class="highlight">Vizag Steel Plant</span>, KERBS, Indo American Pharmaceuticals | <span class="highlight">2007-2011</span>.</span>
+                        <span class="text-sm inline-block detail-line">Training Focus: Equipment and Processes, <span class="highlight">Bulk Drug Production</span>.</span>
                     </div>
                 </div>
             </section>
@@ -211,24 +211,24 @@
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Ph.D. in Chemical Engineering</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">Aug 2015 - Mar 2021</span>[cite: 52].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Intensification of delignification by acoustic cavitation for development of <span class="highlight">self-healing corrosion inhibition coatings</span>[cite: 53].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | <span class="highlight">Aug 2015 - Mar 2021</span>.</span>
+                        <span class="text-sm inline-block detail-line">Thesis: Intensification of delignification by acoustic cavitation for development of <span class="highlight">self-healing corrosion inhibition coatings</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">M.Tech in Chemical Engineering (7.28 CGPA)</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">Jul 2009 - Jul 2011</span>[cite: 54, 55].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Specialization: <span class="highlight">Computer Aided Process Equipment Design</span>[cite: 55].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Improvement of crude benzol production by designing a 1-2 U-tube type shell and tube heat exchanger using Aspen[cite: 55].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | <span class="highlight">Jul 2009 - Jul 2011</span>.</span>
+                        <span class="text-sm inline-block detail-line">Specialization: <span class="highlight">Computer Aided Process Equipment Design</span>.</span>
+                        <span class="text-sm inline-block detail-line">Thesis: Improvement of crude benzol production by designing a 1-2 U-tube type shell and tube heat exchanger using Aspen.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">B.Tech in Chemical Engineering (67.56%)</h3>
-                        <span class="text-sm inline-block mr-2">JNTU Anantapur | [cite_start]<span class="highlight">Jul 2004 - Jul 2008</span>[cite: 56, 57].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Simulation of <span class="highlight">large-scale membrane reformers</span> by a two-dimensional model[cite: 57].</span>
+                        <span class="text-sm inline-block mr-2">JNTU Anantapur | <span class="highlight">Jul 2004 - Jul 2008</span>.</span>
+                        <span class="text-sm inline-block detail-line">Thesis: Simulation of <span class="highlight">large-scale membrane reformers</span> by a two-dimensional model.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Pre-University and Schooling</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Intermediate (M.P.C): <span class="highlight">83.7%</span> (Narayana Junior college)[cite: 58].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Matriculation (SSC): <span class="highlight">80.3%</span> (St Mary's School)[cite: 59].</span>
+                        <span class="text-sm inline-block mr-2">Intermediate (M.P.C): <span class="highlight">83.7%</span> (Narayana Junior college | 2002-2004).</span>
+                        <span class="text-sm inline-block detail-line">Matriculation (SSC): <span class="highlight">80.3%</span> (St Mary's School | 2001-2002).</span>
                     </div>
                 </div>
             </section>
@@ -238,21 +238,19 @@
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">GATE Qualification & Fellowships</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Qualified GATE <span class="highlight">three times</span> (2009, 2010, 2012)[cite: 48, 60]. [cite_start]Highest Rank: <span class="highlight">1219</span> (2009)[cite: 60].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Awarded <span class="highlight">MHRD Scholarship</span> (Ph.D.) and <span class="highlight">AICTE Fellowship</span> (M.Tech)[cite: 49, 50].</span>
+                        <span class="text-sm inline-block mr-2">Qualified GATE <span class="highlight">three times</span> (2009, 2010, 2012). Highest Rank: <span class="highlight">1219</span> (2009).</span>
+                        <span class="text-sm inline-block detail-line">Awarded <span class="highlight">MHRD Scholarship</span> (Ph.D.) and <span class="highlight">AICTE Fellowship</span> (M.Tech).</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Academic Awards & Reviewer Roles</h3>
-                        <ul class="horizontal-list text-sm">
-                            [cite_start]<li><span class="highlight">Best Paper Award</span> at Research Conclave-17 (NITW, 2017)[cite: 44, 45].</li>
-                            [cite_start]<li>Official Reviewer for <span class="highlight">3 Elsevier journals</span> (Renewable Energy, Materials Today Proceedings, Journal of King Saud University - Engineering Science)[cite: 46, 47].</li>
-                        </ul>
+                        <span class="text-sm inline-block mr-2"><span class="highlight">Best Paper Award</span> at Research Conclave-17 (NITW, 2017).</span>
+                        <span class="text-sm inline-block detail-line">Official Reviewer for <span class="highlight">3 Elsevier journals</span> (Renewable Energy, Materials Today Proceedings, Journal of King Saud University - Engineering Science).</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Professional Memberships</h3>
                         <ul class="horizontal-list text-sm">
-                            [cite_start]<li>Associate Member of <span class="highlight">IICHE</span> since Dec 2017[cite: 51].</li>
-                            [cite_start]<li>Associate Member of <span class="highlight">IEI</span> (Institute of Engineers India) since Apr 2023[cite: 51].</li>
+                            <li>Associate Member of <span class="highlight">IICHE</span> since Dec 2017.</li>
+                            <li>Associate Member of <span class="highlight">IEI</span> (Institute of Engineers India) since Apr 2023.</li>
                         </ul>
                     </div>
                 </div>
@@ -265,15 +263,14 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Research Output Summary</h3>
                         <ul class="horizontal-list text-sm">
-                            [cite_start]<li><span class="highlight">6</span> Journal Papers [cite: 61, 101]</li>
-                            [cite_start]<li><span class="highlight">2</span> Book Chapters [cite: 101]</li>
-                            [cite_start]<li><span class="highlight">19</span> Conference Papers (15 Intl, 4 Natl) [cite: 101]</li>
+                            <li><span class="highlight">6</span> Journal Papers</li>
+                            <li><span class="highlight">2</span> Book Chapters</li>
+                            <li><span class="highlight">19</span> Conference Papers (15 Intl, 4 Natl)</li>
                         </ul>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Core Research Areas</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">Process Intensification, Biorefinery, Biomass Valorisation</span>, Paper Manufacturing, UV-Protective cloth, SAP, <span class="highlight">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing corrosion/concrete[cite: 35].</span>
-                        [cite_start]<span class="text-sm detail-line">Techniques: Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization, <span class="highlight">EIS</span> (electro chemical impedance spectroscopy)[cite: 36].</span>
+                        <span class="text-sm"><span class="highlight">Process Intensification, Biorefinery, Biomass Valorisation</span>, Paper Manufacturing, UV-Protective cloth, SAP, <span class="highlight">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing corrosion/concrete, Functionalization of nano materials.</span>
                     </div>
                 </div>
             </section>
@@ -283,19 +280,19 @@
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Software & Simulation</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis</span>, ANSYS (3D Modeling), CRM Software[cite: 23, 18, 21].</span>
+                        <span class="text-sm"><span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis</span>, ANSYS (3D Modeling), CRM Software.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Experimental & Techniques</h3>
-                        [cite_start]<span class="text-sm">Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization, <span class="highlight">EIS</span> (electro chemical impedance spectroscopy), Equipment handling[cite: 36, 31].</span>
+                        <span class="text-sm">Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization and <span class="highlight">EIS</span> (electro chemical impedance spectroscopy), Equipment handling.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Academic & Teaching</h3>
-                        [cite_start]<span class="text-sm">Curriculum Development, Class Advising, Mentoring, <span class="highlight">Placement Coordination</span>, <span class="highlight">Hostel Warden</span>, Internship Co-ordinator[cite: 14, 15].</span>
+                        <span class="text-sm">Curriculum Development, Class Advising, Mentoring, <span class="highlight">Placement Coordination</span>, <span class="highlight">Hostel Warden</span>, Internship Co-ordinator.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Business & Management</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">Business Development</span>, Digital Marketing, Lead Generation, <span class="highlight">HR/Payroll Management</span>[cite: 16, 19, 22].</span>
+                        <span class="text-sm"><span class="highlight">Business Development</span>, Digital Marketing, Lead Generation, <span class="highlight">HR/Payroll Management</span>.</span>
                     </div>
                 </div>
             </section>
@@ -306,18 +303,18 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Sports & Arts Achievements</h3>
                         <ul class="horizontal-list text-sm">
-                            [cite_start]<li><span class="highlight">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7)[cite: 123, 124].</li>
-                            [cite_start]<li><span class="highlight">First Grade in All India Painting Competition</span> (Chennai)[cite: 129].</li>
-                            [cite_start]<li>Won <span class="highlight">merit prize</span> in "Hindi Talent Test" (Tenth class)[cite: 125].</li>
+                            <li><span class="highlight">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</li>
+                            <li>Awarded <span class="highlight">first grade in "All India painting competition"</span> at Chennai.</li>
+                            <li>Won <span class="highlight">merit prize in "Hindi Talent Test"</span> (Tenth class).</li>
                         </ul>
                     </div>
                     <div class="card card-content">
                          <h3 class="text-sm font-semibold">Seminars & Service</h3>
                         <ul class="horizontal-list text-sm">
-                            <li>Participated in Intl. [cite_start]Symposiums <span class="highlight">"FUSION-05" & "SCHEMCON-06"</span>[cite: 126].</li>
-                            [cite_start]<li>Bagged <span class="highlight">National level certificate</span> for "All India Inter school cultural festival"[cite: 127].</li>
-                            [cite_start]<li><span class="highlight">Certified for collecting money for "Help age India"</span>[cite: 128].</li>
-                            [cite_start]<li>Assisted for <span class="highlight">7 Workshops</span> for smooth running[cite: 102].</li>
+                            <li>Actively participated in cultural events <span class="highlight">"FUSION-05" & "SCHEMCON-06"</span> (Intl. Symposium).</li>
+                            <li>Bagged <span class="highlight">National level certificate</span> for Participated in "All India Inter school cultural festival".</li>
+                            <li><span class="highlight">Certified for collecting money to "Help age India"</span>.</li>
+                            <li>Assisted for <span class="highlight">7 Workshops</span> for smooth running.</li>
                         </ul>
                     </div>
                 </div>
@@ -346,22 +343,22 @@
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Contact Information</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Phone: <span class="highlight">7981541047 / 6304608610</span>[cite: 2].</span>
-                        <span class="text-sm inline-block detail-line">Email: <a href="mailto:Sushmitha.jntu@gmail.com">Sushmitha.jntu@gmail.com</a> | [cite_start]<a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a>[cite: 3].</span>
+                        <span class="text-sm inline-block mr-2">Phone: <span class="highlight">7981541047 / 6304608610</span>.</span>
+                        <span class="text-sm inline-block detail-line">Email: <a href="mailto:Sushmitha.jntu@gmail.com">Sushmitha.jntu@gmail.com</a> | <a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Online Research Profiles</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2"><span class="highlight">Google Scholar</span>: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank">View Profile</a>[cite: 37].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line"><span class="highlight">ORCID ID</span>: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank">0000-0002-1125-6904</a>[cite: 38].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line"><span class="highlight">Scopus ID</span>: 57213192955[cite: 38].</span>
+                        <span class="text-sm inline-block mr-2"><span class="highlight">Google Scholar</span>: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank">View Profile</a>.</span>
+                        <span class="text-sm inline-block detail-line"><span class="highlight">ORCID ID</span>: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank">0000-0002-1125-6904</a>.</span>
+                        <span class="text-sm inline-block detail-line"><span class="highlight">Scopus ID</span>: 57213192955.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">References (Available Upon Request)</h3>
-                        <span class="text-sm detail-line">Dr. [cite_start]S. Srinath (Assoc. Prof & Head, NIT-W) [cite: 105, 106] | [cite_start]Dr. Shirish Hari Sonawane (Prof, NIT-W) [cite: 110] | [cite_start]Dr. K. Anand Kishore (Rtd Prof, NIT-W) [cite: 113] | [cite_start]Dr. Pramod Kumar (Prof, JNTU-H)[cite: 115].</span>
+                        <span class="text-sm detail-line">Dr. S. Srinath (Assoc. Prof & Head, NIT-W) | Dr. Shirish Hari Sonawane (Prof, NIT-W) | Dr. K. Anand Kishore (Rtd Prof, NIT-W) | Dr. Pramod Kumar (Prof, JNTU-H).</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Declaration</h3>
-                        [cite_start]<span class="text-sm">I hereby declare that the information furnished above is true to the best of my knowledge[cite: 131].</span>
+                        <span class="text-sm">I hereby declare that the information furnished above is true to the best of my knowledge.</span>
                     </div>
                 </div>
             </section>
