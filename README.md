@@ -1,34 +1,35 @@
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        /* FINAL EXACT BLUE BACKGROUND: #2A52BE */
+        /* FINAL EXACT BLUE BACKGROUND FROM IMAGE */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #2A52BE; 
-            color: #ffffff; 
+            background-color: #2A52BE; /* Exact blue from the provided image */
+            color: #ffffff; /* Default text color set to white for contrast */
         }
-        /* Ensure all structural elements have transparent backgrounds to show body blue */
+        /* Make header and main content background transparent/same as body for full blue effect */
         header, main, footer {
             background-color: transparent; 
         }
 
         h1, h2 {
             font-family: 'Playfair Display', serif;
-            color: #ffffff; 
+            color: #ffffff; /* Ensure headings are white */
         }
         h3 {
-            color: #ffffff; 
+            color: #ffffff; /* Ensure subheadings are white */
         }
         p, span, li {
-            color: #e0e0e0; 
+            color: #e0e0e0; /* Lighter white for general text, slightly off-white */
         }
         a {
-            color: #90CAF9; 
+            color: #90CAF9; /* Light blue for links for visibility */
         }
         a:hover {
             color: #BBDEFB;
@@ -42,35 +43,40 @@
             border: 6px solid #fff;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
         }
-        /* Cards: Single column, minimal spacing */
+        /* Cards now have a slightly transparent white background to pop on blue */
         .card {
-            background-color: rgba(255, 255, 255, 0.1); 
-            padding: 0.3rem 0.6rem; 
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for cards */
+            padding: 0.2rem 0.5rem; 
             border-radius: 4px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            margin-bottom: 0.5rem; /* Slightly more space for better separation in single column */
+            margin-bottom: 0.3rem; 
         }
         .card:hover {
             transform: translateY(-1px);
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
         }
-        /* Bright Yellow for high contrast highlights */
-        .highlight { 
-            color: #FFFF00; 
-        } 
+        .btn {
+            padding: 0.6rem 1.6rem; 
+            border-radius: 9999px;
+            font-weight: 700;
+            transition: transform 0.2s ease;
+        }
+        .btn-projects { background-color: #FF5A5F; color: #fff; } /* Retain original btn colors for contrast */
+        .btn-contact { background-color: #4CAF50; color: #fff; }
+        .text-accent { color: #FFFF00; } /* Bright Yellow for accents to pop on blue */
         .section-heading {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Lighter border for headings */
             padding-bottom: 0.4rem;
             margin-bottom: 0.6rem;
             color: #ffffff; 
             font-size: 1.5rem; 
         }
         .nav-link {
-            color: #ffffff; 
+            color: #ffffff; /* Nav links white */
         }
         .nav-link.active {
-            color: #FFFF00; 
+            color: #FFFF00; /* Active nav link bright yellow */
             font-weight: 700;
             border-bottom: 2px solid #FFFF00;
         }
@@ -93,6 +99,12 @@
             flex-direction: column;
             line-height: 1.3; 
         }
+        .card-content > * {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
         .horizontal-list {
             display: inline;
             list-style: none;
@@ -109,7 +121,7 @@
             content: "|";
             position: absolute;
             right: 0;
-            color: rgba(255, 255, 255, 0.3); 
+            color: rgba(255, 255, 255, 0.3); /* Lighter separator for contrast */
         }
         .gallery-image {
             width: 100%;
@@ -117,10 +129,6 @@
             object-fit: cover;
             border-radius: 4px;
             border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        .detail-line {
-            display: block;
-            margin-top: 0.1rem;
         }
     </style>
 </head>
@@ -133,7 +141,7 @@
                 <a href="#about" class="nav-link py-1 px-3 active" data-target="about">Home</a>
                 <a href="#experience" class="nav-link py-1 px-3" data-target="experience">Experience</a>
                 <a href="#education" class="nav-link py-1 px-3" data-target="education">Education</a>
-                <a href="#awards" class="nav-link py-1 px-3" data-target="awards">Awards</a> <a href="#publications" class="nav-link py-1 px-3" data-target="publications">Research</a>
+                <a href="#publications" class="nav-link py-1 px-3" data-target="publications">Research</a>
                 <a href="#skills" class="nav-link py-1 px-3" data-target="skills">Skills</a>
                 <a href="#extracurricular" class="nav-link py-1 px-3" data-target="extracurricular">Activities</a>
                 <a href="#gallery" class="nav-link py-1 px-3" data-target="gallery">Gallery</a>
@@ -152,9 +160,9 @@
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
-                        <h3 class="text-xl font-semibold mt-2 highlight">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
+                        <h3 class="text-xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
-                            I leverage <span class="highlight">over 10 years 7 months of experience</span> [cite: 4] across academia, research, and management. [cite_start]My core expertise is in <span class="highlight">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="highlight">ASPEN</span> and <span class="highlight">ANSYS</span>[cite: 23, 35].
+                            I leverage <span style="color: #FFFF00;">over 10 years of experience</span> across academia, research, and management. My core expertise is in <span style="color: #FFFF00;">Sustainable Technology</span>, advanced coatings, and process modeling using <span style="color: #FFFF00;">ASPEN</span> and <span style="color: #FFFF00;">ANSYS</span>.
                         </p>
                         <div class="flex justify-center md:justify-start space-x-4 mt-4">
                             <a href="#experience" class="btn btn-projects text-sm" data-target="experience">View Career</a>
@@ -166,134 +174,115 @@
 
             <section id="experience" class="content-section">
                 <h2 class="text-2xl font-bold section-heading">Professional Experience (10 Years, 7 Months)</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <div class="grid md:grid-cols-2 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Asst. Professor (Temporary)</h3>
-                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | [cite_start]<span class="highlight">Jan 2025 - Present</span>[cite: 6].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Batches: B.Tech 2nd year, M.Sc 2nd year Regular Batch[cite: 7].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Subjects taught: <span class="highlight">Process engineering principles</span>[cite: 8].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Labs: <span class="highlight">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>[cite: 9].</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Asst. Professor & Coordinator</h3>
-                        <span class="text-sm inline-block mr-2">Petrochemical Tech, Excel Engg College | [cite_start]<span class="highlight">May - Nov 2022</span>[cite: 10, 11].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">B.Tech Courses taught: <span class="highlight">Electrochem. process tech (CE8091), CRE-I (PE8091), CRE-II (CE8601), Catalytic Engg (PE8072), Fluid mechanics (CH8301)</span>[cite: 12, 13, 14].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Academic Responsibilities: <span class="highlight">Placement Co-ordinator, Class Advisor/Mentor, Class committee Co-ordinator, Hostel Warden, Internship Co-ordinator</span>[cite: 14, 15].</span>
+                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | Jan 2025 - Present.</span>
+                        <span class="text-sm inline-block">Taught: <span style="color: #FFFF00;">Process engineering principles</span>. Labs: <span style="color: #FFFF00;">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Business Development & Sales Manager</h3>
-                        <span class="text-sm inline-block mr-2">Riss InfoTech | [cite_start]<span class="highlight">Jul - Aug 2023</span>[cite: 16, 17].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Manager Responsibilities: Maintaining <span class="highlight">70 employee data base in CRM software</span> [cite: 18][cite_start], <span class="highlight">Digital marketing for Lead generation</span>, Acquired <span class="highlight">Leadership skills</span>[cite: 19].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Sales/HR Responsibilities: Scheduling Client meetings [cite: 21][cite_start], Lead/Client information management in CRM [cite: 21][cite_start], <span class="highlight">Pay roll generation</span> [cite: 22][cite_start], Department Allocation[cite: 22].</span>
+                        <span class="text-sm inline-block mr-2">Riss InfoTech | Jul - Aug 2023.</span>
+                        <span class="text-sm inline-block">Managed CRM (<span style="color: #FFFF00;">70 employees</span>). Executed <span style="color: #FFFF00;">Digital marketing</span>, <span style="color: #FFFF00;">HR/Payroll</span>. Acquired <span style="color: #FFFF00;">Leadership skills</span>.</span>
+                    </div>
+                    <div class="card card-content">
+                        <h3 class="text-sm font-semibold">Asst. Professor & Coordinator</h3>
+                        <span class="text-sm inline-block mr-2">Petrochemical Tech, Excel Engg College | May - Nov 2022.</span>
+                        <span class="text-sm inline-block">Taught: <span style="color: #FFFF00;">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span style="color: #FFFF00;">Placement Co-ordinator, Hostel Warden, Class Advisor/Mentor, Internship Co-ordinator</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Researcher (Ph.D. Scholar)</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">May 2015 - Jul 2021</span>[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Project Focus: Process development for <span class="highlight">Intensification on delignification</span>, Process Simulation, Optimization[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Software: <span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling)</span>[cite: 23].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | May 2015 - Jul 2021.</span>
+                        <span class="text-sm inline-block">Project: <span style="color: #FFFF00;">Process Intensification (delignification)</span>. Software: <span style="color: #FFFF00;">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Asst. Professor</h3>
-                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | [cite_start]<span class="highlight">Dec 2011 - Apr 2014</span>[cite: 23].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">M.Tech Courses taught: <span class="highlight">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>[cite: 24, 25, 26, 27].</span>
-                        <span class="text-sm inline-block detail-line">Labs handled: Process engineering principles lab; [cite_start]Bioprocess engineering lab[cite: 28].</span>
+                        <span class="text-sm inline-block mr-2">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
+                        <span class="text-sm inline-block">Taught: <span style="color: #FFFF00;">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Industrial Training</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2"><span class="highlight">Vizag Steel Plant</span> [cite: 29][cite_start], KERBS [cite: 30][cite_start], Indo American Pharmaceuticals[cite: 32].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Training Focus: Equipment and Processes [cite: 31][cite_start], <span class="highlight">Bulk Drug Production</span>[cite: 32].</span>
+                        <span class="text-sm inline-block mr-2">Vizag Steel, KERBS, Indo American Pharma | 2007-2011.</span>
+                        <span class="text-sm inline-block">Hands-on experience in equipment/processes and <span style="color: #FFFF00;">Bulk Drug Production</span>.</span>
                     </div>
                 </div>
             </section>
 
             <section id="education" class="content-section">
                 <h2 class="text-2xl font-bold section-heading">Educational Qualifications</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <div class="grid md:grid-cols-2 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Ph.D. in Chemical Engineering</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">Aug 2015 - Mar 2021</span>[cite: 52].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Intensification of delignification from *Tectona grandis* by acoustic cavitation for development of <span class="highlight">self-healing corrosion inhibition coatings</span>[cite: 53].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | Aug 2015 - Mar 2021.</span>
+                        <span class="text-sm inline-block">Thesis: Acoustic Cavitation for <span style="color: #FFFF00;">Self-Healing Corrosion Inhibition Coatings</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">M.Tech in Chemical Engineering (7.28 CGPA)</h3>
-                        <span class="text-sm inline-block mr-2">NIT Warangal | [cite_start]<span class="highlight">Jul 2009 - Jul 2011</span>[cite: 54, 55].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Specialization: <span class="highlight">Computer Aided Process Equipment Design</span>[cite: 55].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Improvement of crude benzol production by designing a 1-2 U-tube type shell and tube heat exchanger using Aspen[cite: 55].</span>
+                        <span class="text-sm inline-block mr-2">NIT Warangal | Jul 2009 - Jul 2011.</span>
+                        <span class="text-sm inline-block">Specialization: <span style="color: #FFFF00;">Computer Aided Process Equipment Design</span>. Thesis: Crude Benzol production using Aspen.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">B.Tech in Chemical Engineering (67.56%)</h3>
-                        <span class="text-sm inline-block mr-2">JNTU Anantapur | [cite_start]<span class="highlight">Jul 2004 - Jul 2008</span>[cite: 56, 57].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Thesis: Simulation of <span class="highlight">large-scale membrane reformers</span> by a two-dimensional model[cite: 57].</span>
+                        <span class="text-sm inline-block mr-2">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
+                        <span class="text-sm inline-block">Thesis: Simulation of <span style="color: #FFFF00;">large-scale membrane reformers</span> (two-dimensional model).</span>
                     </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Pre-University and Schooling</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Intermediate (M.P.C): <span class="highlight">83.7%</span> (Narayana Junior college | 2002-2004)[cite: 58].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Matriculation (SSC): <span class="highlight">80.3%</span> (St Mary's School | 2001-2002)[cite: 59].</span>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="awards" class="content-section">
-                <h2 class="text-2xl font-bold section-heading">Awards and Recognition</h2>
-                <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">GATE Qualification & Fellowships</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Qualified GATE <span class="highlight">three times</span> (2009, 2010, 2012)[cite: 48, 60]. [cite_start]Highest Rank: <span class="highlight">1219</span> (2009)[cite: 60].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Awarded <span class="highlight">MHRD Scholarship</span> (Ph.D.) [cite: 49] [cite_start]and <span class="highlight">AICTE Fellowship</span> (M.Tech)[cite: 50].</span>
+                        <span class="text-sm inline-block mr-2">Qualified GATE <span style="color: #FFFF00;">three times</span> (2009, 2010, 2012); Highest Rank: <span style="color: #FFFF00;">1219</span>.</span>
+                        <span class="text-sm inline-block">Awarded <span style="color: #FFFF00;">MHRD Scholarship</span> (Ph.D.) and <span style="color: #FFFF00;">AICTE Fellowship</span> (M.Tech).</span>
                     </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Academic Awards & Reviewer Roles</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2"><span class="highlight">Best Paper Award</span> at Research Conclave-17 (NITW, 2017)[cite: 44, 45].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line">Official Reviewer for <span class="highlight">3 Elsevier journals</span>: "Renewable Energy," "Materials Today Proceedings," and "Journal of King Saud University - Engineering Science"[cite: 46, 47].</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Professional Memberships</h3>
-                        <ul class="horizontal-list text-sm">
-                            [cite_start]<li>Associate Member of <span class="highlight">IICHE</span> since Dec 2017 ("LAM 61813")[cite: 51].</li>
-                            [cite_start]<li>Associate Member of <span class="highlight">IEI</span> (Institute of Engineers India) since Apr 2023 ("AM3074954")[cite: 51].</li>
-                        </ul>
+                    <div class="card card-content md:col-span-2">
+                        <h3 class="text-sm font-semibold">Pre-University and Schooling</h3>
+                        <span class="text-sm inline-block mr-2">Intermediate (M.P.C): 83.7% (Narayana).</span>
+                        <span class="text-sm inline-block">Matriculation (SSC): 80.3% (St Mary's School).</span>
                     </div>
                 </div>
             </section>
 
-
             <section id="publications" class="content-section">
-                <h2 class="text-2xl font-bold section-heading">Research & Publications</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <h2 class="text-2xl font-bold section-heading">Research, Publications & Recognitions</h2>
+                <div class="grid md:grid-cols-2 gap-1">
+                    <div class="card card-content md:col-span-2">
+                        <h3 class="text-sm font-semibold">Core Research Areas</h3>
+                        <span class="text-sm"><span style="color: #FFFF00;">Process Intensification</span>, Biorefinery, Biomass Valorisation, Paper Manufacturing, UV-Protective cloth, SAP, <span style="color: #FFFF00;">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing materials (corrosion/concrete).</span>
+                    </div>
                     <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Research Output Summary</h3>
+                        <h3 class="text-sm font-semibold">Publications & Output</h3>
                         <ul class="horizontal-list text-sm">
-                            [cite_start]<li><span class="highlight">6</span> Journal Papers [cite: 101]</li>
-                            [cite_start]<li><span class="highlight">2</span> Book Chapters [cite: 101]</li>
-                            [cite_start]<li><span class="highlight">19</span> Conference Papers (15 Intl, 4 Natl) [cite: 101]</li>
+                            <li><span style="color: #FFFF00;">6</span> Journal Papers (incl. *Ultrasonication and Sonochemistry*, IF: 9.336)</li>
+                            <li><span style="color: #FFFF00;">19</span> Conference Papers (15 Intl, 4 Natl)</li>
+                            <li><span style="color: #FFFF00;">2</span> Book Chapters</li>
                         </ul>
                     </div>
                     <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Core Research Areas</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">Process Intensification, Biorefinery, Biomass Valorisation</span> [cite: 35][cite_start], Paper Manufacturing, UV-Protective cloth, SAP, <span class="highlight">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing corrosion/concrete [cite: 35][cite_start], Functionalization of nano materials[cite: 35].</span>
-                        [cite_start]<span class="text-sm detail-line">Techniques: Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization, <span class="highlight">EIS</span> (electro chemical impedance spectroscopy)[cite: 36].</span>
+                        <h3 class="text-sm font-semibold">Awards & Professional Roles</h3>
+                        <ul class="horizontal-list text-sm">
+                            <li><span style="color: #FFFF00;">Best Paper Award</span> (Research Conclave-17)</li>
+                            <li>Official Reviewer for <span style="color: #FFFF00;">3 Elsevier journals</span></li>
+                            <li>Memberships: Associate Member of <span style="color: #FFFF00;">IICHE</span> and <span style="color: #FFFF00;">IEI</span></li>
+                        </ul>
                     </div>
                 </div>
             </section>
             
             <section id="skills" class="content-section">
                 <h2 class="text-2xl font-bold section-heading">Skills & Core Expertise</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <div class="grid md:grid-cols-2 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Software & Simulation</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">ASPEN plus, ASPEN tasc+, ASPEN Hysis</span>, ANSYS (3D Modeling) [cite: 23][cite_start], CRM Software[cite: 18].</span>
+                        <span class="text-sm"><span style="color: #FFFF00;">ASPEN plus, ASPEN tasc+, ASPEN Hysis</span>, ANSYS (3D Modeling), CRM Software.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Experimental & Techniques</h3>
-                        [cite_start]<span class="text-sm">Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization and <span class="highlight">EIS</span> (electro chemical impedance spectroscopy) [cite: 36][cite_start], Equipment handling[cite: 31].</span>
+                        <span class="text-sm">Hydrodynamic / <span style="color: #FFFF00;">Acoustic cavitation</span>, Polarization, <span style="color: #FFFF00;">EIS</span> (electro chemical impedance spectroscopy), Equipment handling.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Academic & Teaching</h3>
-                        [cite_start]<span class="text-sm">Curriculum Development, Class Advising, Mentoring, <span class="highlight">Placement Coordination</span> [cite: 14][cite_start], <span class="highlight">Hostel Warden</span> [cite: 15][cite_start], Internship Co-ordinator[cite: 15].</span>
+                        <span class="text-sm">Curriculum Development, Class Advising, Mentoring, <span style="color: #FFFF00;">Placement Coordination</span>, <span style="color: #FFFF00;">Hostel Warden</span>, Internship Co-ordinator.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Business & Management</h3>
-                        [cite_start]<span class="text-sm"><span class="highlight">Business Development</span> [cite: 16][cite_start], Digital Marketing, Lead Generation [cite: 19][cite_start], <span class="highlight">HR/Payroll Management</span>[cite: 22].</span>
+                        <span class="text-sm"><span style="color: #FFFF00;">Business Development</span>, Digital Marketing, Lead Generation, <span style="color: #FFFF00;">HR/Payroll Management</span>.</span>
                     </div>
                 </div>
             </section>
@@ -302,64 +291,56 @@
                 <h2 class="text-2xl font-bold section-heading">Extracurricular Activities & Honors</h2>
                 <div class="grid md:grid-cols-1 gap-1">
                     <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Sports & Arts Achievements</h3>
-                        <ul class="horizontal-list text-sm">
-                            [cite_start]<li><span class="highlight">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7)[cite: 123, 124].</li>
-                            [cite_start]<li>Awarded <span class="highlight">first grade in "All India painting competition"</span> at Chennai[cite: 129].</li>
-                            [cite_start]<li>Won <span class="highlight">merit prize in "Hindi Talent Test"</span> (Tenth class)[cite: 125].</li>
-                        </ul>
+                        <h3 class="text-sm font-semibold">Awards & Participation</h3>
+                        <span class="text-sm inline-block mr-2">Sports: <span style="color: #FFFF00;">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</span>
+                        <span class="text-sm inline-block mr-2">Arts: <span style="color: #FFFF00;">First Grade in All India Painting Competition</span> (Chennai).</span>
+                        <span class="text-sm inline-block">Won <span style="color: #FFFF00;">merit prize</span> in "Hindi Talent Test".</span>
                     </div>
                     <div class="card card-content">
                          <h3 class="text-sm font-semibold">Seminars & Service</h3>
-                        <ul class="horizontal-list text-sm">
-                            [cite_start]<li>Actively participated in cultural festival events <span class="highlight">"FUSION-05" & "SCHEMCON-06"</span> (Intl. Symposium)[cite: 126].</li>
-                            [cite_start]<li>Bagged <span class="highlight">National level certificate</span> for Participated in "All India Inter school cultural festival"[cite: 127].</li>
-                            [cite_start]<li><span class="highlight">Certified for collecting money to "Help age India"</span>[cite: 128].</li>
-                            [cite_start]<li>Assisted for <span class="highlight">7 Workshops</span> for smooth running[cite: 102].</li>
-                        </ul>
+                        <span class="text-sm inline-block mr-2">Participated in Intl. Symposiums <span style="color: #FFFF00;">"FUSION-05" & "SCHEMCON-06"</span>.</span>
+                        <span class="text-sm inline-block mr-2">Bagged <span style="color: #FFFF00;">National level certificate</span> for "All India Inter school cultural festival".</span>
+                        <span class="text-sm inline-block mr-2"><span style="color: #FFFF00;">Certified for collecting money for "Help age India"</span>.</span>
+                        <span class="text-sm inline-block">Assisted in <span style="color: #FFFF00;">7 workshops</span>.</span>
                     </div>
                 </div>
             </section>
 
             <section id="gallery" class="content-section">
-                <h2 class="text-2xl font-bold section-heading">Gallery (Upload Your Photos)</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <h2 class="text-2xl font-bold section-heading">Gallery (Professional & Academic Photos)</h2>
+                <div class="grid md:grid-cols-3 gap-2">
                     <div class="card p-3">
-                        <img src="https://placehold.co/800x250/4285F4/ffffff?text=Image+1+PLACEHOLDER" alt="Lab/Research Photo" class="gallery-image">
-                        <p class="text-center text-sm mt-2">Research work in the lab (Replace URL/Base64 data in `src` attribute).</p>
+                        <img src="https://placehold.co/400x300/4285F4/ffffff?text=Image+1+PLACEHOLDER" alt="Lab/Research Photo" class="gallery-image">
+                        <p class="text-center text-sm mt-2">Research work in the lab (Replace URL above).</p>
                     </div>
                     <div class="card p-3">
-                        <img src="https://placehold.co/800x250/4CAF50/ffffff?text=Image+2+PLACEHOLDER" alt="Conference/Award Photo" class="gallery-image">
-                        <p class="text-center text-sm mt-2">Presenting at an International Conference (Replace URL/Base64 data in `src` attribute).</p>
+                        <img src="https://placehold.co/400x300/4CAF50/ffffff?text=Image+2+PLACEHOLDER" alt="Conference/Award Photo" class="gallery-image">
+                        <p class="text-center text-sm mt-2">Presenting at an International Conference (Replace URL above).</p>
                     </div>
                     <div class="card p-3">
-                        <img src="https://placehold.co/800x250/FF5A5F/ffffff?text=Image+3+PLACEHOLDER" alt="Teaching/Group Photo" class="gallery-image">
-                        <p class="text-center text-sm mt-2">Group photo with students/colleagues (Replace URL/Base64 data in `src` attribute).</p>
+                        <img src="https://placehold.co/400x300/FF5A5F/ffffff?text=Image+3+PLACEHOLDER" alt="Teaching/Group Photo" class="gallery-image">
+                        <p class="text-center text-sm mt-2">Group photo with students/colleagues (Replace URL above).</p>
                     </div>
                 </div>
             </section>
             
             <section id="contact" class="content-section">
                 <h2 class="text-2xl font-bold section-heading">Contact & References</h2>
-                <div class="grid md:grid-cols-1 gap-1">
+                <div class="grid md:grid-cols-2 gap-1">
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Contact Information</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2">Phone: <span class="highlight">7981541047 / 6304608610</span>[cite: 2].</span>
-                        <span class="text-sm inline-block detail-line">Email: <a href="mailto:Sushmitha.jntu@gmail.com">Sushmitha.jntu@gmail.com</a> | [cite_start]<a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a>[cite: 3].</span>
+                        <span class="text-sm inline-block mr-2">Phone: <span style="color: #FFFF00;">7981541047 / 6304608610</span>.</span>
+                        <span class="text-sm inline-block">Email: <a href="mailto:Sushmitha.jntu@gmail.com">Sushmitha.jntu@gmail.com</a> | <a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a></span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Online Research Profiles</h3>
-                        [cite_start]<span class="text-sm inline-block mr-2"><span class="highlight">Google Scholar</span>: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank">View Profile</a>[cite: 37].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line"><span class="highlight">ORCID ID</span>: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank">0000-0002-1125-6904</a>[cite: 38].</span>
-                        [cite_start]<span class="text-sm inline-block detail-line"><span class="highlight">Scopus ID</span>: 57213192955[cite: 38].</span>
+                        <span class="text-sm inline-block mr-2"><span style="color: #FFFF00;">Google Scholar</span>: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank">View Profile</a>.</span>
+                        <span class="text-sm inline-block mr-2"><span style="color: #FFFF00;">ORCID ID</span>: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank">0000-0002-1125-6904</a>.</span>
+                        <span class="text-sm inline-block"><span style="color: #FFFF00;">Scopus ID</span>: 57213192955.</span>
                     </div>
-                    <div class="card card-content">
+                    <div class="card card-content md:col-span-2">
                         <h3 class="text-sm font-semibold">References (Available Upon Request)</h3>
-                        <span class="text-sm detail-line">Dr. [cite_start]S. Srinath (Assoc. Prof & Head, NIT-W) [cite: 105, 106, 107] | [cite_start]Dr. Shirish Hari Sonawane (Prof, NIT-W) [cite: 110, 111] | [cite_start]Dr. K. Anand Kishore (Rtd Prof, NIT-W) [cite: 113, 114] | [cite_start]Dr. Pramod Kumar (Prof, JNTU-H)[cite: 115, 116, 117].</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Declaration</h3>
-                        [cite_start]<span class="text-sm">I hereby declare that the information furnished above is true to the best of my knowledge[cite: 131].</span>
+                        <span class="text-sm inline-block mr-2">Dr. S. Srinath (Assoc. Prof & Head, NIT-W) | Dr. Shirish Hari Sonawane (Prof, NIT-W) | Dr. K. Anand Kishore (Rtd Prof, NIT-W) | Dr. Pramod Kumar (Prof, JNTU-H).</span>
                     </div>
                 </div>
             </section>
