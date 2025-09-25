@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -200,7 +201,7 @@
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Industrial Training</h3>
-                        <span class="text-sm inline-block mr-2"><span class="highlight">Vizag Steel Plant</span>, KERBS, Indo American Pharmaceuticals | <span class="highlight">2007-2011</span>.</span>
+                        <span class="text-sm inline-block mr-2"><span class="highlight">Vizag Steel Plant</span>, KERBS, Indo American Pharmaceuticals.</span>
                         <span class="text-sm inline-block detail-line">Training Focus: Equipment and Processes, <span class="highlight">Bulk Drug Production</span>.</span>
                     </div>
                 </div>
@@ -212,7 +213,7 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Ph.D. in Chemical Engineering</h3>
                         <span class="text-sm inline-block mr-2">NIT Warangal | <span class="highlight">Aug 2015 - Mar 2021</span>.</span>
-                        <span class="text-sm inline-block detail-line">Thesis: Intensification of delignification by acoustic cavitation for development of <span class="highlight">self-healing corrosion inhibition coatings</span>.</span>
+                        <span class="text-sm inline-block detail-line">Thesis: Intensification of delignification from *Tectona grandis* by acoustic cavitation for development of <span class="highlight">self-healing corrosion inhibition coatings</span>.</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">M.Tech in Chemical Engineering (7.28 CGPA)</h3>
@@ -244,13 +245,13 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Academic Awards & Reviewer Roles</h3>
                         <span class="text-sm inline-block mr-2"><span class="highlight">Best Paper Award</span> at Research Conclave-17 (NITW, 2017).</span>
-                        <span class="text-sm inline-block detail-line">Official Reviewer for <span class="highlight">3 Elsevier journals</span> (Renewable Energy, Materials Today Proceedings, Journal of King Saud University - Engineering Science).</span>
+                        <span class="text-sm inline-block detail-line">Official Reviewer for <span class="highlight">3 Elsevier journals</span>: "Renewable Energy," "Materials Today Proceedings," and "Journal of King Saud University - Engineering Science".</span>
                     </div>
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Professional Memberships</h3>
                         <ul class="horizontal-list text-sm">
-                            <li>Associate Member of <span class="highlight">IICHE</span> since Dec 2017.</li>
-                            <li>Associate Member of <span class="highlight">IEI</span> (Institute of Engineers India) since Apr 2023.</li>
+                            <li>Associate Member of <span class="highlight">IICHE</span> since Dec 2017 ("LAM 61813").</li>
+                            <li>Associate Member of <span class="highlight">IEI</span> (Institute of Engineers India) since Apr 2023 ("AM3074954").</li>
                         </ul>
                     </div>
                 </div>
@@ -271,6 +272,7 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Core Research Areas</h3>
                         <span class="text-sm"><span class="highlight">Process Intensification, Biorefinery, Biomass Valorisation</span>, Paper Manufacturing, UV-Protective cloth, SAP, <span class="highlight">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing corrosion/concrete, Functionalization of nano materials.</span>
+                        <span class="text-sm detail-line">Techniques: Hydrodynamic / <span class="highlight">Acoustic cavitation</span>, Polarization, <span class="highlight">EIS</span> (electro chemical impedance spectroscopy).</span>
                     </div>
                 </div>
             </section>
@@ -311,7 +313,7 @@
                     <div class="card card-content">
                          <h3 class="text-sm font-semibold">Seminars & Service</h3>
                         <ul class="horizontal-list text-sm">
-                            <li>Actively participated in cultural events <span class="highlight">"FUSION-05" & "SCHEMCON-06"</span> (Intl. Symposium).</li>
+                            <li>Actively participated in cultural festival events <span class="highlight">"FUSION-05" & "SCHEMCON-06"</span> (Intl. Symposium).</li>
                             <li>Bagged <span class="highlight">National level certificate</span> for Participated in "All India Inter school cultural festival".</li>
                             <li><span class="highlight">Certified for collecting money to "Help age India"</span>.</li>
                             <li>Assisted for <span class="highlight">7 Workshops</span> for smooth running.</li>
@@ -349,72 +351,4 @@
                     <div class="card card-content">
                         <h3 class="text-sm font-semibold">Online Research Profiles</h3>
                         <span class="text-sm inline-block mr-2"><span class="highlight">Google Scholar</span>: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ" target="_blank">View Profile</a>.</span>
-                        <span class="text-sm inline-block detail-line"><span class="highlight">ORCID ID</span>: <a href="https://orcid.org/0000-0002-1125-6904" target="_blank">0000-0002-1125-6904</a>.</span>
-                        <span class="text-sm inline-block detail-line"><span class="highlight">Scopus ID</span>: 57213192955.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">References (Available Upon Request)</h3>
-                        <span class="text-sm detail-line">Dr. S. Srinath (Assoc. Prof & Head, NIT-W) | Dr. Shirish Hari Sonawane (Prof, NIT-W) | Dr. K. Anand Kishore (Rtd Prof, NIT-W) | Dr. Pramod Kumar (Prof, JNTU-H).</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-sm font-semibold">Declaration</h3>
-                        <span class="text-sm">I hereby declare that the information furnished above is true to the best of my knowledge.</span>
-                    </div>
-                </div>
-            </section>
-
-        </div>
-    </main>
-
-    <footer class="shadow-inner py-4 mt-4">
-        <div class="container mx-auto px-6 text-center text-sm">
-            <p>&copy; 2023 All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navLinks = document.querySelectorAll('.nav-link');
-            const sections = document.querySelectorAll('.content-section');
-            const projectButtons = document.querySelectorAll('[data-target]');
-            
-            const showSection = (targetId) => {
-                sections.forEach(section => {
-                    section.classList.remove('active');
-                });
-                const targetSection = document.getElementById(targetId);
-                if (targetSection) {
-                    targetSection.classList.add('active');
-                }
-            };
-
-            const setActiveLink = (targetId) => {
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                });
-                const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
-                if (activeLink) {
-                    activeLink.classList.add('active');
-                }
-            };
-
-            // Event listener for all interactive elements
-            [...navLinks, ...projectButtons].forEach(element => {
-                element.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const targetId = e.currentTarget.getAttribute('data-target');
-                    showSection(targetId);
-                    setActiveLink(targetId);
-                    window.history.pushState(null, '', `#${targetId}`);
-                });
-            });
-
-            // Handle initial load based on URL hash
-            const initialSection = window.location.hash.substring(1) || 'about';
-            showSection(initialSection);
-            setActiveLink(initialSection);
-        });
-    </script>
-
-</body>
-</html>
+                        <span class="text-sm inline-block detail-line"><span class="highlight">ORCID ID</span>: <a href="
