@@ -6,41 +6,40 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        /* BASE STYLES: REVERTED TO WHITE BACKGROUND, BLACK TEXT */
+        /* BASE STYLES: FULL BLUE BACKGROUND, WHITE TEXT */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #ffffff; /* REVERTED: Changed back to white */
-            color: #333333; /* Default text color set to dark grey/black */
+            background-color: #2A52BE; /* Full blue background */
+            color: #ffffff; /* Default text color set to white for contrast */
         }
-        /* HEADER, MAIN, FOOTER: Applying the blue ONLY where intended */
-        header {
-            background-color: #2A52BE; /* Exact blue from the provided image for the header */
-            color: #ffffff;
-        }
-        main, footer {
-            background-color: transparent; /* Allows body background to show */
+        
+        /* Ensure all main layout parts inherit or are transparent */
+        header, main, footer {
+            background-color: transparent; 
         }
 
-        h1, h2, h3 {
+        h1, h2 {
             font-family: 'Playfair Display', serif;
-            color: #2A52BE; /* Headings are now dark blue/black for contrast on white background */
+            color: #ffffff; 
         }
-
-        /* Section Headings (H2) - FONT SIZE INCREASED (Kept the increase as requested) */
+        
+        /* Section Headings (H2) - FONT SIZE INCREASED */
         .section-heading {
-            border-bottom: 2px solid #2A52BE; 
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
             padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem; /* Slightly larger bottom margin */
-            color: #2A52BE; /* Dark blue */
-            font-size: 2.5rem; /* MODIFIED: Increased from 1.875rem (text-3xl) to 2.5rem (text-4xl) */
+            margin-bottom: 1.5rem;
+            color: #ffffff; 
+            font-size: 2.5rem; /* Retained: text-4xl equivalent */
             line-height: 3.0rem;
             font-weight: 700;
+            /* 💡 The yellow line was not controlled by this CSS but was likely a DIV added in the HTML. 
+               We will ensure it's not present in the new HTML structure. */
         }
 
-        /* Card/Sub-Section Headings (H3) - FONT SIZE INCREASED (Kept the increase as requested) */
+        /* Card/Sub-Section Headings (H3) - FONT SIZE INCREASED */
         h3 {
-            color: #2A52BE; /* Dark blue */
-            font-size: 1.5rem; /* MODIFIED: Increased from 1.125rem (text-lg) to 1.5rem (text-2xl) */
+            color: #ffffff;
+            font-size: 1.5rem; /* Retained: text-2xl equivalent */
             line-height: 2.0rem;
             font-weight: 600;
             margin-bottom: 0.25rem;
@@ -51,19 +50,19 @@
             font-size: 1rem; /* text-base */
             line-height: 1.5rem;
             font-weight: 700;
-            color: #4CAF50; /* Green accent for skills */
+            color: #FFFF00; /* Bright Yellow accent */
         }
 
         p, span, li {
-            color: #555555; /* Dark grey for general text */
+            color: #e0e0e0; /* Lighter white for general text */
             font-size: 0.875rem; /* Default to text-sm for body text */
-            line-height: 1.4; /* Slightly tighter line height */
+            line-height: 1.4;
         }
         a {
-            color: #2A52BE; /* Blue for links */
+            color: #90CAF9; /* Light blue for links for visibility */
         }
         a:hover {
-            color: #4285F4;
+            color: #BBDEFB;
         }
 
         .container {
@@ -71,29 +70,35 @@
         }
         .profile-picture {
             border-radius: 50%;
-            border: 6px solid #2A52BE; /* Border changed to blue for contrast */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border: 6px solid #fff;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         }
         .card {
-            background-color: #f7f7f7; /* Light grey card background */
-            padding: 0.75rem 1rem; /* Adjusted padding */
+            background-color: rgba(255, 255, 255, 0.1); /* Transparent white card background */
+            padding: 0.75rem 1rem;
             border-radius: 6px;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            margin-bottom: 0.8rem; /* Slight increase in card margin for separation */
+            margin-bottom: 0.8rem;
         }
         .card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
         }
-        .text-accent { color: #2A52BE; font-weight: 600; } /* Accent changed to blue/bold */
-        .isbn-highlight { color: #9C27B0; font-weight: 700; } /* Purple accent for ISBNs */
+        .text-accent { color: #FFFF00; font-weight: 600; } /* Bright Yellow for accents */
+        .isbn-highlight { color: #FFFF00; font-weight: 700; } 
 
         /* Navigation Links Style for Active State */
         .nav-link {
             color: #ffffff;
+            font-size: 1rem; /* Slightly reduced for a tighter fit on the single line */
+            padding-top: 0.5rem !important;
+            padding-bottom: 0.5rem !important;
+            padding-left: 0.6rem !important;
+            padding-right: 0.6rem !important;
             border-radius: 4px;
             transition: background-color 0.2s;
+            white-space: nowrap; /* Forces links onto one line */
         }
         .nav-link:hover {
             background-color: rgba(255, 255, 255, 0.2);
@@ -103,10 +108,27 @@
             font-weight: 600;
         }
         
-        /* 💡 Interactive Sections: Display control is handled by JS toggling the 'active' class */
+        /* Force single-line navigation on MD screens and up */
+        @media (min-width: 768px) {
+            .header-nav-container {
+                max-width: 100%;
+                justify-content: center; /* Center the entire nav block */
+            }
+            .header-nav-container nav {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+            }
+            .header-nav-container .nav-link {
+                margin-left: 0.4rem;
+                margin-right: 0.4rem;
+            }
+        }
+        
+        /* Interactive Sections */
         .content-section {
             display: none;
             animation: fadeIn 0.5s ease-in-out;
+            /* max-height adjusted for better fit */
             max-height: calc(100vh - 120px); 
             overflow-y: auto; 
             padding-right: 5px;
@@ -119,33 +141,22 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .gallery-image {
-            width: 100%;
-            height: 180px; 
-            object-fit: cover;
-            border-radius: 4px;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-        }
-        .pub-list li {
-            margin-bottom: 0.8rem;
-        }
     </style>
 </head>
 <body class="flex flex-col min-h-screen">
 
     <header class="shadow-md py-3 sticky top-0 z-50">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-end items-center">
-            <h1 class="text-xl md:text-2xl font-bold"></h1> 
-            <nav class="flex flex-wrap justify-center md:flex-row md:space-x-5 space-x-3 mt-2 md:mt-0 text-sm">
-                <a href="#about" class="nav-link py-1 px-3 active" data-target="about">Home</a>
-                <a href="#experience" class="nav-link py-1 px-3" data-target="experience">Experience</a>
-                <a href="#education" class="nav-link py-1 px-3" data-target="education">Education</a>
-                <a href="#research" class="nav-link py-1 px-3" data-target="research">Research</a>
-                <a href="#publications-detail" class="nav-link py-1 px-3" data-target="publications-detail">Publications</a>
-                <a href="#skills" class="nav-link py-1 px-3" data-target="skills">Skills</a>
-                <a href="#extracurricular" class="nav-link py-1 px-3" data-target="extracurricular">Activities</a>
-                <a href="#gallery" class="nav-link py-1 px-3" data-target="gallery">Gallery</a>
-                <a href="#contact" class="nav-link py-1 px-3" data-target="contact">Contact</a>
+        <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
+            <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
+                <a href="#about" class="nav-link active" data-target="about">Home</a>
+                <a href="#experience" class="nav-link" data-target="experience">Experience</a>
+                <a href="#education" class="nav-link" data-target="education">Education</a>
+                <a href="#research" class="nav-link" data-target="research">Research</a>
+                <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
+                <a href="#skills" class="nav-link" data-target="skills">Skills</a>
+                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Activities</a>
+                <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
+                <a href="#contact" class="nav-link" data-target="contact">Contact</a>
             </nav>
         </div>
     </header>
@@ -156,24 +167,24 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://placehold.co/200x200/2A52BE/fff?text=Dr.+D.+Sushmitha" alt="Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
+                        <img src="https://placehold.co/200x200/4285F4/fff?text=Dr.+D.+Sushmitha" alt="Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
-                        <h3 class="text-2xl font-semibold mt-2 text-blue-500">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
+                        <h3 class="text-2xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
                             I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
                             My core expertise is in <span class="text-accent">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="text-accent">ASPEN</span> and <span class="text-accent">ANSYS</span>.
                         </p>
                         <div class="flex justify-center md:justify-start space-x-4 mt-4">
-                            <a href="#experience" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition text-sm" data-target="experience">View Career</a>
-                            <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition text-sm" data-target="contact">Connect</a>
+                            <a href="#experience" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm" data-target="experience">View Career</a>
+                            <a href="#contact" class="bg-gray-200 hover:bg-gray-300 text-blue-900 font-bold py-2 px-4 rounded transition text-sm" data-target="contact">Connect</a>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="experience" class="content-section">
                 <h2 class="section-heading">Professional Experience (10 Years, 7 Months)</h2>
@@ -213,7 +224,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
@@ -242,7 +253,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="research" class="content-section">
                 <h2 class="section-heading">Core Research & Metrics</h2>
@@ -270,7 +281,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="publications-detail" class="content-section">
                 <h2 class="section-heading">Publications: Journals & Conferences (15 Intl. Papers Listed)</h2>
@@ -278,31 +289,31 @@
                     
                     <h3>Journal Publications (6 Papers)</h3>
                     <ol class="list-decimal list-inside text-sm ml-4 mt-3 pub-list">
-                        <li><span class="font-semibold text-blue-600">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultrasonication and Sonochemistry* (IF: 9.336, Indexed: SCI, Scopus). <a href="https://doi.org/10.1016/j.ultsonch.2019.104914" target="_blank" class="text-blue-500 hover:text-blue-700">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-blue-600">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journal*, Vol 45 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2021.02.576" target="_blank" class="text-blue-500 hover:text-blue-700">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-blue-600">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity through the controlled release of Benzotriazole Loaded Cellulose Nano Fibers.</span> in *Materials today Proceedings Journal*, Vol 46 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2020.09.341" target="_blank" class="text-blue-500 hover:text-blue-700">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-blue-600">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* (IF: 0.5, Indexed: Scopus). <a href="https://doi.org/10.1007/978-981-13-1903-763" target="_blank" class="text-blue-500 hover:text-blue-700">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-blue-600">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *International Journal of Engineering & Technology* (Indexed: Scopus H-Index: 2).</li>
-                        <li><span class="font-semibold text-blue-600">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and development* (IF: 4.364, Indexed: Copernicus Index). <a href="http://www.rspublication.com/ijeted" target="_blank" class="text-blue-500 hover:text-blue-700">[Original Paper]</a></li>
+                        <li><span class="font-semibold text-accent">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultrasonication and Sonochemistry* (IF: 9.336, Indexed: SCI, Scopus). <a href="https://doi.org/10.1016/j.ultsonch.2019.104914" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold text-accent">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journal*, Vol 45 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2021.02.576" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold text-accent">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity through the controlled release of Benzotriazole Loaded Cellulose Nano Fibers.</span> in *Materials today Proceedings Journal*, Vol 46 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2020.09.341" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold text-accent">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* (IF: 0.5, Indexed: Scopus). <a href="https://doi.org/10.1007/978-981-13-1903-763" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold text-accent">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *International Journal of Engineering & Technology* (Indexed: Scopus H-Index: 2).</li>
+                        <li><span class="font-semibold text-accent">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and development* (IF: 4.364, Indexed: Copernicus Index). <a href="http://www.rspublication.com/ijeted" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
                     </ol>
 
                     <h3 class="mt-6">International Conference Papers (15 Titles)</h3>
                     <ol class="list-decimal list-inside text-sm ml-4 mt-3 pub-list">
-                        <li><span class="font-semibold text-blue-600">Synthesis of biodegradable multifunctional cellulose hydrogel for dye degradation and anti-microbial activities.</span> (RACEEE-2023) <span class="isbn-highlight">ISBN: 978-93-XXXXX-97-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Comparison of self-healing performance of natural anti-corrosion agents, lignin and cellulose on mild steel.</span> (ICWEE-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-98-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Evolvement Of Electric Double Layer Pseudo Capacitor By Self-healing Corrosion Inhibition Of Mild Steel.</span> (SEMCON-2022) <span class="isbn-highlight">ISBN: 978-93-XXXXX-99-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Review on Ultra high build solvent less self-healing coatings.</span> (2nd ICAMSE-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-00-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Comparison and Evaluation of corrosion inhibition performance of organic coatings.</span> (ICRAMC-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-01-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highlight">ISBN: 978-93-XXXXX-02-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Synthesis of Eco-Friendly and Multifunctional Lignin Based Cellulose Hydrogel from Tectona Grandis Sawdust.</span> (CRAFT 2020) <span class="isbn-highlight">ISBN: 978-93-XXXXX-03-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-04-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Optimization of Hydrothermally treated sawdust using Response Surface Methodology (RSM) Central Composite Design (CCD).</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-05-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-06-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-08-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-09-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-10-X</span></li>
-                        <li><span class="font-semibold text-blue-600">Early Research Work Title (15th Conference Paper) - Title not specified in source document.</span> <span class="isbn-highlight">ISBN: 978-93-XXXXX-11-X</span></li>
+                        <li><span class="font-semibold text-accent">Synthesis of biodegradable multifunctional cellulose hydrogel for dye degradation and anti-microbial activities.</span> (RACEEE-2023) <span class="isbn-highlight">ISBN: 978-93-XXXXX-97-X</span></li>
+                        <li><span class="font-semibold text-accent">Comparison of self-healing performance of natural anti-corrosion agents, lignin and cellulose on mild steel.</span> (ICWEE-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-98-X</span></li>
+                        <li><span class="font-semibold text-accent">Evolvement Of Electric Double Layer Pseudo Capacitor By Self-healing Corrosion Inhibition Of Mild Steel.</span> (SEMCON-2022) <span class="isbn-highlight">ISBN: 978-93-XXXXX-99-X</span></li>
+                        <li><span class="font-semibold text-accent">Review on Ultra high build solvent less self-healing coatings.</span> (2nd ICAMSE-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-00-X</span></li>
+                        <li><span class="font-semibold text-accent">Comparison and Evaluation of corrosion inhibition performance of organic coatings.</span> (ICRAMC-2021) <span class="isbn-highlight">ISBN: 978-93-XXXXX-01-X</span></li>
+                        <li><span class="font-semibold text-accent">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highlight">ISBN: 978-93-XXXXX-02-X</span></li>
+                        <li><span class="font-semibold text-accent">Synthesis of Eco-Friendly and Multifunctional Lignin Based Cellulose Hydrogel from Tectona Grandis Sawdust.</span> (CRAFT 2020) <span class="isbn-highlight">ISBN: 978-93-XXXXX-03-X</span></li>
+                        <li><span class="font-semibold text-accent">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-04-X</span></li>
+                        <li><span class="font-semibold text-accent">Optimization of Hydrothermally treated sawdust using Response Surface Methodology (RSM) Central Composite Design (CCD).</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-05-X</span></li>
+                        <li><span class="font-semibold text-accent">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-06-X</span></li>
+                        <li><span class="font-semibold text-accent">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
+                        <li><span class="font-semibold text-accent">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-08-X</span></li>
+                        <li><span class="font-semibold text-accent">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-09-X</span></li>
+                        <li><span class="font-semibold text-accent">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-10-X</span></li>
+                        <li><span class="font-semibold text-accent">Early Research Work Title (15th Conference Paper) - Title not specified in source document.</span> <span class="isbn-highlight">ISBN: 978-93-XXXXX-11-X</span></li>
                     </ol>
 
                     <h3 class="mt-6">National Conference Papers (4)</h3>
@@ -315,14 +326,14 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="skills" class="content-section">
                 <h2 class="section-heading">Skills & Core Expertise</h2>
                 <div class="grid md:grid-cols-2 gap-4">
                     <div class="card card-content md:col-span-2">
                         <h3>Analytical & Spectroscopic Techniques</h3>
-                        <p class="text-sm text-gray-600 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
+                        <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
                         <div class="grid md:grid-cols-2 gap-x-6 text-sm">
                             <div>
                                 <h4 class="sub-sub-heading">Spectroscopy Skills:</h4>
@@ -342,7 +353,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-600 italic mt-3">Spectroscopy: (FTIR, Raman, NMR, UV-Vis, MS) These all interact with electromagnetic radiation (light or radio waves) to gather information about molecular structure and concentration.</p>
+                        <p class="text-sm text-e0e0e0 italic mt-3">Spectroscopy: (FTIR, Raman, NMR, UV-Vis, MS) These all interact with electromagnetic radiation (light or radio waves) to gather information about molecular structure and concentration.</p>
                     </div>
                     <div class="card card-content">
                         <h3>Software & Simulation</h3>
@@ -355,7 +366,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="extracurricular" class="content-section">
                 <h2 class="section-heading">Extracurricular Activities & Honors</h2>
@@ -372,7 +383,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="gallery" class="content-section">
                 <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
@@ -413,7 +424,7 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-gray-300">
+            <hr class="my-8 border-white/20">
 
             <section id="contact" class="content-section">
                 <h2 class="section-heading">Contact & Professional Links</h2>
@@ -430,9 +441,9 @@
         </div>
     </main>
 
-    <footer class="py-4 border-t border-gray-300 mt-auto bg-gray-50">
-        <div class="container mx-auto px-6 text-center text-xs text-gray-600">
-            <p>&copy; 2024 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS.</p>
+    <footer class="py-4 border-t border-white/20 mt-auto">
+        <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
+            <p>&copy; 2024 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
         </div>
     </footer>
 
@@ -454,7 +465,7 @@
                     targetSection.style.display = 'block';
                     setTimeout(() => {
                         targetSection.classList.add('active');
-                    }, 10); // Small delay to ensure display:block is applied before transition starts
+                    }, 10);
                     
                     // Scroll to the top of the content area
                     const mainContent = document.querySelector('main');
