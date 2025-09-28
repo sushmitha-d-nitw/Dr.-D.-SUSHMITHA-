@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
     <style>
         /* BASE STYLES: FULL BLUE BACKGROUND, WHITE TEXT */
         body {
@@ -148,6 +148,10 @@
 <body class="flex flex-col min-h-screen">
 
     <header class="shadow-md py-3 sticky top-0 z-50">
+        <div class="container mx-auto px-4 md:px-2">
+             <h1 class="text-3xl font-bold text-left mb-2 md:text-4xl">Dr. D. SUSHMITHA</h1>
+        </div>
+        
         <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
             <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
                 <a href="#about" class="nav-link active" data-target="about">Home</a>
@@ -469,8 +473,12 @@
                         targetSection.classList.add('active');
                     }, 10);
                     
-                    // The main content area's scroll position will automatically adjust
-                    // because the element causing the blank space has been removed and padding reduced.
+                    // Scroll to the top of the main container to ensure the content starts high up
+                    const mainContentContainer = document.querySelector('.container.mx-auto.px-6.py-4');
+                    if (mainContentContainer) {
+                        // For pages that are scrollable, this ensures the new content is visible from the top
+                        mainContentContainer.closest('main').scrollTop = 0; 
+                    }
                 }
             };
 
@@ -484,12 +492,6 @@
                     link.classList.add('active');
 
                     showSection(targetId);
-
-                    // Force the main container to scroll to the top 
-                    const mainContentContainer = document.querySelector('.container.mx-auto.px-6.py-4');
-                    if (mainContentContainer) {
-                        mainContentContainer.scrollTop = 0;
-                    }
                 });
             });
 
