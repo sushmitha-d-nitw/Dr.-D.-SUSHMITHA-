@@ -17,7 +17,7 @@
         header, footer {
             background-color: transparent; 
         }
-        /* MODIFIED: Ensure main content starts high up */
+        
         main {
              padding-top: 0;
              background-color: transparent; 
@@ -28,9 +28,9 @@
             color: #ffffff; 
         }
         
-        /* Section Headings (H2) - FONT SIZE INCREASED */
+        /* Section Headings (H2) */
         .section-heading {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+            /* Removed border-bottom here as the <hr> tags are being removed */
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             color: #ffffff; 
@@ -39,21 +39,7 @@
             font-weight: 700;
         }
 
-        /* --- AGGRESSIVE FIX FOR DECORATIVE LINES --- */
-        /* If the line is an immediate sibling of the header/nav, this will attempt to hide it. */
-        .decorative-line-container {
-            display: none !important;
-            height: 0 !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-        /* If the line is styled on a generic div after the header, this will also help. */
-        main > div:first-child {
-            padding-top: 1rem !important; /* Adjust if needed to move content up */
-        }
-        /* ------------------------------------------- */
-
-        /* Card/Sub-Section Headings (H3) - FONT SIZE INCREASED */
+        /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
             font-size: 1.5rem;
@@ -125,6 +111,7 @@
             max-height: calc(100vh - 120px); 
             overflow-y: auto; 
             padding-right: 5px;
+            background-color: #2A52BE; /* Kept this to ensure active section has a solid background */
         }
         .content-section.active {
             display: block;
@@ -159,7 +146,7 @@
     </header>
 
     <main class="flex-grow">
-        <div class="container mx-auto px-6 py-4 decorative-line-container"> 
+        <div class="container mx-auto px-6 py-4"> 
             
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
@@ -181,8 +168,6 @@
                 </div>
             </section>
             
-            <hr class="my-8 border-white/20">
-
             <section id="experience" class="content-section">
                 <h2 class="section-heading">Professional Experience (10 Years, 7 Months)</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -221,8 +206,6 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-white/20">
-
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
                 <div class="grid md:grid-cols-2 gap-4">
@@ -250,8 +233,6 @@
                 </div>
             </section>
 
-            <hr class="my-8 border-white/20">
-
             <section id="research" class="content-section">
                 <h2 class="section-heading">Core Research & Metrics</h2>
                 <div class="grid md:grid-cols-2 gap-4">
@@ -277,8 +258,6 @@
                     </div>
                 </div>
             </section>
-
-            <hr class="my-8 border-white/20">
 
             <section id="publications-detail" class="content-section">
                 <h2 class="section-heading">Publications: Journals & Conferences (15 Intl. Papers Listed)</h2>
@@ -306,7 +285,7 @@
                         <li><span class="font-semibold text-accent">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-04-X</span></li>
                         <li><span class="font-semibold text-accent">Optimization of Hydrothermally treated sawdust using Response Surface Methodology (RSM) Central Composite Design (CCD).</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-05-X</span></li>
                         <li><span class="font-semibold text-accent">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-06-X</span></li>
-                        <li><span class="font-semibold text-accent">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
+                        <li><span class="font-semibold text-accent">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
                         <li><span class="font-semibold text-accent">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-08-X</span></li>
                         <li><span class="font-semibold text-accent">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-09-X</span></li>
                         <li><span class="font-semibold text-accent">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-10-X</span></li>
@@ -322,8 +301,6 @@
                     </ul>
                 </div>
             </section>
-
-            <hr class="my-8 border-white/20">
 
             <section id="skills" class="content-section">
                 <h2 class="section-heading">Skills & Core Expertise</h2>
@@ -358,140 +335,4 @@
                     </div>
                     <div class="card card-content">
                         <h3>Experimental & Techniques</h3>
-                        <span class="text-sm">Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>, Polarization, <span class="text-accent">EIS</span> (electro chemical impedance spectroscopy), Equipment handling.</span>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="my-8 border-white/20">
-
-            <section id="extracurricular" class="content-section">
-                <h2 class="section-heading">Extracurricular Activities & Honors</h2>
-                <div class="grid md:grid-cols-1 gap-4">
-                    <div class="card card-content">
-                        <h3>Awards & Participation</h3>
-                        <span class="text-sm block mt-1">Sports: <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</span>
-                        <span class="text-sm block mt-1">Academics: <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>Community & Other Honors</h3>
-                        <span class="text-sm block mt-1">Received a certificate for actively collecting money for <span class="text-accent">"Help age India"</span>.</span>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="my-8 border-white/20">
-
-            <section id="gallery" class="content-section">
-                <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
-                <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/4CAF50/fff?text=Photo+1" alt="Gallery Image 1" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Equipment Setup / Research Work</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/FFC107/fff?text=Photo+2" alt="Gallery Image 2" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Experiment</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/03A9F4/fff?text=Photo+3" alt="Gallery Image 3" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Presentation</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/E91E63/fff?text=Photo+4" alt="Gallery Image 4" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/9C27B0/fff?text=Photo+5" alt="Gallery Image 5" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/4CAF50/fff?text=Photo+6" alt="Gallery Image 6" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/FFC107/fff?text=Photo+7" alt="Gallery Image 7" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/03A9F4/fff?text=Photo+8" alt="Gallery Image 8" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/E91E63/fff?text=Photo+9" alt="Gallery Image 9" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/9C27B0/fff?text=Photo+10" alt="Gallery Image 10" class="gallery-image">
-                    </div>
-                </div>
-            </section>
-
-            <hr class="my-8 border-white/20">
-
-            <section id="contact" class="content-section">
-                <h2 class="section-heading">Contact & Professional Links</h2>
-                <div class="card card-content">
-                    <h3>Reach Out</h3>
-                    <p class="text-sm mt-2">
-                        Email: <a href="mailto:your.email@example.com">your.email@example.com</a> <br>
-                        LinkedIn: <a href="#linkedin">linkedin.com/in/yourprofile</a> <br>
-                        Phone: +91 99999 99999
-                    </p>
-                </div>
-            </section>
-
-        </div>
-    </main>
-
-    <footer class="py-4 border-t border-white/20 mt-auto">
-        <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
-            <p>&copy; 2025 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navLinks = document.querySelectorAll('.nav-link');
-            const contentSections = document.querySelectorAll('.content-section');
-
-            const showSection = (targetId) => {
-                // Hide all sections
-                contentSections.forEach(section => {
-                    section.classList.remove('active');
-                    section.style.display = 'none';
-                });
-
-                // Show the target section
-                const targetSection = document.getElementById(targetId);
-                if (targetSection) {
-                    targetSection.style.display = 'block';
-                    setTimeout(() => {
-                        targetSection.classList.add('active');
-                    }, 10);
-                    
-                    // Scroll to the top of the main container to ensure the content starts high up
-                    const mainContentContainer = document.querySelector('.container.mx-auto.px-6.py-4');
-                    if (mainContentContainer) {
-                        mainContentContainer.closest('main').scrollTop = 0; 
-                    }
-                }
-            };
-
-            navLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const targetId = link.getAttribute('data-target');
-
-                    // Update active nav link class
-                    navLinks.forEach(nav => nav.classList.remove('active'));
-                    link.classList.add('active');
-
-                    showSection(targetId);
-                });
-            });
-
-            // Initialize the page by showing the 'about' section on load
-            const initialSection = document.querySelector('.nav-link.active');
-            if (initialSection) {
-                showSection(initialSection.getAttribute('data-target'));
-            }
-        });
-    </script>
-
-</body>
-</html>
+                        <span class="text-sm">Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>
