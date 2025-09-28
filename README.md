@@ -412,10 +412,10 @@
                         <span class="block">Phone: <span class="text-accent">+91 79815 41047</span></span>
                         
                         <!-- Added Professional IDs -->
-                        <span class="block">LinkedIn: <a href="#linkedin" class="text-blue-300 hover:text-blue-100">linkedin.com/in/yourprofile</a></span>
-                        <span class="block">Scopus ID: <span class="text-accent">57213192955</span>
-                        <span class="block font-semibold">Google Scholar: <a href="[https://acesse.one/nuEPK]" class="text-blue-300 hover:text-blue-100">[GOOGLE SCHOLAR ID:Qk1uTQYAAAAJ]</a></span>
-                        <span class="block font-semibold">ORCID ID: <a href="[https://orcid.org/0000-0002-1125-6904]" class="text-blue-300 hover:text-blue-100">[0000-0002-1125-6904]</a></span>
+<span class="block">LinkedIn: <a href="#linkedin" class="text-blue-300 hover:text-blue-100">linkedin.com/in/yourprofile</a></span>
+<span class="block">Scopus ID: <span class="text-accent">57213192955</span>
+<span class="block font-semibold">Google Scholar: <a href="[https://acesse.one/nuEPK]" class="text-blue-300 hover:text-blue-100">[GOOGLE SCHOLAR ID:Qk1uTQYAAAAJ]</a></span>
+<span class="block font-semibold">ORCID ID: <a href="[https://orcid.org/0000-0002-1125-6904]">"class="text-blue-300 hover:text-blue-100">"[0000-0002-1125-6904]</a></span>
                     </p>
                 </div>
             </section>
