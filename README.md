@@ -23,14 +23,15 @@
              background-color: transparent; 
         }
         
-        h1, h2 {
+        /* Removed H1 styling as it's no longer present */
+        h2 { /* Only h2 remains relevant for section headings */
             font-family: 'Playfair Display', serif;
             color: #ffffff; 
         }
         
         /* Section Headings (H2) */
         .section-heading {
-            /* Removed border-bottom here as the <hr> tags are being removed */
+            /* No border-bottom as <hr> tags are removed, keeping padding/margin for spacing */
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             color: #ffffff; 
@@ -127,8 +128,7 @@
 
     <header class="shadow-md py-3 sticky top-0 z-50">
         <div class="container mx-auto px-4 md:px-2">
-             <h1 class="text-3xl font-bold text-left mb-2 md:text-4xl">Dr. D. SUSHMITHA</h1>
-        </div>
+             </div>
         
         <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
             <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
@@ -341,127 +341,3 @@
             </section>
 
             <section id="extracurricular" class="content-section">
-                <h2 class="section-heading">Extracurricular Activities & Honors</h2>
-                <div class="grid md:grid-cols-1 gap-4">
-                    <div class="card card-content">
-                        <h3>Awards & Participation</h3>
-                        <span class="text-sm block mt-1">Sports: <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</span>
-                        <span class="text-sm block mt-1">Academics: <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>Community & Other Honors</h3>
-                        <span class="text-sm block mt-1">Received a certificate for actively collecting money for <span class="text-accent">"Help age India"</span>.</span>
-                    </div>
-                </div>
-            </section>
-
-            <section id="gallery" class="content-section">
-                <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
-                <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/4CAF50/fff?text=Photo+1" alt="Gallery Image 1" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Equipment Setup / Research Work</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/FFC107/fff?text=Photo+2" alt="Gallery Image 2" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Experiment</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/03A9F4/fff?text=Photo+3" alt="Gallery Image 3" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Presentation</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/E91E63/fff?text=Photo+4" alt="Gallery Image 4" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/9C27B0/fff?text=Photo+5" alt="Gallery Image 5" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/4CAF50/fff?text=Photo+6" alt="Gallery Image 6" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/FFC107/fff?text=Photo+7" alt="Gallery Image 7" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/03A9F4/fff?text=Photo+8" alt="Gallery Image 8" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/E91E63/fff?text=Photo+9" alt="Gallery Image 9" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://placehold.co/400x300/9C27B0/fff?text=Photo+10" alt="Gallery Image 10" class="gallery-image">
-                    </div>
-                </div>
-            </section>
-
-            <section id="contact" class="content-section">
-                <h2 class="section-heading">Contact & Professional Links</h2>
-                <div class="card card-content">
-                    <h3>Reach Out</h3>
-                    <p class="text-sm mt-2">
-                        Email: <a href="mailto:your.email@example.com">your.email@example.com</a> <br>
-                        LinkedIn: <a href="#linkedin">linkedin.com/in/yourprofile</a> <br>
-                        Phone: +91 99999 99999
-                    </p>
-                </div>
-            </section>
-
-        </div>
-    </main>
-
-    <footer class="py-4 border-t border-white/20 mt-auto">
-        <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
-            <p>&copy; 2025 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navLinks = document.querySelectorAll('.nav-link');
-            const contentSections = document.querySelectorAll('.content-section');
-
-            const showSection = (targetId) => {
-                // Hide all sections
-                contentSections.forEach(section => {
-                    section.classList.remove('active');
-                    section.style.display = 'none';
-                });
-
-                // Show the target section
-                const targetSection = document.getElementById(targetId);
-                if (targetSection) {
-                    targetSection.style.display = 'block';
-                    setTimeout(() => {
-                        targetSection.classList.add('active');
-                    }, 10);
-                    
-                    const mainContent = document.querySelector('main');
-                    if (mainContent) {
-                        mainContent.scrollTop = 0; 
-                    }
-                }
-            };
-
-            navLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const targetId = link.getAttribute('data-target');
-
-                    // Update active nav link class
-                    navLinks.forEach(nav => nav.classList.remove('active'));
-                    link.classList.add('active');
-
-                    showSection(targetId);
-                });
-            });
-
-            // Initialize the page by showing the 'about' section on load
-            const initialSection = document.querySelector('.nav-link.active');
-            if (initialSection) {
-                showSection(initialSection.getAttribute('data-target'));
-            }
-        });
-    </script>
-
-</body>
-</html>
