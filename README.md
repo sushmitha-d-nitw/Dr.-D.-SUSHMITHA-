@@ -17,9 +17,9 @@
         header, footer {
             background-color: transparent; 
         }
-        /* MODIFIED: Remove default top padding from the main content area */
+        /* MODIFIED: Ensure main content starts high up */
         main {
-             padding-top: 0; /* Ensures content starts high up */
+             padding-top: 0;
              background-color: transparent; 
         }
         
@@ -34,15 +34,29 @@
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             color: #ffffff; 
-            font-size: 2.5rem; /* Retained: text-4xl equivalent */
+            font-size: 2.5rem;
             line-height: 3.0rem;
             font-weight: 700;
         }
 
+        /* --- AGGRESSIVE FIX FOR DECORATIVE LINES --- */
+        /* If the line is an immediate sibling of the header/nav, this will attempt to hide it. */
+        .decorative-line-container {
+            display: none !important;
+            height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        /* If the line is styled on a generic div after the header, this will also help. */
+        main > div:first-child {
+            padding-top: 1rem !important; /* Adjust if needed to move content up */
+        }
+        /* ------------------------------------------- */
+
         /* Card/Sub-Section Headings (H3) - FONT SIZE INCREASED */
         h3 {
             color: #ffffff;
-            font-size: 1.5rem; /* Retained: text-2xl equivalent */
+            font-size: 1.5rem;
             line-height: 2.0rem;
             font-weight: 600;
             margin-bottom: 0.25rem;
@@ -50,19 +64,19 @@
 
         /* Sub-sub headings (H4/custom spans) */
         .sub-sub-heading {
-            font-size: 1rem; /* text-base */
+            font-size: 1rem;
             line-height: 1.5rem;
             font-weight: 700;
             color: #FFFF00; /* Bright Yellow accent */
         }
 
         p, span, li {
-            color: #e0e0e0; /* Lighter white for general text */
-            font-size: 0.875rem; /* Default to text-sm for body text */
+            color: #e0e0e0; 
+            font-size: 0.875rem; 
             line-height: 1.4;
         }
         a {
-            color: #90CAF9; /* Light blue for links for visibility */
+            color: #90CAF9;
         }
         a:hover {
             color: #BBDEFB;
@@ -77,18 +91,14 @@
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         }
         .card {
-            background-color: rgba(255, 255, 255, 0.1); /* Transparent white card background */
+            background-color: rgba(255, 255, 255, 0.1); 
             padding: 0.75rem 1rem;
             border-radius: 6px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
             margin-bottom: 0.8rem;
         }
-        .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-        }
-        .text-accent { color: #FFFF00; font-weight: 600; } /* Bright Yellow for accents */
+        .text-accent { color: #FFFF00; font-weight: 600; }
         .isbn-highlight { color: #FFFF00; font-weight: 700; } 
 
         /* Navigation Links Style for Active State */
@@ -103,28 +113,9 @@
             transition: background-color 0.2s;
             white-space: nowrap; 
         }
-        .nav-link:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
         .nav-link.active {
             background-color: #4285F4;
             font-weight: 600;
-        }
-        
-        /* Force single-line navigation on MD screens and up */
-        @media (min-width: 768px) {
-            .header-nav-container {
-                max-width: 100%;
-                justify-content: center;
-            }
-            .header-nav-container nav {
-                flex-wrap: nowrap;
-                overflow-x: auto;
-            }
-            .header-nav-container .nav-link {
-                margin-left: 0.4rem;
-                margin-right: 0.4rem;
-            }
         }
         
         /* Interactive Sections */
@@ -168,7 +159,7 @@
     </header>
 
     <main class="flex-grow">
-        <div class="container mx-auto px-6 py-4"> 
+        <div class="container mx-auto px-6 py-4 decorative-line-container"> 
             
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
@@ -315,7 +306,7 @@
                         <li><span class="font-semibold text-accent">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-04-X</span></li>
                         <li><span class="font-semibold text-accent">Optimization of Hydrothermally treated sawdust using Response Surface Methodology (RSM) Central Composite Design (CCD).</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-05-X</span></li>
                         <li><span class="font-semibold text-accent">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-93-XXXXX-06-X</span></li>
-                        <li><span class="font-semibold text-accent">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
+                        <li><span class="font-semibold text-accent">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 978-93-XXXXX-07-X</span></li>
                         <li><span class="font-semibold text-accent">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-08-X</span></li>
                         <li><span class="font-semibold text-accent">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-09-X</span></li>
                         <li><span class="font-semibold text-accent">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-93-XXXXX-10-X</span></li>
@@ -476,7 +467,6 @@
                     // Scroll to the top of the main container to ensure the content starts high up
                     const mainContentContainer = document.querySelector('.container.mx-auto.px-6.py-4');
                     if (mainContentContainer) {
-                        // For pages that are scrollable, this ensures the new content is visible from the top
                         mainContentContainer.closest('main').scrollTop = 0; 
                     }
                 }
