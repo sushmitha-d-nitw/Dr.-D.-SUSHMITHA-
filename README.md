@@ -411,18 +411,15 @@
                         <span class="block">Email: <a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a></span>
                         <span class="block">Phone: <span class="text-accent">+91 79815 41047</span></span>
                         
-                        <!-- Added Professional IDs -->
-<span class="block">LinkedIn: <a href="#linkedin" class="text-blue-300 hover:text-blue-100">linkedin.com/in/yourprofile</a></span>
-<span class="block">Scopus ID: <span class="text-accent">57213192955</span>
+<span class="block">LinkedIn: <a href="linkedin.com/in/sushmitha-0aa49b30/" class="text-blue-300 hover:text-blue-100">linkedin.com/in/sushmitha-0aa49b30</a></span>
+<span class="block">Scopus ID: <span class="text-accent">57213192955</span></span>
 <span class="block font-semibold">Google Scholar: <a href="[https://acesse.one/nuEPK]" class="text-blue-300 hover:text-blue-100">[GOOGLE SCHOLAR ID:Qk1uTQYAAAAJ]</a></span>
-<span class="block font-semibold">ORCID ID: <a href="[https://orcid.org/0000-0002-1125-6904]">"class="text-blue-300 hover:text-blue-100">"[0000-0002-1125-6904]</a></span>
-                    </p>
-                </div>
-            </section>
-
-        </div>
-    </main>
-
+<span class="block font-semibold">ORCID ID: <a href="https://orcid.org/0000-0002-1125-6904" class="text-blue-300 hover:text-blue-100">[0000-0002-1125-6904]</a></span>
+</p>
+</div>
+</section>
+</div>
+</main>
     <footer class="py-4 border-t border-white/20 mt-auto">
         <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
             <p>&copy; 2025 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
