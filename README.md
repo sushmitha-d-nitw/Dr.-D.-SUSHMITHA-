@@ -14,10 +14,15 @@
         }
         
         /* Ensure all main layout parts inherit or are transparent */
-        header, main, footer {
+        header, footer {
             background-color: transparent; 
         }
-
+        /* MODIFIED: Remove default top padding from the main content area */
+        main {
+             padding-top: 0; /* Ensures content starts high up */
+             background-color: transparent; 
+        }
+        
         h1, h2 {
             font-family: 'Playfair Display', serif;
             color: #ffffff; 
@@ -32,8 +37,6 @@
             font-size: 2.5rem; /* Retained: text-4xl equivalent */
             line-height: 3.0rem;
             font-weight: 700;
-            /* 💡 The yellow line was not controlled by this CSS but was likely a DIV added in the HTML. 
-               We will ensure it's not present in the new HTML structure. */
         }
 
         /* Card/Sub-Section Headings (H3) - FONT SIZE INCREASED */
@@ -91,20 +94,20 @@
         /* Navigation Links Style for Active State */
         .nav-link {
             color: #ffffff;
-            font-size: 1rem; /* Slightly reduced for a tighter fit on the single line */
+            font-size: 1rem; 
             padding-top: 0.5rem !important;
             padding-bottom: 0.5rem !important;
             padding-left: 0.6rem !important;
             padding-right: 0.6rem !important;
             border-radius: 4px;
             transition: background-color 0.2s;
-            white-space: nowrap; /* Forces links onto one line */
+            white-space: nowrap; 
         }
         .nav-link:hover {
             background-color: rgba(255, 255, 255, 0.2);
         }
         .nav-link.active {
-            background-color: #4285F4; /* Lighter blue for active state */
+            background-color: #4285F4;
             font-weight: 600;
         }
         
@@ -112,7 +115,7 @@
         @media (min-width: 768px) {
             .header-nav-container {
                 max-width: 100%;
-                justify-content: center; /* Center the entire nav block */
+                justify-content: center;
             }
             .header-nav-container nav {
                 flex-wrap: nowrap;
@@ -128,7 +131,6 @@
         .content-section {
             display: none;
             animation: fadeIn 0.5s ease-in-out;
-            /* max-height adjusted for better fit */
             max-height: calc(100vh - 120px); 
             overflow-y: auto; 
             padding-right: 5px;
@@ -162,7 +164,7 @@
     </header>
 
     <main class="flex-grow">
-        <div class="container mx-auto px-6 py-8">
+        <div class="container mx-auto px-6 py-4"> 
             
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
@@ -443,7 +445,7 @@
 
     <footer class="py-4 border-t border-white/20 mt-auto">
         <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
-            <p>&copy; 2024 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
+            <p>&copy; 2025 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
         </div>
     </footer>
 
@@ -467,9 +469,8 @@
                         targetSection.classList.add('active');
                     }, 10);
                     
-                    // Scroll to the top of the content area
-                    const mainContent = document.querySelector('main');
-                    mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+                    // The main content area's scroll position will automatically adjust
+                    // because the element causing the blank space has been removed and padding reduced.
                 }
             };
 
@@ -483,6 +484,12 @@
                     link.classList.add('active');
 
                     showSection(targetId);
+
+                    // Force the main container to scroll to the top 
+                    const mainContentContainer = document.querySelector('.container.mx-auto.px-6.py-4');
+                    if (mainContentContainer) {
+                        mainContentContainer.scrollTop = 0;
+                    }
                 });
             });
 
