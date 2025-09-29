@@ -73,25 +73,21 @@
             border-radius: 50%; /* Make it perfectly circular */
             border: 6px solid #fff;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-            width: 100%; 
-            height: 100%; 
-            object-fit: cover; 
-            object-position: center 25%; /* Adjusted to crop lower body, focus on upper body/knees */
+            /* Ensure the image fills the circle without distortion */
+            width: 100%; /* Take full width of its parent div (e.g., w-36/w-48) */
+            height: 100%; /* Take full height of its parent div */
+            object-fit: cover; /* Crop to fit the circular shape */
         }
-        /* Adjusted to make the profile picture container taller to allow for more vertical space for cropping */
+        /* Added to ensure the parent div of the profile picture is also a perfect square */
         .md\:w-1\/3 > .flex.justify-center {
             position: relative;
-            width: 144px; /* Matches w-36 */
-            height: 192px; /* Increased height for mid-shot crop (e.g., 4:3 aspect within a circle) */
-            overflow: hidden; /* Ensure content outside the circle is hidden */
-            display: flex; /* Flexbox for centering within the container */
-            align-items: center; /* Center vertically */
-            justify-content: center; /* Center horizontally */
+            width: 144px; /* Matches w-36, change to 192px for md:w-48 */
+            height: 144px; /* Ensures a perfect square */
         }
         @media (min-width: 768px) { /* md breakpoint */
             .md\:w-1\/3 > .flex.justify-center {
                 width: 192px; /* Matches md:w-48 */
-                height: 256px; /* Increased height for mid-shot crop (e.g., 4:3 aspect within a circle) */
+                height: 192px; /* Ensures a perfect square */
             }
         }
 
@@ -170,11 +166,6 @@
             height: 100%;
             object-fit: cover; /* Ensures the image fills the square, cropping as needed */
             display: block;
-        }
-        /* Specific adjustment for the nitw.png image to focus on faces */
-        .nitw-gallery-image {
-            object-position: center; /* Tries to center the content */
-            /* If faces are at the top, you might try object-position: center top; */
         }
 
 
@@ -452,7 +443,7 @@
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Awards for Cultural and Sports Activities</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/nitw.png" alt="Convocation at NITW" class="gallery-image nitw-gallery-image">
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/nitw.png" alt="Gallery Image 10" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Convocation</span>
                     </div>
                 </div>
@@ -506,4 +497,29 @@
                 });
                 const activeLink = document.querySelector(`.nav-link[data-target="${targetId.substring(1)}"]`);
                 if (activeLink) {
-                    activeLink
+                    activeLink.classList.add('active');
+                }
+            };
+
+            // Event listeners for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = e.currentTarget.getAttribute('href');
+                    window.history.pushState(null, null, targetId); // Update URL hash without reload
+                    showSection(targetId);
+                });
+            });
+
+            // Initial section load based on URL hash or default to #about
+            const initialHash = window.location.hash || '#about';
+            showSection(initialHash);
+
+            // Re-show section on hash change (e.g., back/forward button)
+            window.addEventListener('hashchange', () => {
+                showSection(window.location.hash);
+            });
+        });
+    </script>
+</body>
+</html>
