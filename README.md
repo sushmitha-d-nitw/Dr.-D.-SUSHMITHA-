@@ -67,11 +67,31 @@
         .container {
             max-width: 1400px;
         }
+        
+        /* ADJUSTED PROFILE PICTURE STYLES */
         .profile-picture {
-            border-radius: 50%;
+            border-radius: 50%; /* Make it perfectly circular */
             border: 6px solid #fff;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            /* Ensure the image fills the circle without distortion */
+            width: 100%; /* Take full width of its parent div (e.g., w-36/w-48) */
+            height: 100%; /* Take full height of its parent div */
+            object-fit: cover; /* Crop to fit the circular shape */
         }
+        /* Added to ensure the parent div of the profile picture is also a perfect square */
+        .md\:w-1\/3 > .flex.justify-center {
+            position: relative;
+            width: 144px; /* Matches w-36, change to 192px for md:w-48 */
+            height: 144px; /* Ensures a perfect square */
+        }
+        @media (min-width: 768px) { /* md breakpoint */
+            .md\:w-1\/3 > .flex.justify-center {
+                width: 192px; /* Matches md:w-48 */
+                height: 192px; /* Ensures a perfect square */
+            }
+        }
+
+
         .card {
             background-color: rgba(255, 255, 255, 0.1); 
             padding: 0.75rem 1rem;
@@ -107,7 +127,7 @@
             max-height: calc(100vh - 120px); 
             overflow-y: auto; 
             padding-right: 5px;
-            background-color: #2A52BE; /* Kept this to ensure active section has a solid background */
+            background-color: #2A52BE; 
         }
         .content-section.active {
             display: block;
@@ -127,6 +147,27 @@
         .content-section::-webkit-scrollbar-track {
             background-color: rgba(0, 0, 0, 0.1);
         }
+        
+        /* ADJUSTED GALLERY IMAGE STYLES FOR UNIFORM FRAMES */
+        .relative.group {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%; /* Makes the container a perfect square based on its width */
+            height: 0; /* Resets height to make padding-bottom effective */
+            overflow: hidden; /* Hides any overflow from the image */
+            border: 2px solid #fff; /* Optional: Add a border for definition */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+        .gallery-image { /* This targets the <img> inside the .relative.group */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image fills the square, cropping as needed */
+            display: block;
+        }
+
 
     </style>
 </head>
@@ -157,7 +198,7 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
@@ -366,44 +407,44 @@
                 <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
                 <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/main.png" alt="Gallery Image 1" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Profile Picture</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%201.jpg" alt="Gallery Image 1" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%201.jpg" alt="Gallery Image 2" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Experiment</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%202.png" alt="Gallery Image 2" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Parampara 2025 Inauguration</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%202.png" alt="Gallery Image 3" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Presentation</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%203.jpg" alt="Gallery Image 3" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Judge</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%203.jpg" alt="Gallery Image 4" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Equipment Setup</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%204.png" alt="Gallery Image 4" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Awards: Best Paper & Conference</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%204.png" alt="Gallery Image 5" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Research Visuals</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%205.jpg" alt="Gallery Image 5" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Mehendi Traditional Event</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%205.jpg" alt="Gallery Image 6" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Technical Diagram</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%206.jpg" alt="Gallery Image 6" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%206.jpg" alt="Gallery Image 7" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Project Component</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%207.jpg" alt="Gallery Image 7" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%207.jpg" alt="Gallery Image 8" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Photo</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%208.jpg" alt="Gallery Image 8" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%208.jpg" alt="Gallery Image 9" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Team/Award Photo</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%209.png" alt="Gallery Image 9" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Awards for Cultural and Sports Activities</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%209.png" alt="Gallery Image 10" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Closing Visual</span>
+                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/nitw.png" alt="Gallery Image 10" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Convocation</span>
                     </div>
                 </div>
             </section>
