@@ -167,7 +167,7 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                                                <img src="https://placehold.co/400x400/29B6F6/fff?text=Dr.+D.+Sushmitha%0A(main+photo)" alt="main photo" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
+                                                <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png " alt="main photo" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
@@ -380,7 +380,7 @@
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 1</span>
                     </div>
                                         <div class="relative group">
-                    <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%202.jpg " alt="image 2" class="gallery-image">
+                    <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%202.png " alt="image 2" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 2</span>
                     </div>
                                         <div class="relative group">
@@ -388,7 +388,7 @@
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 3 </span>
                     </div>
                                         <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%204.jpg " alt="image 4" class="gallery-image">
+                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%204.png " alt="image 4" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 4 </span>
                     </div>
                                         <div class="relative group">
@@ -404,15 +404,15 @@
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 7 </span>
                     </div>
                                         <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%202.jpg " alt="image 8" class="gallery-image">
+                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%208.jpg " alt="image 8" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 8 </span>
                     </div>
                                         <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%209.jpg " alt="image 9" class="gallery-image">
+                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%209.png " alt="image 9" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 9: Microscopic View / Material Sample</span>
                     </div>
                                         <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/nitw.jpg " alt="image 10" class="gallery-image">
+                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/nitw.png " alt="image 10" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Image 10</span>
                     </div>
                 </div>
