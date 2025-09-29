@@ -157,7 +157,7 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48 object-cover">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
@@ -366,37 +366,44 @@
                 <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
                 <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 1" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Equipment Setup / Research Work</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/main.png" alt="Gallery Image 1" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Profile Picture</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 2" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%201.jpg" alt="Gallery Image 2" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Experiment</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 3" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%202.png" alt="Gallery Image 3" class="gallery-image">
                         <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Presentation</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 4" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%203.jpg" alt="Gallery Image 4" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Equipment Setup</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 5" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%204.png" alt="Gallery Image 5" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Research Visuals</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 6" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%205.jpg" alt="Gallery Image 6" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Technical Diagram</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 7" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%206.jpg" alt="Gallery Image 7" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Project Component</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 8" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%207.jpg" alt="Gallery Image 8" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Lab Photo</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 9" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%208.jpg" alt="Gallery Image 9" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Team/Award Photo</span>
                     </div>
                     <div class="relative group">
-                        <img src="https://github.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/blob/main/website%20phototes/main.png" alt="Gallery Image 10" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/Image%209.png" alt="Gallery Image 10" class="gallery-image">
+                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Closing Visual</span>
                     </div>
                 </div>
             </section>
