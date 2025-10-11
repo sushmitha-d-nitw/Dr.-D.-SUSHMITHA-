@@ -225,7 +225,7 @@
                     </div>
                     <div class="card card-content">
                         <h3>Business Development & Sales Manager</h3>
-                        <span class="text-sm font-semibold block">Riss InfoTech | Jul - Aug 2023.</span>
+                        <span class="text-sm font-semibold block">Riss InfoTech | Jan - Aug 2023.</span>
                         <span class="text-sm block mt-1">Managed CRM (<span class="text-accent">70 employees</span>). Executed <span class="text-accent">Digital marketing</span>, <span class="text-accent">HR/Payroll</span>. Acquired <span class="text-accent">Leadership skills</span>.</span>
                     </div>
                     <div class="card card-content">
