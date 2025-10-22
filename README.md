@@ -379,7 +379,7 @@
                     </div>
                     <div class="card card-content">
                         <h3>Software & Simulation</h3>
-                        <span class="text-sm"><span class="text-accent">ASPEN plus, ASPEN tasc+, ASPEN Hysis</span>, ANSYS (3D Modeling), CRM Software.</span>
+                        <span class="text-sm"><span class="text-accent">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling), CRM Software, web development, power BI, Statistical software (STATA EASE, Mini Tab. </span>
                     </div>
                     <div class="card card-content">
                         <h3>Experimental & Techniques</h3>
