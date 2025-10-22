@@ -380,15 +380,10 @@
                     <div class="card card-content">
                         <h3>Software & Simulation</h3>
                         <span class="text-sm"><span class="text-accent">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling), CRM Software, web development, power BI, Statistical software (STATA EASE, Mini Tab. </span>
-                    </div>
                     <div class="card card-content">
                         <h3>Experimental & Techniques</h3>
                         <span class="text-sm">Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>, Polarization, <span class="text-accent">EIS</span> (electro chemical impedance spectroscopy), Equipment handling.</span>
-                    </div>
-                </div>
-            </section>
-
-            <section id="extracurricular" class="content-section">
+                                <section id="extracurricular" class="content-section">
                 <h2 class="section-heading">Extracurricular Activities & Honors</h2>
                 <div class="grid md:grid-cols-1 gap-4">
                     <div class="card card-content">
