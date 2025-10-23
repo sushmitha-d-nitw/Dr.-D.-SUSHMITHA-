@@ -199,7 +199,7 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/main.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
@@ -218,42 +218,70 @@
             
             <section id="experience" class="content-section">
                 <h2 class="section-heading">Professional Experience (10 Years, 7 Months)</h2>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div class="card card-content">
-                        <h3 class="text-accent">Asst. Professor (Temporary)</h3>
-                        <span class="text-sm font-semibold block">Biotech, JNTU-H | Jan 2025 - Present.</span>
-                        <span class="text-sm block mt-1">Taught: <span class="text-accent">Process engineering principles</span>. Labs: <span class="text-accent">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-accent">Business Development & Sales Manager</h3>
-                        <span class="text-sm font-semibold block">Riss InfoTech | Jan - Aug 2023.</span>
-                        <span class="text-sm block mt-1">Managed CRM (<span class="text-accent">70 employees</span>). Executed <span class="text-accent">Digital marketing</span>, <span class="text-accent">HR/Payroll</span>. Acquired <span class="text-accent">Leadership skills</span>.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-accent">Asst. Professor & Coordinator</h3>
-                        <span class="text-sm font-semibold block">Petrochemical Tech, Excel Engg College | May - Nov 2022.</span>
-                        <span class="text-sm block mt-1">Taught: <span class="text-accent">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span class="text-accent">Placement Co-ordinator, Hostel Warden, Class Advisor/Mentor, Internship Co-ordinator</span>.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-accent">Researcher (Ph.D. Scholar)</h3>
-                        <span class="text-sm font-semibold block">NIT Warangal | May 2015 - Jul 2021.</span>
-                        <span class="text-sm block mt-1">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-accent">Asst. Professor</h3>
-                        <span class="text-sm font-semibold block">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
-                        <span class="text-sm block mt-1">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3 class="text-accent">Industrial Training</h3>
-                        <span class="text-sm font-semibold block">Vizag Steel Plant | 2010 - 2011</span>
-                        <span class="text-sm block mt-1">Project: <span class="text-accent">Improvement of Crude Benzol Production</span>.</span>
-                        <span class="text-sm font-semibold block mt-3">KERBS & Indo American Pharma | 2007</span>
-                        <span class="text-sm block mt-1">Training: Hands-on experience in equipment/processes and <span class="text-accent">Bulk Drug Production</span>.</span>
-                    </div>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Asst. Professor (Temporary)</span>
+                                <span class="block">Biotech, JNTU-H | Jan 2025 - Present.</span>
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Process engineering principles</span>. Labs: <span class="text-accent">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
+                            </div>
+                            <a href="files/experience_jntu_2025_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Business Development & Sales Manager</span>
+                                <span class="block">Riss InfoTech | Jan - Aug 2023.</span>
+                                <span class="block italic text-xs">Managed CRM (<span class="text-accent">70 employees</span>). Executed <span class="text-accent">Digital marketing</span>, <span class="text-accent">HR/Payroll</span>. Acquired <span class="text-accent">Leadership skills</span>.</span>
+                            </div>
+                            <a href="files/experience_riss_infotech_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Asst. Professor & Coordinator</span>
+                                <span class="block">Petrochemical Tech, Excel Engg College | May - Nov 2022.</span>
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span class="text-accent">Placement Co-ordinator, Hostel Warden, Class Advisor/Mentor, Internship Co-ordinator</span>.</span>
+                            </div>
+                            <a href="files/experience_excel_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Researcher (Ph.D. Scholar)</span>
+                                <span class="block">NIT Warangal | May 2015 - Jul 2021.</span>
+                                <span class="block italic text-xs">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
+                            </div>
+                            <a href="files/experience_nitw_research_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Asst. Professor</span>
+                                <span class="block">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
+                            </div>
+                            <a href="files/experience_jntu_2011_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Industrial Training (Vizag Steel Plant)</span>
+                                <span class="block">Vizag Steel Plant | 2010 - 2011.</span>
+                                <span class="block italic text-xs">Project: <span class="text-accent">Improvement of Crude Benzol Production</span>.</span>
+
+                                <span class="font-semibold text-accent block mt-3">Industrial Training (Pharma)</span>
+                                <span class="block">KERBS & Indo American Pharma | 2007.</span>
+                                <span class="block italic text-xs">Training: Hands-on experience in equipment/processes and <span class="text-accent">Bulk Drug Production</span>.</span>
+                            </div>
+                            <a href="files/experience_training_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+
+                    </ul>
                 </div>
             </section>
-
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
                 <div class="card card-content">
@@ -596,8 +624,8 @@
                 <div class="grid md:grid-cols-2 gap-4">
                     <div class="card card-content">
                         <h3 class="text-accent">Personal Contact</h3>
-                        <p class="mt-2"><span class="text-accent font-semibold">Email:</span> d.sushmitha@gmail.com</p>
-                        <p><span class="text-accent font-semibold">Phone:</span> +91-1234567890</p>
+                        <p class="mt-2"><span class="text-accent font-semibold">Email:</span> sushmitha.d.nitw@gmail.com</p>
+                        <p><span class="text-accent font-semibold">Phone:</span> +91-7981541047</p>
                         <p><span class="text-accent font-semibold">Location:</span> Hyderabad, Telangana, India</p>
                     </div>
                     <div class="card card-content">
