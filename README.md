@@ -185,7 +185,7 @@
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
                 <a href="#skills" class="nav-link" data-target="skills">Skills</a>
-                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards & Recognition</a>
+                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards and Recognition</a>
                 <a href="#extra-curricular" class="nav-link" data-target="extra-curricular">Extra Curricular</a>
                 <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
                 <a href="#contact" class="nav-link" data-target="contact">Contact</a>
@@ -220,32 +220,32 @@
                 <h2 class="section-heading">Professional Experience (10 Years, 7 Months)</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="card card-content">
-                        <h3>Asst. Professor (Temporary)</h3>
+                        <h3 class="text-accent">Asst. Professor (Temporary)</h3>
                         <span class="text-sm font-semibold block">Biotech, JNTU-H | Jan 2025 - Present.</span>
                         <span class="text-sm block mt-1">Taught: <span class="text-accent">Process engineering principles</span>. Labs: <span class="text-accent">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Business Development & Sales Manager</h3>
+                        <h3 class="text-accent">Business Development & Sales Manager</h3>
                         <span class="text-sm font-semibold block">Riss InfoTech | Jan - Aug 2023.</span>
                         <span class="text-sm block mt-1">Managed CRM (<span class="text-accent">70 employees</span>). Executed <span class="text-accent">Digital marketing</span>, <span class="text-accent">HR/Payroll</span>. Acquired <span class="text-accent">Leadership skills</span>.</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Asst. Professor & Coordinator</h3>
+                        <h3 class="text-accent">Asst. Professor & Coordinator</h3>
                         <span class="text-sm font-semibold block">Petrochemical Tech, Excel Engg College | May - Nov 2022.</span>
                         <span class="text-sm block mt-1">Taught: <span class="text-accent">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span class="text-accent">Placement Co-ordinator, Hostel Warden, Class Advisor/Mentor, Internship Co-ordinator</span>.</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Researcher (Ph.D. Scholar)</h3>
+                        <h3 class="text-accent">Researcher (Ph.D. Scholar)</h3>
                         <span class="text-sm font-semibold block">NIT Warangal | May 2015 - Jul 2021.</span>
                         <span class="text-sm block mt-1">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Asst. Professor</h3>
+                        <h3 class="text-accent">Asst. Professor</h3>
                         <span class="text-sm font-semibold block">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
                         <span class="text-sm block mt-1">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Industrial Training</h3>
+                        <h3 class="text-accent">Industrial Training</h3>
                         <span class="text-sm font-semibold block">Vizag Steel Plant | 2010 - 2011</span>
                         <span class="text-sm block mt-1">Project: <span class="text-accent">Improvement of Crude Benzol Production</span>.</span>
                         <span class="text-sm font-semibold block mt-3">KERBS & Indo American Pharma | 2007</span>
@@ -257,7 +257,6 @@
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
                 <div class="card card-content">
-                    <h3>Academic History & Credentials</h3>
                     <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
                         
                         <li class="flex justify-between items-start pr-4">
@@ -286,6 +285,25 @@
                             </div>
                             <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Intermediate (Inter) - M.P.C. (Math's, Physics, Chemistry)</span>
+                                <span class="block">83.7 % | 2002 - 2004.</span>
+                                <span class="block italic text-xs">Narayana Junior college, Nellore, Andhra Pradesh.</span>
+                            </div>
+                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Matriculation (SSC Board)</span>
+                                <span class="block">80.3 % | 2001 - 2002.</span>
+                                <span class="block italic text-xs">St Mary’s School, Kavali, Nellore, Andhra Pradesh.</span>
+                            </div>
+                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
@@ -304,11 +322,11 @@
                 <h2 class="section-heading">Core Research & Metrics</h2>
                 <div class="grid md:grid-cols-2 gap-4">
                     <div class="card card-content md:col-span-2">
-                        <h3>Core Research Areas</h3>
+                        <h3 class="text-accent">Core Research Areas</h3>
                         <span class="text-sm block mt-1"><span class="text-accent">Process Intensification</span>, Biorefinery, Biomass Valorisation, Paper Manufacturing, UV-Protective cloth, SAP, <span class="text-accent">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing materials (corrosion/concrete).</span>
                     </div>
                     <div class="card card-content">
-                        <h3>Publications & Output</h3>
+                        <h3 class="text-accent">Publications & Output</h3>
                         <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
                             <li><span class="text-accent">6</span> Journal Papers (incl. *Ultrasonication and Sonochemistry*, IF: 9.336)</li>
                             <li><span class="text-accent">15</span> International Conference Papers <span class="text-accent">(ISBNs added below)</span></li>
@@ -317,7 +335,7 @@
                         </ul>
                     </div>
                     <div class="card card-content">
-                        <h3>Research & Professional Roles</h3>
+                        <h3 class="text-accent">Research & Professional Roles</h3>
                         <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
                             <li>Official Reviewer for <span class="text-accent">3 Elsevier journals</span> (Detailed in Awards section).</li>
                             <li>Memberships: Associate Member of <span class="text-accent">IICHE</span> and <span class="text-accent">IEI</span>.</li>
@@ -400,7 +418,7 @@
         <hr class="md:col-span-2 my-2 border-gray-600">
         
         <div class="card card-content md:col-span-2">
-            <h3>Managerial, HR, & Business Process Outsourcing Skills</h3>
+            <h3 class="text-accent">Managerial, HR, & Business Process Outsourcing Skills</h3>
             <p class="text-sm text-e0e0e0 italic mb-2">Leadership, Operational Management, and Strategic Business Development.</p>
             <div class="grid md:grid-cols-2 gap-x-6 text-sm">
                 <div>
@@ -422,7 +440,7 @@
         </div>
         
         <div class="card card-content md:col-span-2">
-            <h3>Analytical & Spectroscopic Techniques</h3>
+            <h3 class="text-accent">Analytical & Spectroscopic Techniques</h3>
             <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
             <div class="grid md:grid-cols-2 gap-x-6 text-sm">
                 <div>
@@ -447,7 +465,7 @@
         </div>
         
         <div class="card card-content md:col-span-2">
-            <h3>Core Experimental Techniques (Chemical Engineering)</h3>
+            <h3 class="text-accent">Core Experimental Techniques (Chemical Engineering)</h3>
             <ul class="list-disc list-inside ml-4 space-y-1 text-sm mt-2">
                 <li><span class="font-semibold">Process Intensification:</span> Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>.</li>
                 <li><span class="font-semibold">Corrosion Testing:</span> Polarization, <span class="text-accent">EIS</span> (Electro Chemical Impedance Spectroscopy).</li>
@@ -463,7 +481,7 @@
     <div class="grid md:grid-cols-1 gap-4">
         
         <div class="card card-content">
-            <h3>Academic Awards & Professional Status</h3>
+            <h3 class="text-accent">Academic Awards & Professional Status</h3>
             <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
                 <li class="flex justify-between items-center pr-4">
                     <span><span class="font-semibold text-accent">Best Paper Award</span> in National Conference Research conclave-17 held at National Institute of Technology Warangal during March 18-19, 2017.</span>
@@ -516,7 +534,7 @@
 <section id="extra-curricular" class="content-section">
     <h2 class="section-heading">Extra Curricular Activities</h2>
     <div class="card card-content">
-        <h3>Sports, Arts, and Cultural Participation</h3>
+        <h3 class="text-accent">Sports, Arts, and Cultural Participation</h3>
         <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
             <li><span class="font-semibold text-accent">First Prize in Running Race</span> at JNTU-College Anantapur (2007).</li>
             <li><span class="font-semibold text-accent">First Prize in Kho-Kho</span> at JNTU-Engineering College Anantapur (2007).</li>
@@ -575,13 +593,13 @@
                 <h2 class="section-heading">Contact & Professional Links</h2>
                 <div class="grid md:grid-cols-2 gap-4">
                     <div class="card card-content">
-                        <h3>Personal Contact</h3>
+                        <h3 class="text-accent">Personal Contact</h3>
                         <p class="mt-2"><span class="text-accent font-semibold">Email:</span> d.sushmitha@gmail.com</p>
                         <p><span class="text-accent font-semibold">Phone:</span> +91-1234567890</p>
                         <p><span class="text-accent font-semibold">Location:</span> Hyderabad, Telangana, India</p>
                     </div>
                     <div class="card card-content">
-                        <h3>Professional Profiles</h3>
+                        <h3 class="text-accent">Professional Profiles</h3>
                         <p class="mt-2"><span class="text-accent font-semibold">LinkedIn:</span> <a href="https://linkedin.com/in/drsushmitha" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></p>
                         <p><span class="text-accent font-semibold">ResearchGate:</span> <a href="https://researchgate.net/profile/D-Sushmitha" target="_blank" class="text-blue-300 hover:text-blue-100">researchgate.net/profile/D-Sushmitha</a></p>
                         <p><span class="text-accent font-semibold">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=xyz-abc" target="_blank" class="text-blue-300 hover:text-blue-100">scholar.google.com/citations</a></p>
