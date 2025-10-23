@@ -350,43 +350,95 @@
                 </div>
             </section>
 
-            <section id="skills" class="content-section">
-                <h2 class="section-heading">Skills & Core Expertise</h2>
-                <div class="grid md:grid-cols-2 gap-4">
-                    <div class="card card-content md:col-span-2">
-                        <h3>Analytical & Spectroscopic Techniques</h3>
-                        <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
-                        <div class="grid md:grid-cols-2 gap-x-6 text-sm">
-                            <div>
-                                <h4 class="sub-sub-heading">Spectroscopy Skills:</h4>
-                                <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                                    <li><span class="font-semibold">Infrared (IR) & Raman Spectroscopy (FTIR & Raman):</span> Utilized for molecular identification, structural analysis, and polymorphism.</li>
-                                    <li><span class="font-semibold">Nuclear Magnetic Resonance (NMR):</span> Expertise in determining precise molecular structure, purity, and concentration.</li>
-                                    <li><span class="font-semibold">UV-Visible Spectrometry (UV-Vis):</span> Used for quantitative analysis and concentration determination.</li>
-                                    <li><span class="font-semibold">Mass Spectrometry (MS):</span> Advanced skills in identifying unknown compounds and determining molecular weight and structure.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="sub-sub-heading">Separation & Thermal Analysis:</h4>
-                                <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                                    <li><span class="font-semibold">High-Performance Liquid Chromatography (HPLC):</span> Experienced in separating, purifying, and quantifying components in complex mixtures.</li>
-                                    <li><span class="font-semibold">Thermo gravimetric Analysis (TGA):</span> Specialized in measuring thermal stability, decomposition kinetics, and material composition.</li>
-                                    <li><span class="font-semibold">Particle Size Analyser:</span> Precision measurement of particle size distribution for quality control and formulation optimization.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p class="text-sm text-e0e0e0 italic mt-3">Spectroscopy: (FTIR, Raman, NMR, UV-Vis, MS) These all interact with electromagnetic radiation (light or radio waves) to gather information about molecular structure and concentration.</p>
-                    </div>
-                    <div class="card card-content">
-                        <h3>Software & Simulation</h3>
-                        <span class="text-sm"><span class="text-accent">ASPEN plus, ASPEN tasc+, ASPEN Hysis, ANSYS (3D Modeling), CRM Software, web development, power BI, Statistical software (STATA EASE, Mini Tab. </span>
-                    <div class="card card-content">
-                        <h3>Experimental & Techniques</h3>
-                        <span class="text-sm">Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>, Polarization, <span class="text-accent">EIS</span> (electro chemical impedance spectroscopy), Equipment handling.</span>
-                                <section id="extracurricular" class="content-section">
-                <h2 class="section-heading">Extracurricular Activities & Honors</h2>
-                <div class="grid md:grid-cols-1 gap-4">
-                    <div class="card card-content">
+<section id="skills" class="content-section">
+    <h2 class="section-heading">Skills & Core Expertise</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+
+        <div class="card card-content md:col-span-2">
+            <h3 class="text-accent">Software & Simulation</h3>
+            <p class="text-sm text-e0e0e0 italic mb-2">Advanced tools for Process Modeling, Simulation, and Data Analysis.</p>
+            
+            <h4 class="sub-sub-heading mt-2">Business Analytics Tools:</h4>
+            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                <li><span class="font-semibold">Power BI (Data visualization):</span> Used to visualize data and share insights across an organization. Connects to various data sources to create interactive dashboards and reports.</li>
+                <li><span class="font-semibold">CRM software tool (Customer Relation Management).</span></li>
+            </ul>
+
+            <h4 class="sub-sub-heading mt-3">Statistical and Data Analysis Tools:</h4>
+            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                <li><span class="font-semibold">State ease:</span> Used for Econometrics, Panel Data, Epidemiology, and Social Science (for modeling the process and optimizing the model for best fit using regression).</li>
+                <li><span class="font-semibold">Mini Tab:</span> Used for Quality Control, Six Sigma, and Basic Statistics Education.</li>
+            </ul>
+            
+            <h4 class="sub-sub-heading mt-3">Process Simulation Tools (Macroscopic/Microscopic):</h4>
+            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                <li><span class="font-semibold">Aspen Plus and Aspen HYSYS:</span> Comprehensive process simulation software used to model and optimize entire chemical plants or processes (Steady state simulation).</li>
+                <li><span class="font-semibold">Aspen TASC+:</span> Specialized **heat exchanger design, rating, and simulation** tool.</li>
+                <li><span class="font-semibold">Ansys Fluent (CFX):</span> Focus on **CFD (Computational Fluid Dynamics)** for detailed reactor design, optimizing mixing, and studying complex flow patterns (3D Modeling and simulation).</li>
+            </ul>
+        </div>
+
+        <hr class="md:col-span-2 my-2 border-gray-600">
+        
+        <div class="card card-content md:col-span-2">
+            <h3>Managerial, HR, & Business Process Outsourcing Skills</h3>
+            <p class="text-sm text-e0e0e0 italic mb-2">Leadership, Operational Management, and Strategic Business Development.</p>
+            <div class="grid md:grid-cols-2 gap-x-6 text-sm">
+                <div>
+                    <h4 class="sub-sub-heading">Business Process & Automation:</h4>
+                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
+                        <li><span class="font-semibold">CRM software (Customer Relation Management):</span> Used for **Automation** of project status and daily operations.</li>
+                        <li><span class="font-semibold">Sales Manager (BPO):</span> Identify and target new BPO clients, convert leads to clients, and negotiate contracts.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="sub-sub-heading">Management & HR Responsibilities:</h4>
+                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
+                        <li><span class="font-semibold">Managerial/Leadership Skills:</span> Digital marketing for Lead generation, **Stress & Time Management**, maintaining a **70-employee database** in CRM.</li>
+                        <li><span class="font-semibold">Employee Engagement:</span> Drive engagement through events, surveys, and wellness initiatives.</li>
+                        <li><span class="font-semibold">HR/Payroll:</span> Payroll generation, managing benefits and attendance systems, and employee department allocation based on skill sets.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-content md:col-span-2">
+            <h3>Analytical & Spectroscopic Techniques</h3>
+            <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
+            <div class="grid md:grid-cols-2 gap-x-6 text-sm">
+                <div>
+                    <h4 class="sub-sub-heading">Spectroscopy Skills:</h4>
+                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
+                        <li><span class="font-semibold">Infrared (IR) & Raman Spectroscopy (FTIR & Raman):</span> Utilized for molecular identification, structural analysis, and polymorphism.</li>
+                        <li><span class="font-semibold">Nuclear Magnetic Resonance (NMR):</span> Expertise in determining precise molecular structure, purity, and concentration.</li>
+                        <li><span class="font-semibold">UV-Visible Spectrometry (UV-Vis):</span> Used for quantitative analysis and concentration determination.</li>
+                        <li><span class="font-semibold">Mass Spectrometry (MS):</span> Advanced skills in identifying unknown compounds and determining molecular weight and structure.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="sub-sub-heading">Separation & Thermal Analysis:</h4>
+                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
+                        <li><span class="font-semibold">High-Performance Liquid Chromatography (HPLC):</span> Experienced in separating, purifying, and quantifying components in complex mixtures.</li>
+                        <li><span class="font-semibold">Thermo gravimetric Analysis (TGA):</span> Specialized in measuring thermal stability, decomposition kinetics, and material composition.</li>
+                        <li><span class="font-semibold">Particle Size Analyser:</span> Precision measurement of particle size distribution for quality control and formulation optimization.</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-sm text-e0e0e0 italic mt-3">Spectroscopy: (FTIR, Raman, NMR, UV-Vis, MS) These all interact with electromagnetic radiation (light or radio waves) to gather information about molecular structure and concentration.</p>
+        </div>
+        
+        <div class="card card-content md:col-span-2">
+            <h3>Core Experimental Techniques (Chemical Engineering)</h3>
+            <ul class="list-disc list-inside ml-4 space-y-1 text-sm mt-2">
+                <li><span class="font-semibold">Process Intensification:</span> Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>.</li>
+                <li><span class="font-semibold">Corrosion Testing:</span> Polarization, <span class="text-accent">EIS</span> (Electro Chemical Impedance Spectroscopy).</li>
+                <li><span class="font-semibold">General:</span> Equipment handling, high-pressure/temperature reaction setup.</li>
+            </ul>
+        </div>
+        
+                </div>
+</section>
+            
                         <h3>Awards & Participation</h3>
                         <span class="text-sm block mt-1">Sports: <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</span>
                         <span class="text-sm block mt-1">Academics: <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</span>
