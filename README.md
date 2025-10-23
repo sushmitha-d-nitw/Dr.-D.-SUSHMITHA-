@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
     <style>
         /* BASE STYLES: FULL BLUE BACKGROUND, WHITE TEXT */
         body {
@@ -185,7 +185,8 @@
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
                 <a href="#skills" class="nav-link" data-target="skills">Skills</a>
-                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Activities</a>
+                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards and Recognition</a>
+                <a href="#extra-curricular" class="nav-link" data-target="extra-curricular">Extra Curricular</a>
                 <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
                 <a href="#contact" class="nav-link" data-target="contact">Contact</a>
             </nav>
@@ -299,9 +300,8 @@
                     <div class="card card-content">
                         <h3>Research & Professional Roles</h3>
                         <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
-                            <li><span class="text-accent">Best Paper Award</span> (Research Conclave-17)</li>
-                            <li>Official Reviewer for <span class="text-accent">3 Elsevier journals</span></li>
-                            <li>Memberships: Associate Member of <span class="text-accent">IICHE</span> and <span class="text-accent">IEI</span></li>
+                            <li>Official Reviewer for <span class="text-accent">3 Elsevier journals</span> (Detailed in Awards section).</li>
+                            <li>Memberships: Associate Member of <span class="text-accent">IICHE</span> and <span class="text-accent">IEI</span>.</li>
                         </ul>
                     </div>
                 </div>
@@ -313,31 +313,31 @@
                     
                     <h3>Journal Publications (6 Papers)</h3>
                     <ol class="list-decimal list-inside text-sm ml-4 mt-3 pub-list">
-                        <li><span class="font-semibold text-accent">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultrasonication and Sonochemistry* (IF: 9.336, Indexed: SCI, Scopus). <a href="https://doi.org/10.1016/j.ultsonch.2019.104914" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-accent">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journal*, Vol 45 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2021.02.576" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-accent">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity by Incorporation of Nano Cellulose in Two pack epoxy polyamide system.</span> in *Materials today Proceedings Journal*, Vol 46 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2020.09.341" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-accent">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* (IF: 0.5, Indexed: Scopus). <a href="https://doi.org/10.1007/978-981-13-1903-763" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
-                        <li><span class="font-semibold text-accent">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *International Journal of Engineering & Technology* (Indexed: Scopus H-Index: 2).</li>
-                        <li><span class="font-semibold text-accent">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and development* (IF: 4.364, Indexed: Copernicus Index). <a href="http://www.rspublication.com/ijeted" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultrasonication and Sonochemistry* (IF: 9.336, Indexed: SCI, Scopus). <a href="https://doi.org/10.1016/j.ultsonch.2019.104914" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journal*, Vol 45 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2021.02.576" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity by Incorporation of Nano Cellulose in Two pack epoxy polyamide system.</span> in *Materials today Proceedings Journal*, Vol 46 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2020.09.341" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* (IF: 0.5, Indexed: Scopus). <a href="https://doi.org/10.1007/978-981-13-1903-763" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *International Journal of Engineering & Technology* (Indexed: Scopus H-Index: 2).</li>
+                        <li><span class="font-semibold">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and development* (IF: 4.364, Indexed: Copernicus Index). <a href="http://www.rspublication.com/ijeted" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
                     </ol>
 
                     <h3 class="mt-6">International Conference Papers (15 Titles)</h3>
                     <ol class="list-decimal list-inside text-sm ml-4 mt-3 pub-list">
-                        <li><span class="font-semibold text-accent">Synthesis of biodegradable multifunctional cellulose hydrogel produced from tectona grandis.</span> (RACEEE-2023) </li>
-                        <li><span class="font-semibold text-accent">Comparison of self-healing performance of natural anti-corrosion agents, lignin and cellulose on mild steel.</span> (ICWEE-2021) </li>
-                        <li><span class="font-semibold text-accent">Evolvement Of Electric Double Layer Pseudo Capacitor By Self-healing Corrosion Inhibition Of Mild Steel.</span> (SEMCON-2022) </li>
-                        <li><span class="font-semibold text-accent">Review on Ultra high build solvent less self-healing coatings.</span> (2nd ICAMSE-2021) </li>
-                        <li><span class="font-semibold text-accent">Comparison and Evaluation of corrosion inhibition performance of organic coatings.</span> (ICRAMC-2021) </li>
-                        <li><span class="font-semibold text-accent">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highlight">ISBN: 978-93-86238-86-3</span></li>
-                        <li><span class="font-semibold text-accent">Synthesis of Eco-Friendly and Multifunctional Lignin Based Cellulose Hydrogel from Tectona Grandis Sawdust.</span> (CRAFT 2020) </li>
-                        <li><span class="font-semibold text-accent">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-82829-68-3</span></li>
-                        <li><span class="font-semibold text-accent">Optimization of Hydrothermally treated sawdust using RSM CCD.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
-                        <li><span class="font-semibold text-accent">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
-                        <li><span class="font-semibold text-accent">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 2341-582</span></li>
-                        <li><span class="font-semibold text-accent">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) </li>
-                        <li><span class="font-semibold text-accent">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) </li>
-                        <li><span class="font-semibold text-accent">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-1-56700-478-6</span></li>
-                        <li><span class="font-semibold text-accent">Early Research Work Title (15th Conference Paper) - Title not specified in source document.</span> (Placeholder)</li>
+                        <li><span class="font-semibold">Synthesis of biodegradable multifunctional cellulose hydrogel produced from tectona grandis.</span> (RACEEE-2023) </li>
+                        <li><span class="font-semibold">Comparison of self-healing performance of natural anti-corrosion agents, lignin and cellulose on mild steel.</span> (ICWEE-2021) </li>
+                        <li><span class="font-semibold">Evolvement Of Electric Double Layer Pseudo Capacitor By Self-healing Corrosion Inhibition Of Mild Steel.</span> (SEMCON-2022) </li>
+                        <li><span class="font-semibold">Review on Ultra high build solvent less self-healing coatings.</span> (2nd ICAMSE-2021) </li>
+                        <li><span class="font-semibold">Comparison and Evaluation of corrosion inhibition performance of organic coatings.</span> (ICRAMC-2021) </li>
+                        <li><span class="font-semibold">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highlight">ISBN: 978-93-86238-86-3</span></li>
+                        <li><span class="font-semibold">Synthesis of Eco-Friendly and Multifunctional Lignin Based Cellulose Hydrogel from Tectona Grandis Sawdust.</span> (CRAFT 2020) </li>
+                        <li><span class="font-semibold">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-82829-68-3</span></li>
+                        <li><span class="font-semibold">Optimization of Hydrothermally treated sawdust using RSM CCD.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
+                        <li><span class="font-semibold">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
+                        <li><span class="font-semibold">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 2341-582</span></li>
+                        <li><span class="font-semibold">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) </li>
+                        <li><span class="font-semibold">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) </li>
+                        <li><span class="font-semibold">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-1-56700-478-6</span></li>
+                        <li><span class="font-semibold">Early Research Work Title (15th Conference Paper) - Title not specified in source document.</span> (Placeholder)</li>
                     </ol>
 
                     <h3 class="mt-6">National Conference Papers (4)</h3>
@@ -440,18 +440,73 @@
 </section>
             
 <section id="extracurricular" class="content-section">
-    <h2 class="section-heading">Activities</h2>
-    <div class="grid md:grid-cols-2 gap-4">
+    <h2 class="section-heading">Awards and Recognition</h2>
+    <div class="grid md:grid-cols-1 gap-4">
         
         <div class="card card-content">
-            <h3>Awards & Participation (Sports & Academics)</h3>
-            <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
-                <li><span class="font-semibold">Sports Achievements:</span> <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2007).</li>
-                <li><span class="font-semibold">Academic/Other Participation:</span> <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</li>
+            <h3>Academic Awards & Professional Status</h3>
+            <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
+                <li class="flex justify-between items-center pr-4">
+                    <span><span class="font-semibold text-accent">Best Paper Award</span> in National Conference Research conclave-17 held at National Institute of Technology Warangal during March 18-19, 2017.</span>
+                    <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                </li>
+                
+                <li><span class="font-semibold text-accent">Official Reviewer</span> for three Elsevier journals:
+                    <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
+                        <li class="flex justify-between items-center pr-4">
+                            <span>“Renewable Energy” (Impact Factor: 8.01, SCIE/Scopus Indexed)</span>
+                            <a href="files/reviewer_renewable_energy_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                        </li>
+                        <li class="flex justify-between items-center pr-4">
+                            <span>“Materials Today Proceedings” (Impact Factor 1.46, Scopus Indexed)</span>
+                            <a href="files/reviewer_materials_today_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                        </li>
+                        <li class="flex justify-between items-center pr-4">
+                            <span>“Journal of King Saud University – Engineering Science” (Impact Factor 4.55, SCIE Indexed)</span>
+                            <a href="files/reviewer_ksa_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="flex justify-between items-center pr-4">
+                    <span><span class="font-semibold text-accent">Qualified GATE exam three times</span> (2009, 2010, 2012).</span>
+                    <a href="files/gate_scorecard.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                </li>
+                
+                <li class="flex justify-between items-center pr-4">
+                    <span>Received <span class="font-semibold text-accent">MHRD Scholarship</span> (Ministry of Human Resources Development), Govt. of India during Ph.D. in Chemical Engineering.</span>
+                    <a href="files/mhrd_scholarship_doc.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                </li>
+                
+                <li class="flex justify-between items-center pr-4">
+                    <span>Received <span class="font-semibold text-accent">AICTE Fellowship</span> (All India Council for Technical Education) during M.Tech in Chemical Engineering, NIT-W.</span>
+                    <a href="files/aicte_fellowship_doc.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                </li>
+                
+                <li class="flex justify-between items-center pr-4">
+                    <span><span class="font-semibold text-accent">IICHE Associate Membership</span>.</span>
+                    <a href="files/iiche_membership_card.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                </li>
             </ul>
         </div>
 
-        </div>
+    </div>
+</section>
+
+<section id="extra-curricular" class="content-section">
+    <h2 class="section-heading">Extra Curricular Activities</h2>
+    <div class="card card-content">
+        <h3>Sports, Arts, and Cultural Participation</h3>
+        <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
+            <li><span class="font-semibold text-accent">First Prize in Running Race</span> at JNTU-College Anantapur (2007).</li>
+            <li><span class="font-semibold text-accent">First Prize in Kho-Kho</span> at JNTU-Engineering College Anantapur (2007).</li>
+            <li><span class="font-semibold text-accent">Merit Prize</span> in the “Hindi Talent Test” (Tenth Class).</li>
+            <li><span class="font-semibold text-accent">Active Participant</span> in cultural festival events: “FUSION-05” and “SCHEMCON-06,” an Inter National level Symposium at JNTU, Engineering College Anantapur.</li>
+            <li>Bagged <span class="font-semibold text-accent">National Level Certificate</span> for participation in the “All India Inter school cultural festival” at Bangalore (2000, 2001, during ninth and tenth class).</li>
+            <li>Certified and badged for <span class="font-semibold text-accent">Collecting money to “Help age India”</span> (Third Class).</li>
+            <li>Awarded <span class="font-semibold text-accent">First Grade in “All India Painting Competition”</span> at Chennai (Thapasiya School of arts) (2000).</li>
+        </ul>
+    </div>
 </section>
             
             <section id="gallery" class="content-section">
