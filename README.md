@@ -518,12 +518,14 @@
                     <span>Received <span class="font-semibold text-accent">AICTE Fellowship</span> (All India Council for Technical Education) during M.Tech in Chemical Engineering, NIT-W.</span>
                 </li>
                 
-                <li>
-                    <span class="font-semibold text-accent">IICHE Lifetime Associate Membership:</span> LAM 61813 since December 2017.
+                <li class="flex justify-between items-center pr-4">
+                    <span><span class="font-semibold text-accent">IICHE Lifetime Associate Membership:</span> LAM 61813 since December 2017.</span>
+                    <a href="files/iiche_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
                 </li>
 
-                <li>
-                    <span class="font-semibold text-accent">IEI (Institute of Engineers India) Associate Membership:</span> AM3074954 since April 2023.
+                <li class="flex justify-between items-center pr-4">
+                    <span><span class="font-semibold text-accent">IEI (Institute of Engineers India) Associate Membership:</span> AM3074954 since April 2023.</span>
+                    <a href="files/iei_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
                 </li>
             </ul>
         </div>
@@ -551,37 +553,37 @@
                 <h2 class="section-heading">Professional Gallery</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery1.png" alt="Gallery Image 1" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery1.png" alt="Gallery Image 1" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">ICONSWM 2017 Presentation</p>
                         </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery2.png" alt="Gallery Image 2" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery2.png" alt="Gallery Image 2" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">Speaking at a Conference</p>
                         </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery3.png" alt="Gallery Image 3" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery3.png" alt="Gallery Image 3" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">Research Paper Presentation</p>
                         </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery4.png" alt="Gallery Image 4" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery4.png" alt="Gallery Image 4" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">Academic Event Participation</p>
                         </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery5.png" alt="Gallery Image 5" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery5.png" alt="Gallery Image 5" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">NITW Campus</p>
                         </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery6.png" alt="Gallery Image 6" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/gallery6.png" alt="Gallery Image 6" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">Group Photo</p>
                         </div>
