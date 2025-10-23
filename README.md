@@ -297,7 +297,7 @@
                         </ul>
                     </div>
                     <div class="card card-content">
-                        <h3>Awards & Professional Roles</h3>
+                        <h3>Research & Professional Roles</h3>
                         <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
                             <li><span class="text-accent">Best Paper Award</span> (Research Conclave-17)</li>
                             <li>Official Reviewer for <span class="text-accent">3 Elsevier journals</span></li>
@@ -436,86 +436,90 @@
             </ul>
         </div>
         
-                </div>
+    </div>
 </section>
             
-                        <h3>Awards & Participation</h3>
-                        <span class="text-sm block mt-1">Sports: <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2k7).</span>
-                        <span class="text-sm block mt-1">Academics: <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>Community & Other Honors</h3>
-                        <span class="text-sm block mt-1">Received a certificate for actively collecting money for <span class="text-accent">"Help age India"</span>.</span>
-                    </div>
-                </div>
-            </section>
+<section id="extracurricular" class="content-section">
+    <h2 class="section-heading">Activities</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+        
+        <div class="card card-content">
+            <h3>Awards & Participation (Sports & Academics)</h3>
+            <ul class="list-disc list-inside text-sm ml-4 space-y-1 mt-2">
+                <li><span class="font-semibold">Sports Achievements:</span> <span class="text-accent">First Prize in Running Race & Kho-kho</span> (JNTU-A, 2007).</li>
+                <li><span class="font-semibold">Academic/Other Participation:</span> <span class="text-accent">Merit prize in "Hindi Talent Test"</span> and <span class="text-accent">Active participant in "FUSION-05" & "SCHEMCON-06"</span> events.</li>
+            </ul>
+        </div>
 
+        </div>
+</section>
+            
             <section id="gallery" class="content-section">
-                <h2 class="section-heading">Project Gallery & Research Visuals (10 Photos)</h2>
-                <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                <h2 class="section-heading">Professional Gallery</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%201.jpg" alt="Gallery Image 1" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery1.png" alt="Gallery Image 1" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">ICONSWM 2017 Presentation</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%202.png" alt="Gallery Image 2" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Parampara 2025 Inauguration</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery2.png" alt="Gallery Image 2" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Speaking at a Conference</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%203.jpg" alt="Gallery Image 3" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Conference Judge</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery3.png" alt="Gallery Image 3" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Research Paper Presentation</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%204.png" alt="Gallery Image 4" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Awards: Best Paper & Conference</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery4.png" alt="Gallery Image 4" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Academic Event Participation</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%205.jpg" alt="Gallery Image 5" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Mehendi Traditional Event</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery5.png" alt="Gallery Image 5" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">NITW Campus</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%206.jpg" alt="Gallery Image 6" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%207.jpg" alt="Gallery Image 7" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%208.jpg" alt="Gallery Image 8" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Food Donation</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/website%20phototes/Image%209.png" alt="Gallery Image 9" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Awards for Cultural and Sports Activities</span>
-                    </div>
-                    <div class="relative group">
-                        <img src="https://cdn.jsdelivr.net/gh/sushmitha-d-nitw/Dr.D.SUSHMITHA/nitw.png" alt="Gallery Image 10" class="gallery-image">
-                        <span class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs p-2 text-center">Convocation</span>
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery6.png" alt="Gallery Image 6" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Group Photo</p>
+                        </div>
                     </div>
                 </div>
             </section>
-
+            
             <section id="contact" class="content-section">
                 <h2 class="section-heading">Contact & Professional Links</h2>
-                <div class="card card-content">
-                    <h3>Reach Out</h3>
-                    <p class="text-sm mt-2 space-y-2">
-                        <span class="block">Email: <a href="mailto:sushmitha.d.nitw@gmail.com">sushmitha.d.nitw@gmail.com</a></span>
-                        <span class="block">Phone: <span class="text-accent">+91 79815 41047</span></span>
-                        
-<span class="block">LinkedIn: <a href="linkedin.com/in/sushmitha-0aa49b30/" class="text-blue-300 hover:text-blue-100">linkedin.com/in/sushmitha-0aa49b30</a></span>
-<span class="block">Scopus ID: <span class="text-accent">57213192955</span></span>
-<span class="block font-semibold">Google Scholar: <a href="[https://acesse.one/nuEPK]" class="text-blue-300 hover:text-blue-100">[GOOGLE SCHOLAR ID:Qk1uTQYAAAAJ]</a></span>
-<span class="block font-semibold">ORCID ID: <a href="https://orcid.org/0000-0002-1125-6904" class="text-blue-300 hover:text-blue-100">[0000-0002-1125-6904]</a></span>
-</p>
-</div>
-</section>
-</div>
-</main>
-    <footer class="py-4 border-t border-white/20 mt-auto">
-        <div class="container mx-auto px-6 text-center text-xs text-e0e0e0">
-            <p>&copy; 2025 Dr. D. Sushmitha Portfolio. Designed with Tailwind CSS on a blue field.</p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="card card-content">
+                        <h3>Personal Contact</h3>
+                        <p class="mt-2"><span class="text-accent font-semibold">Email:</span> d.sushmitha@gmail.com</p>
+                        <p><span class="text-accent font-semibold">Phone:</span> +91-1234567890</p>
+                        <p><span class="text-accent font-semibold">Location:</span> Hyderabad, Telangana, India</p>
+                    </div>
+                    <div class="card card-content">
+                        <h3>Professional Profiles</h3>
+                        <p class="mt-2"><span class="text-accent font-semibold">LinkedIn:</span> <a href="https://linkedin.com/in/drsushmitha" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></p>
+                        <p><span class="text-accent font-semibold">ResearchGate:</span> <a href="https://researchgate.net/profile/D-Sushmitha" target="_blank" class="text-blue-300 hover:text-blue-100">researchgate.net/profile/D-Sushmitha</a></p>
+                        <p><span class="text-accent font-semibold">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=xyz-abc" target="_blank" class="text-blue-300 hover:text-blue-100">scholar.google.com/citations</a></p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="mt-auto py-3 text-center text-xs text-gray-400">
+        <div class="container mx-auto px-4">
+            &copy; 2025 Dr. D. Sushmitha. All Rights Reserved. | Specialist Portfolio.
         </div>
     </footer>
 
@@ -524,48 +528,43 @@
             const navLinks = document.querySelectorAll('.nav-link');
             const contentSections = document.querySelectorAll('.content-section');
 
-            const showSection = (targetId) => {
-                // Hide all sections
+            const activateSection = (targetId) => {
                 contentSections.forEach(section => {
                     section.classList.remove('active');
-                    // Reset scroll to top when hiding/showing
-                    section.scrollTop = 0;
                 });
-
-                // Show the targeted section
-                const activeSection = document.querySelector(targetId);
-                if (activeSection) {
-                    activeSection.classList.add('active');
-                }
-
-                // Update active link class
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                });
-                const activeLink = document.querySelector(`.nav-link[data-target="${targetId.substring(1)}"]`);
-                if (activeLink) {
-                    activeLink.classList.add('active');
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.classList.add('active');
                 }
             };
 
-            // Event listeners for navigation links
+            const updateActiveLink = (targetId) => {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('data-target') === targetId) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+
             navLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
-                    const targetId = e.currentTarget.getAttribute('href');
-                    window.history.pushState(null, null, targetId); // Update URL hash without reload
-                    showSection(targetId);
+                    const targetId = e.target.getAttribute('data-target');
+                    if (targetId) {
+                        // Update URL hash for direct linking/back button
+                        history.pushState(null, '', `#${targetId}`); 
+                        activateSection(targetId);
+                        updateActiveLink(targetId);
+                    }
                 });
             });
 
-            // Initial section load based on URL hash or default to #about
-            const initialHash = window.location.hash || '#about';
-            showSection(initialHash);
-
-            // Re-show section on hash change (e.g., back/forward button)
-            window.addEventListener('hashchange', () => {
-                showSection(window.location.hash);
-            });
+            // Handle initial load based on URL hash
+            const initialHash = window.location.hash.replace('#', '');
+            const initialTarget = initialHash || 'about';
+            activateSection(initialTarget);
+            updateActiveLink(initialTarget);
         });
     </script>
 </body>
