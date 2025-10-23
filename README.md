@@ -256,30 +256,49 @@
 
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
-                <div class="grid md:grid-cols-2 gap-4">
-                    <div class="card card-content">
-                        <h3>Ph.D. in Chemical Engineering</h3>
-                        <span class="text-sm font-semibold block">NIT Warangal | Aug 2015 - Mar 2021.</span>
-                        <span class="text-sm block mt-1">Thesis: <span class="text-accent">Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion inhibition coatings.</span></span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>M.Tech in Chemical Engineering (7.28 CGPA)</h3>
-                        <span class="text-sm font-semibold block">NIT Warangal | Jul 2009 - Jul 2011.</span>
-                        <span class="text-sm block mt-1">Specialization: <span class="text-accent">Computer Aided Process Equipment Design</span>.</span>
-                        <span class="text-sm block mt-1">Project: <span class="text-accent">Improvement of Crude Benzol Production by Designing of 1-2 U-tube type Shell and Tube Heat Exchanger using Aspen.</span></span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>B.Tech in Chemical Engineering (67.56%)</h3>
-                        <span class="text-sm font-semibold block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
-                        <span class="text-sm block mt-1">Thesis: Simulation of <span class="text-accent">large-scale membrane reformers</span> (two-dimensional model).</span>
-                    </div>
-                    <div class="card card-content">
-                        <h3>GATE Qualification & Fellowships</h3>
-                        <span class="text-sm font-semibold block">Qualified GATE <span class="text-accent">three times</span> (2009, 2010, 2012); Highest Rank: <span class="text-accent">1219</span>.</span>
-                        <span class="text-sm block mt-1">Awarded <span class="text-accent">MHRD Scholarship</span> (Ph.D.) and <span class="text-accent">AICTE Fellowship</span> (M.Tech).</span>
-                    </div>
+                <div class="card card-content">
+                    <h3>Academic History & Credentials</h3>
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Ph.D. in Chemical Engineering</span>
+                                <span class="block">NIT Warangal | Aug 2015 - Mar 2021.</span>
+                                <span class="block italic text-xs">Thesis: Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion inhibition coatings.</span>
+                            </div>
+                            <a href="files/phd_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">M.Tech in Chemical Engineering (7.28 CGPA)</span>
+                                <span class="block">NIT Warangal | Jul 2009 - Jul 2011.</span>
+                                <span class="block italic text-xs">Specialization: Computer Aided Process Equipment Design. Project: Improvement of Crude Benzol Production...</span>
+                            </div>
+                            <a href="files/mtech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">B.Tech in Chemical Engineering (67.56%)</span>
+                                <span class="block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
+                                <span class="block italic text-xs">Thesis: Simulation of large-scale membrane reformers (two-dimensional model).</span>
+                            </div>
+                            <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">GATE Qualification & Fellowships</span>
+                                <span class="block">Qualified GATE three times (2009, 2010, 2012); Highest Rank: 1219.</span>
+                                <span class="block italic text-xs">Awarded MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
+                            </div>
+                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
+
 
             <section id="research" class="content-section">
                 <h2 class="section-heading">Core Research & Metrics</h2>
@@ -473,19 +492,20 @@
                     <a href="files/gate_scorecard.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
                 </li>
                 
-                <li class="flex justify-between items-center pr-4">
+                <li>
                     <span>Received <span class="font-semibold text-accent">MHRD Scholarship</span> (Ministry of Human Resources Development), Govt. of India during Ph.D. in Chemical Engineering.</span>
-                    <a href="files/mhrd_scholarship_doc.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
                 </li>
                 
-                <li class="flex justify-between items-center pr-4">
+                <li>
                     <span>Received <span class="font-semibold text-accent">AICTE Fellowship</span> (All India Council for Technical Education) during M.Tech in Chemical Engineering, NIT-W.</span>
-                    <a href="files/aicte_fellowship_doc.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
                 </li>
                 
-                <li class="flex justify-between items-center pr-4">
-                    <span><span class="font-semibold text-accent">IICHE Associate Membership</span>.</span>
-                    <a href="files/iiche_membership_card.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
+                <li>
+                    <span class="font-semibold text-accent">IICHE Lifetime Associate Membership:</span> LAM 61813 since December 2017.
+                </li>
+
+                <li>
+                    <span class="font-semibold text-accent">IEI (Institute of Engineers India) Associate Membership:</span> AM3074954 since April 2023.
                 </li>
             </ul>
         </div>
