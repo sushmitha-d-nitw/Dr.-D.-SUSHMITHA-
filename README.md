@@ -185,7 +185,7 @@
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
                 <a href="#skills" class="nav-link" data-target="skills">Skills</a>
-                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards and Recognition</a>
+                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards & Recognition</a>
                 <a href="#extra-curricular" class="nav-link" data-target="extra-curricular">Extra Curricular</a>
                 <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
                 <a href="#contact" class="nav-link" data-target="contact">Contact</a>
