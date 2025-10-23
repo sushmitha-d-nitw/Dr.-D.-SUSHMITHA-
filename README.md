@@ -401,7 +401,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="card card-content md:col-span-2">
             <h3>Analytical & Spectroscopic Techniques</h3>
             <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
