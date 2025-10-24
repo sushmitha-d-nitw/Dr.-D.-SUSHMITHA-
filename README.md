@@ -521,13 +521,26 @@
 </section>
 
 <section id="extra-curricular" class="content-section">
+   <section id="extra-curricular" class="content-section">
     <h2 class="section-heading">Extra Curricular Activities & Interests</h2>
     <div class="card card-content">
         <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-            <li><span class="font-semibold text-accent block">Trekking and Nature Exploration:</span> Regular participation in local and regional treks, fostering teamwork and resilience.</li>
-            <li><span class="font-semibold text-accent block">Literary and Creative Writing:</span> Contributed articles to college magazines and online platforms focused on science communication and technology ethics.</li>
-            <li><span class="font-semibold text-accent block">Community Engagement:</span> Involved in organizing student mentorship programs and career counseling sessions for underprivileged students.</li>
-            <li><span class="font-semibold text-accent block">Technical Events:</span> Served as Event Coordinator for national-level technical symposiums, managing logistics for up to 500 participants.</li>
+            <li>
+                <span class="font-semibold text-accent inline">Literary and Creative Writing:</span>
+                Contributed articles to college magazines and online platforms focused on science communication and technology ethics.
+            </li>
+            <li>
+                <span class="font-semibold text-accent inline">Community Engagement:</span>
+                Involved in organizing student mentorship programs and career counseling sessions for underprivileged students.
+            </li>
+            <li>
+                <span class="font-semibold text-accent inline">Technical Events:</span>
+                Served as Event Coordinator for national-level technical symposiums, managing logistics for up to 500 participants.
+            </li>
+             <li>
+                <span class="font-semibold text-accent inline">Trekking and Nature Exploration:</span>
+                Regular participation in local and regional treks, fostering teamwork and resilience.
+            </li>
         </ul>
     </div>
 </section>
