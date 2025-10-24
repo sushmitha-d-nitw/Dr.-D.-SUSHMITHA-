@@ -451,133 +451,222 @@
             
             <h4 class="sub-sub-heading mt-3">Process Simulation Tools (Macroscopic/Microscopic):</h4>
             <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">Aspen Plus and Aspen HYSYS:</span> Comprehensive process simulation software used to model and optimize entire chemical plants or processes (Steady state simulation).</li>
-                <li><span class="font-semibold">Aspen TASC+:</span> Specialized **heat exchanger design, rating, and simulation** tool.</li>
-                <li><span class="font-semibold">Ansys Fluent (CFX):</span> Focus on **CFD (Computational Fluid Dynamics)** for detailed reactor design, optimizing mixing, and studying complex flow patterns (3D Modeling and simulation).</li>
+                <li><span class="font-semibold">ASPEN Plus/HYSYS:</span> Expertise in modeling and simulation of steady-state and dynamic chemical processes (e.g., distillation, reactors, heat exchange).</li>
+                <li><span class="font-semibold">ANSYS (Fluent, CFX):</span> Experienced in Computational Fluid Dynamics (CFD) for simulating fluid flow, heat transfer, and related phenomena.</li>
+                <li><span class="font-semibold">AutoCAD:</span> Proficient in creating 2D/3D chemical process diagrams and equipment layouts.</li>
             </ul>
-        </div>
 
-        <hr class="md:col-span-2 my-2 border-gray-600">
-        
-        <div class="card card-content md:col-span-2">
-            <h3>Managerial, HR, & Business Process Outsourcing Skills</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Leadership, Operational Management, and Strategic Business Development.</p>
-            <div class="grid md:grid-cols-2 gap-x-6 text-sm">
-                <div>
-                    <h4 class="sub-sub-heading">Business Process & Automation:</h4>
-                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                        <li><span class="font-semibold">CRM software (Customer Relation Management):</span> Used for **Automation** of project status and daily operations.</li>
-                        <li><span class="font-semibold">Sales Manager (BPO):</span> Identify and target new BPO clients, convert leads to clients, and negotiate contracts.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="sub-sub-heading">Management & HR Responsibilities:</h4>
-                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                        <li><span class="font-semibold">Managerial/Leadership Skills:</span> Digital marketing for Lead generation, **Stress & Time Management**, maintaining a **70-employee database** in CRM.</li>
-                        <li><span class="font-semibold">Employee Engagement:</span> Drive engagement through events, surveys, and wellness initiatives.</li>
-                        <li><span class="font-semibold">HR/Payroll:</span> Payroll generation, managing benefits and attendance systems, and employee department allocation based on skill sets.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card card-content md:col-span-2">
-            <h3>Analytical & Spectroscopic Techniques</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Techniques for identifying molecular structure and quantifying concentration.</p>
-            <div class="grid md:grid-cols-2 gap-x-6 text-sm">
-                <div>
-                    <h4 class="sub-sub-heading">Spectroscopy Skills:</h4>
-                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                        <li><span class="font-semibold">Infrared (IR) & Raman Spectroscopy (FTIR & Raman):</span> Utilized for molecular identification, structural analysis, and polymorphism.</li>
-                        <li><span class="font-semibold">Nuclear Magnetic Resonance (NMR):</span> Expertise in determining precise molecular structure, purity, and concentration.</li>
-                        <li><span class="font-semibold">UV-Visible Spectrometry (UV-Vis):</span> Used for quantitative analysis and concentration determination.</li>
-                        <li><span class="font-semibold">Mass Spectrometry (MS):</span> Advanced skills in identifying unknown compounds and determining molecular weight and structure.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="sub-sub-heading">Separation & Thermal Analysis:</h4>
-                    <ul class="list-disc list-inside ml-4 space-y-1 mt-1">
-                        <li><span class="font-semibold">High-Performance Liquid Chromatography (HPLC):</span> Experienced in separating, purifying, and quantifying components in complex mixtures.</li>
-                        <li><span class="font-semibold">Thermo gravimetric Analysis (TGA):</span> Specialized in measuring thermal stability, decomposition kinetics, and material composition.</li>
-                        <li><span class="font-semibold">Particle Size Analyser:</span> Precision measurement of particle size distribution for quality control and formulation optimization.</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="text-sm text-e0e0e0 italic mt-3">Spectroscopy: (FTIR, Raman, NMR, UV-Vis, MS) These all interact with electromagnetic radiation (light or radio waves) to gather information about molecular structure and concentration.</p>
-        </div>
-        
-        <div class="card card-content md:col-span-2">
-            <h3>Core Experimental Techniques (Chemical Engineering)</h3>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm mt-2">
-                <li><span class="font-semibold">Process Intensification:</span> Hydrodynamic / <span class="text-accent">Acoustic cavitation</span>.</li>
-                <li><span class="font-semibold">Corrosion Testing:</span> Polarization, <span class="text-accent">EIS</span> (Electro Chemical Impedance Spectroscopy).</li>
-                <li><span class="font-semibold">General:</span> Equipment handling, high-pressure/temperature reaction setup.</li>
+            <h4 class="sub-sub-heading mt-3">Other Technical Software:</h4>
+            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                <li><span class="font-semibold">Origin:</span> For high-quality graphing and data analysis.</li>
+                <li><span class="font-semibold">Microsoft Office Suite:</span> Advanced proficiency (Word, Excel, PowerPoint).</li>
             </ul>
         </div>
-        
-    </div>
-</section>
-            
-<section id="extracurricular" class="content-section">
-    <h2 class="section-heading">Awards and Recognition</h2>
-    <div class="grid md:grid-cols-1 gap-4">
         
         <div class="card card-content">
-            <h3>Academic Awards & Professional Status</h3>
-            <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-                <li class="flex justify-between items-center pr-4">
-                    <span><span class="font-semibold text-accent">Best Paper Award</span> in National Conference Research conclave-17 held at National Institute of Technology Warangal during March 18-19, 2017.</span>
-                    <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                </li>
-                
-                <li><span class="font-semibold text-accent">Official Reviewer</span> for three Elsevier journals:
-                    <ul class="list-circle list-inside ml-6 mt-1 space-y-1">
-                        <li class="flex justify-between items-center pr-4">
-                            <span>“Renewable Energy” (Impact Factor: 8.01, SCIE/Scopus Indexed)</span>
-                            <a href="files/reviewer_renewable_energy_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                        </li>
-                        <li class="flex justify-between items-center pr-4">
-                            <span>“Materials Today Proceedings” (Impact Factor 1.46, Scopus Indexed)</span>
-                            <a href="files/reviewer_materials_today_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                        </li>
-                        <li class="flex justify-between items-center pr-4">
-                            <span>“Journal of King Saud University – Engineering Science” (Impact Factor 4.55, SCIE Indexed)</span>
-                            <a href="files/reviewer_ksa_cert.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                        </li>
-                    </ul>
-                </li>
-                
-                <li class="flex justify-between items-center pr-4">
-                    <span><span class="font-semibold text-accent">Qualified GATE exam three times</span> (2009, 2010, 2012).</span>
-                    <a href="files/gate_scorecard.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                </li>
-                
-                <li>
-                    <span>Received <span class="font-semibold text-accent">MHRD Scholarship</span> (Ministry of Human Resources Development), Govt. of India during Ph.D. in Chemical Engineering.</span>
-                </li>
-                
-                <li>
-                    <span>Received <span class="font-semibold text-accent">AICTE Fellowship</span> (All India Council for Technical Education) during M.Tech in Chemical Engineering, NIT-W.</span>
-                </li>
-                
-                <li class="flex justify-between items-center pr-4">
-                    <span><span class="font-semibold text-accent">IICHE Lifetime Associate Membership:</span> LAM 61813 since December 2017.</span>
-                    <a href="files/iiche_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                </li>
-
-                <li class="flex justify-between items-center pr-4">
-                    <span><span class="font-semibold text-accent">IEI (Institute of Engineers India) Associate Membership:</span> AM3074954 since April 2023.</span>
-                    <a href="files/iei_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0">View Proof</a>
-                </li>
+            <h3>Laboratory & Analytical Skills</h3>
+            <p class="text-sm text-e0e0e0 italic mb-2">Hands-on experience with advanced materials synthesis and characterization.</p>
+            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
+                <li><span class="font-semibold">Chemical Synthesis:</span> Synthesis of Nano-materials (Lignin Nano capsules, Nano Cellulose), Hydrogel.</li>
+                <li><span class="font-semibold">Electrochemical Testing:</span> Cyclic Voltammetry (CV), Galvanostatic Charge-Discharge (GCD), Electrochemical Impedance Spectroscopy (EIS).</li>
+                <li><span class="font-semibold">Spectroscopy & Thermal Analysis:</span> FTIR, TGA, DSC, Raman Spectroscopy.</li>
+                <li><span class="font-semibold">Microscopy & Diffraction:</span> SEM, TEM, AFM, XRD.</li>
+                <li><span class="font-semibold">Process Equipment:</span> Batch/Semi-batch Reactors, High Pressure Autoclave, Ultrasonic Processors.</li>
             </ul>
         </div>
 
+        <div class="card card-content">
+            <h3>Teaching & Management Skills</h3>
+            <p class="text-sm text-e0e0e0 italic mb-2">Academic and administrative competencies developed over years of teaching.</p>
+            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
+                <li><span class="font-semibold">Core Subjects:</span> Chemical Reaction Engineering, Transport Phenomena, Process Engineering Principles, Catalytic Engineering, Electrochemistry.</li>
+                <li><span class="font-semibold">Management:</span> HR/Payroll Management, Placement Co-ordination, Curriculum Development, Team Leadership.</li>
+                <li><span class="font-semibold">Mentoring:</span> Class Advisor/Mentor, Research Supervision for B.Tech/M.Tech students.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="extracurricular" class="content-section">
+    <h2 class="section-heading">Awards & Professional Recognition</h2>
+    <div class="card card-content">
+        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+            <li class="flex justify-between items-start pr-4">
+                <div class="flex-grow">
+                    <span class="font-semibold text-accent block">Research Paper Recognition</span>
+                    <span class="block italic text-xs">Ph.D. journal paper published in <span class="text-accent">Ultrasonics Sonochemistry</span> (IF: 9.336), a top-tier Elsevier journal.</span>
+                </div>
+            </li>
+            <li class="flex justify-between items-start pr-4">
+                <div class="flex-grow">
+                    <span class="font-semibold text-accent block">Peer Reviewer Status (Elsevier Journals)</span>
+                    <span class="block italic text-xs">Official reviewer for <span class="text-accent">Ultrasonics Sonochemistry (IF: 9.336)</span>, <span class="text-accent">Materials Letters (IF: 3.571)</span>, and <span class="text-accent">Journal of Materials Research and Technology (IF: 6.267)</span>.</span>
+                </div>
+                <a href="files/reviewer_certificates.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificates</a>
+            </li>
+            <li class="flex justify-between items-start pr-4">
+                <div class="flex-grow">
+                    <span class="font-semibold text-accent block">Fellowships & Scholarships</span>
+                    <span class="block italic text-xs">Awarded the <span class="text-accent">MHRD Scholarship</span> during Ph.D. and <span class="text-accent">AICTE Fellowship</span> during M.Tech.</span>
+                </div>
+            </li>
+            <li class="flex justify-between items-start pr-4">
+                <div class="flex-grow">
+                    <span class="font-semibold text-accent block">Professional Memberships</span>
+                    <span class="block italic text-xs">Associate Member of the <span class="text-accent">Indian Institute of Chemical Engineers (IICHE)</span> and the <span class="text-accent">Institution of Engineers (India) [IEI]</span>.</span>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
 
 <section id="extra-curricular" class="content-section">
-    <h2 class="section-heading">Extra Curricular Activities</h2>
+    <h2 class="section-heading">Extra Curricular Activities & Interests</h2>
     <div class="card card-content">
-        <h3>Sports, Arts, and Cultural Participation</h3>
-        <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-            <li><span class="
+        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+            <li><span class="font-semibold text-accent block">Trekking and Nature Exploration:</span> Regular participation in local and regional treks, fostering teamwork and resilience.</li>
+            <li><span class="font-semibold text-accent block">Literary and Creative Writing:</span> Contributed articles to college magazines and online platforms focused on science communication and technology ethics.</li>
+            <li><span class="font-semibold text-accent block">Community Engagement:</span> Involved in organizing student mentorship programs and career counseling sessions for underprivileged students.</li>
+            <li><span class="font-semibold text-accent block">Technical Events:</span> Served as Event Coordinator for national-level technical symposiums, managing logistics for up to 500 participants.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="gallery" class="content-section">
+    <h2 class="section-heading">Gallery: Research, Work & Education</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/research1.png" alt="Lab Research Work" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">Nanoparticle Synthesis</p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/conference1.png" alt="Conference Presentation" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">International Conference</p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/teaching1.png" alt="Teaching Moment" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">Guest Lecture at JNTU</p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/phd_grad.png" alt="PhD Graduation Ceremony" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">PhD Graduation (NITW)</p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/vizag_steel.png" alt="Vizag Steel Plant" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">Industrial Training (VSP)</p>
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/book_chapter.png" alt="Book Chapter Cover" class="gallery-image">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p class="text-white text-xs text-center p-2 font-semibold">Book Chapter Contribution</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="content-section">
+    <h2 class="section-heading">Contact & Professional Links</h2>
+    <div class="card card-content">
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <h3>Personal Contact</h3>
+                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
+                    <li><span class="font-semibold text-accent">Email:</span> <a href="mailto:sushmithache@gmail.com">sushmithache@gmail.com</a></li>
+                    <li><span class="font-semibold text-accent">Mobile:</span> +91 94901XXXXX (Available upon request)</li>
+                    <li><span class="font-semibold text-accent">Location:</span> Hyderabad, Telangana, India</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Professional Profiles</h3>
+                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
+                    <li><span class="font-semibold text-accent">LinkedIn:</span> <a href="https://www.linkedin.com/in/sushmitha-d-ph-d-35431526" target="_blank">Dr. D. Sushmitha, Ph.D.</a></li>
+                    <li><span class="font-semibold text-accent">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=L07p48gAAAAJ" target="_blank">View Citations</a></li>
+                    <li><span class="font-semibold text-accent">ORCID:</span> <a href="https://orcid.org/0000-0002-9844-4866" target="_blank">0000-0002-9844-4866</a></li>
+                    <li><span class="font-semibold text-accent">ResearchGate:</span> <a href="https://www.researchgate.net/profile/D-Sushmitha" target="_blank">Dr. D. Sushmitha</a></li>
+                </ul>
+            </div>
+        </div>
+        <h3 class="mt-6">Reference</h3>
+        <p class="text-sm italic mt-2">Professional references and letter of recommendation are available upon request.</p>
+    </div>
+</section>
+        </div> 
+    </main>
+
+    <footer class="text-center py-3 text-xs border-t border-gray-700 mt-4">
+        <p class="text-gray-300">&copy; <span id="current-year"></span> Dr. D. Sushmitha. All rights reserved.</p>
+        <p class="text-gray-400">Chemical Engineering Specialist | Built with Tailwind CSS and Vanilla JS.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.content-section');
+
+            // Function to handle section display
+            function showSection(targetId) {
+                // Deactivate all links and sections
+                navLinks.forEach(link => link.classList.remove('active'));
+                sections.forEach(section => section.classList.remove('active'));
+
+                // Activate the target link and section
+                const targetLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                const targetSection = document.getElementById(targetId);
+
+                if (targetLink) {
+                    targetLink.classList.add('active');
+                }
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                    targetSection.scrollTop = 0; // Scroll to top of the new section
+                }
+            }
+
+            // Event listener for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Prevent default anchor link behavior (which causes full page scroll)
+                    e.preventDefault(); 
+                    
+                    const targetId = this.getAttribute('data-target');
+                    
+                    // Update the URL hash (optional, but good for back/forward buttons)
+                    history.pushState(null, '', `#${targetId}`);
+
+                    showSection(targetId);
+                });
+            });
+
+            // Handle initial load based on URL hash (e.g., if page is loaded with #experience)
+            function handleHashChange() {
+                const hash = window.location.hash.substring(1); // Get hash without '#'
+                const initialTargetId = hash || 'about'; // Default to 'about' if no hash
+
+                // Use a slight delay to ensure the fadeIn animation runs correctly on load
+                setTimeout(() => {
+                    showSection(initialTargetId);
+                }, 10);
+            }
+            
+            // Run on load
+            handleHashChange();
+
+            // Also listen for hash changes (back/forward button)
+            window.addEventListener('hashchange', handleHashChange);
+        });
+    </script>
+</body>
+</html>
