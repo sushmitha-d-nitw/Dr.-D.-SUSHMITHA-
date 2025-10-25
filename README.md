@@ -34,15 +34,23 @@
             font-weight: 700;
         }
 
-        /* Card/Sub-Section Headings (H3) - REDUCED SIZE AND MARGINS HERE */
+        /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
-            font-size: 1.25rem; /* Reduced from 1.5rem (text-xl) */
-            line-height: 1.75rem;
+            /* 1. REDUCED H3 FONT SIZE */
+            font-size: 1.15rem; 
+            line-height: 1.6rem;
             font-weight: 600;
-            margin-bottom: 0.25rem;
-            margin-top: 0; /* Removing excess top gap */
+            /* 2. REDUCED VERTICAL MARGIN BEFORE SUBHEADINGS */
+            margin-bottom: 0.1rem; 
+            margin-top: 0; 
             padding-top: 0;
+        }
+
+        /* Further reduce vertical margin before h3 inside publications-detail for tighter spacing */
+        #publications-detail h3 {
+             margin-top: 0.5rem; 
+             margin-bottom: 0.1rem;
         }
 
         /* Sub-sub headings (H4/custom spans) */
@@ -67,8 +75,9 @@
             color: #BBDEFB;
         }
 
+        /* WIDENED CONTAINER MAX-WIDTH FOR MORE HORIZONTAL SPACE */
         .container {
-            max-width: 1400px;
+            max-width: 1600px; 
         }
         
         /* ADJUSTED PROFILE PICTURE STYLES */
@@ -76,24 +85,21 @@
             border-radius: 50%; /* Make it perfectly circular */
             border: 6px solid #fff;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-            /* Ensure the image fills the circle without distortion */
-            width: 100%; /* Take full width of its parent div (e.g., w-36/w-48) */
-            height: 100%; /* Take full height of its parent div */
-            object-fit: cover; /* Crop to fit the circular shape */
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
         }
-        /* Added to ensure the parent div of the profile picture is also a perfect square */
         .md\:w-1\/3 > .flex.justify-center {
             position: relative;
-            width: 144px; /* Matches w-36, change to 192px for md:w-48 */
-            height: 144px; /* Ensures a perfect square */
+            width: 144px; 
+            height: 144px; 
         }
         @media (min-width: 768px) { /* md breakpoint */
             .md\:w-1\/3 > .flex.justify-center {
-                width: 192px; /* Matches md:w-48 */
-                height: 192px; /* Ensures a perfect square */
+                width: 192px; 
+                height: 192px; 
             }
         }
-
 
         .card {
             background-color: rgba(255, 255, 255, 0.1); 
@@ -112,8 +118,9 @@
             font-size: 1rem; 
             padding-top: 0.5rem !important;
             padding-bottom: 0.5rem !important;
-            padding-left: 0.6rem !important;
-            padding-right: 0.6rem !important;
+            /* 3. INCREASED HORIZONTAL MARGIN/INDENTATION (left and right) */
+            padding-left: 1.25rem !important; 
+            padding-right: 1.25rem !important; 
             border-radius: 4px;
             transition: background-color 0.2s;
             white-space: nowrap; 
@@ -155,23 +162,21 @@
         .relative.group {
             position: relative;
             width: 100%;
-            padding-bottom: 100%; /* Makes the container a perfect square based on its width */
-            height: 0; /* Resets height to make padding-bottom effective */
-            overflow: hidden; /* Hides any overflow from the image */
-            border: 2px solid #fff; /* Optional: Add a border for definition */
-            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            padding-bottom: 100%; 
+            height: 0; 
+            overflow: hidden; 
+            border: 2px solid #fff; 
+            box-sizing: border-box; 
         }
-        .gallery-image { /* This targets the <img> inside the .relative.group */
+        .gallery-image { 
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensures the image fills the square, cropping as needed */
+            object-fit: cover; 
             display: block;
         }
-
-
     </style>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -205,7 +210,7 @@
                         <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
-                        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
+                        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
                         <h3 class="text-2xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
                             I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
@@ -423,331 +428,226 @@
                     <ul class="list-disc list-inside text-sm ml-4 mt-2">
                         <li>Optimization of Microwave assisted delignification process parameters... (RESEARCH CONCLAVE-2017), NITW, Warangal.</li>
                         <li>Ultrasound Assisted Pretreatment for efficient delignification of sawdust using sodium per carbonate. (CHEMCON-2016), IIT-Madras.</li>
-                        <li>Simulation of large-scale membrane reformers by a two-dimensional model. (FUSION-07), JNTU A.</li>
-                        <li>Supercritical extraction. (TECHNOZION-07), NIT-W.</li>
+                        <li>Simulation of large-scale membrane reformers by a two-dimensional model. (FUSION-07), JNTU-A.</li>
+                        <li>Modelling of a high pressure... (Placeholder for 4th title).</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="skills" class="content-section">
+                <h2 class="section-heading">Technical & Professional Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    
+                    <div class="card">
+                        <h3>Domain Expertise</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>Process Intensification (Acoustic Cavitation, Microwave)</li>
+                            <li>Biomass Valorisation (Lignin, Cellulose, Hydrochar)</li>
+                            <li>Advanced Coatings (Self-healing, Anti-corrosion)</li>
+                            <li>Reaction & Transport Phenomena</li>
+                            <li>Polymer & Nanomaterials Synthesis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Simulation & Software</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li><span class="font-semibold text-accent">ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
+                            <li><span class="font-semibold text-accent">ANSYS</span> (CFD Modeling & Simulation)</li>
+                            <li>Design Expert (RSM, DOE)</li>
+                            <li>MATLAB (Programming & Modeling)</li>
+                            <li>MS Office Suite & Data Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Lab Techniques & Handling</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li><span class="font-semibold text-accent">Chromatography</span> (HPLC, GC)</li>
+                            <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
+                            <li>Microscopy (SEM, TEM, AFM)</li>
+                            <li>Thermal Analysis (TGA, DSC)</li>
+                            <li>Electrochemical Techniques</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Management & Teaching</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>Curriculum Development & Mentoring</li>
+                            <li>Team Leadership & HR Functions</li>
+                            <li>Business Development & CRM</li>
+                            <li>Placement & Internship Coordination</li>
+                            <li>Effective Communication & Presentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="extracurricular" class="content-section">
+                <h2 class="section-heading">Awards & Recognition</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Peer Reviewer Recognition</span>
+                                <span class="block">Official Reviewer for 3 renowned Elsevier Journals:</span>
+                                <ul class="list-circle list-inside ml-6 text-xs space-y-1 mt-1">
+                                    <li>*Journal of Environmental Chemical Engineering*</li>
+                                    <li>*Journal of Hazardous Materials*</li>
+                                    <li>*International Journal of Biological Macromolecules*</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Conference & Research Awards</span>
+                                <span class="block">Best Presentation Award (EETSD-2020), NITW.</span>
+                                <span class="block italic text-xs">Recognized for contribution in Green/Eco-Friendly Materials research.</span>
+                            </div>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Academic Fellowships</span>
+                                <span class="block">MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
+                                <span class="block italic text-xs">Awarded based on GATE score qualification (3 times qualified).</span>
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </section>
 
-<section id="skills" class="content-section">
-    <h2 class="section-heading">Skills & Core Expertise</h2>
-    <div class="grid md:grid-cols-2 gap-4">
+            <section id="extra-curricular" class="content-section">
+                <h2 class="section-heading">Extra Curricular Activities</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Outreach & Social Activities</span>
+                                <span class="block">Active participation in various social and community service programs.</span>
+                            </div>
+                        </li>
 
-        <div class="card card-content md:col-span-2">
-            <h3>Software & Simulation</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Advanced tools for Process Modeling, Simulation, and Data Analysis.</p>
-            
-            <h4 class="sub-sub-heading mt-2">Business Analytics Tools:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">Power BI (Data visualization):</span> Used to visualize data and share insights across an organization. Connects to various data sources to create interactive dashboards and reports.</li>
-                <li><span class="font-semibold">CRM software tool (Customer Relation Management).</span></li>
-            </ul>
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Student Mentoring & Advising</span>
+                                <span class="block">Mentored B.Tech and M.Tech students for projects, career choices, and personal development.</span>
+                            </div>
+                        </li>
 
-            <h4 class="sub-sub-heading mt-3">Statistical and Data Analysis Tools:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">State ease:</span> Used for Econometrics, Panel Data, Epidemiology, and Social Science (for modeling the process and optimizing the model for best fit using regression).</li>
-                <li><span class="font-semibold">Mini Tab:</span> Used for Quality Control, Six Sigma, and Basic Statistics Education.</li>
-            </ul>
-            
-            <h4 class="sub-sub-heading mt-3">Process Simulation Tools (Macroscopic/Microscopic):</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">ASPEN Plus/HYSYS:</span> Expertise in modeling and simulation of steady-state and dynamic chemical processes (e.g., distillation, reactors, heat exchange).</li>
-                <li><span class="font-semibold">ANSYS (Fluent, CFX):</span> Experienced in Computational Fluid Dynamics (CFD) for simulating fluid flow, heat transfer, and related phenomena.</li>
-                <li><span class="font-semibold">AutoCAD:</span> Proficient in creating 2D/3D chemical process diagrams and equipment layouts.</li>
-            </ul>
-
-            <h4 class="sub-sub-heading mt-3">Other Technical Software:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">Origin:</span> For high-quality graphing and data analysis.</li>
-                <li><span class="font-semibold">Microsoft Office Suite:</span> Advanced proficiency (Word, Excel, PowerPoint).</li>
-            </ul>
-        </div>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const navLinks = document.querySelectorAll('.nav-link');
-        const contentSections = document.querySelectorAll('.content-section');
-
-        // Function to handle section switching
-        const showSection = (targetId) => {
-            // Deactivate all sections
-            contentSections.forEach(section => {
-                section.classList.remove('active');
-            });
-
-            // Deactivate all nav links
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-
-            // Activate the targeted section
-            const targetSection = document.getElementById(targetId);
-            if (targetSection) {
-                targetSection.classList.add('active');
-                targetSection.scrollTop = 0; // Scroll to top of the new section
-            }
-            
-            // Activate the corresponding nav link
-            const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
-            if (activeLink) {
-                activeLink.classList.add('active');
-            }
-        };
-
-        // Event listener for navigation links
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                // Extract the target ID from the data-target attribute
-                const targetId = link.getAttribute('data-target');
-                showSection(targetId);
-                
-                // Update URL hash without causing a jump
-                history.pushState(null, '', `#${targetId}`);
-            });
-        });
-
-        // Function to handle initial load based on URL hash
-        const initialLoad = () => {
-            let activeTarget = 'about'; // Default section
-
-            // Check if a specific section is requested in the URL hash
-            if (window.location.hash) {
-                const hash = window.location.hash.substring(1); // Remove the '#'
-                const hashLink = document.querySelector(`.nav-link[data-target="${hash}"]`);
-                if (hashLink) {
-                    activeTarget = hash;
-                }
-            }
-
-            // Show the initial section
-            showSection(activeTarget);
-        };
-
-        // Run the initial load function
-        initialLoad();
-
-        // Handle back/forward button navigation
-        window.addEventListener('popstate', initialLoad);
-    });
-</script>
-        
-        <div class="card card-content">
-            <h3>Laboratory & Analytical Skills</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Hands-on experience with advanced materials synthesis and characterization.</p>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
-                <li><span class="font-semibold">Chemical Synthesis:</span> Synthesis of Nano-materials (Lignin Nano capsules, Nano Cellulose), Hydrogel.</li>
-                <li><span class="font-semibold">Electrochemical Testing:</span> Cyclic Voltammetry (CV), Galvanostatic Charge-Discharge (GCD), Electrochemical Impedance Spectroscopy (EIS).</li>
-                <li><span class="font-semibold">Spectroscopy & Thermal Analysis:</span> FTIR, TGA, DSC, Raman Spectroscopy.</li>
-                <li><span class="font-semibold">Microscopy & Diffraction:</span> SEM, TEM, AFM, XRD.</li>
-                <li><span class="font-semibold">Process Equipment:</span> Batch/Semi-batch Reactors, High Pressure Autoclave, Ultrasonic Processors.</li>
-            </ul>
-        </div>
-
-        <div class="card card-content">
-            <h3>Teaching & Management Skills</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Academic and administrative competencies developed over years of teaching.</p>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
-                <li><span class="font-semibold">Core Subjects:</span> Chemical Reaction Engineering, Transport Phenomena, Process Engineering Principles, Catalytic Engineering, Electrochemistry.</li>
-                <li><span class="font-semibold">Management:</span> HR/Payroll Management, Placement Co-ordination, Curriculum Development, Team Leadership.</li>
-                <li><span class="font-semibold">Mentoring:</span> Class Advisor/Mentor, Research Supervision for B.Tech/M.Tech students.</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="extracurricular" class="content-section">
-    <h2 class="section-heading">Awards & Professional Recognition</h2>
-    <div class="card card-content">
-        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Research Paper Recognition</span>
-                    <span class="block italic text-xs">Ph.D. journal paper published in <span class="text-accent">Ultrasonics Sonochemistry</span> (IF: 9.336), a top-tier Elsevier journal.</span>
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Sports & Fitness</span>
+                                <span class="block">Enthusiastic participant in college sports events and maintaining a regular fitness routine.</span>
+                            </div>
+                        </li>
+                        
+                    </ul>
                 </div>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Peer Reviewer Status (Elsevier Journals)</span>
-                    <span class="block italic text-xs">Official reviewer for <span class="text-accent">Ultrasonics Sonochemistry (IF: 9.336)</span>, <span class="text-accent">Materials Letters (IF: 3.571)</span>, and <span class="text-accent">Journal of Materials Research and Technology (IF: 6.267)</span>.</span>
+            </section>
+
+            <section id="gallery" class="content-section">
+                <h2 class="section-heading">Research & Professional Gallery</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%201.png" alt="Lab Work Image 1" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%202.png" alt="Conference Presentation" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%203.png" alt="Teaching Moment" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%204.png" alt="Group Photo" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%205.png" alt="Lab Work Image 5" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%206.png" alt="Industry Visit" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%207.png" alt="Academic Event" class="gallery-image">
+                    </div>
+                    <div class="relative group">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%208.png" alt="Lab Work Image 8" class="gallery-image">
+                    </div>
                 </div>
-                <a href="files/reviewer_certificates.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificates</a>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Fellowships & Scholarships</span>
-                    <span class="block italic text-xs">Awarded the <span class="text-accent">MHRD Scholarship</span> during Ph.D. and <span class="text-accent">AICTE Fellowship</span> during M.Tech.</span>
+            </section>
+
+            <section id="contact" class="content-section">
+                <h2 class="section-heading">Get In Touch</h2>
+                <div class="card p-6">
+                    <p class="text-base mb-4">I am actively seeking opportunities in academia, research, or industry where my expertise in Chemical Engineering, Process Intensification, and Biomass Valorisation can drive innovation.</p>
+                    <div class="space-y-3">
+                        <p class="flex items-center text-sm">
+                            <span class="font-semibold text-accent w-24">Email:</span>
+                            <a href="mailto:drsushmitha@example.com" class="hover:underline">Sushmitha.d.nitw@gmail.com</a>
+                        </p>
+                        <p class="flex items-center text-sm">
+                            <span class="font-semibold text-accent w-24">Phone:</span>
+                            <a href="tel:+917981541047" class="hover:underline">+91 7981541047 (Placeholder)</a>
+                        </p>
+                        <p class="flex items-start text-sm">
+                            <span class="font-semibold text-accent w-24 flex-shrink-0">LinkedIn:</span>
+                            <a href="https://linkedin.com/in/drsushmitha" target="_blank" class="hover:underline break-words">linkedin.com/in/drsushmitha (Placeholder)</a>
+                        </p>
+                        <p class="flex items-start text-sm">
+                            <span class="font-semibold text-accent w-24 flex-shrink-0">ResearchGate:</span>
+                            <a href="https://researchgate.net/profile/D-Sushmitha" target="_blank" class="hover:underline break-words">researchgate.net/profile/D-Sushmitha (Placeholder)</a>
+                        </p>
+                    </div>
                 </div>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Professional Memberships</span>
-                    <span class="block italic text-xs">Associate Member of the <span class="text-accent">Indian Institute of Chemical Engineers (IICHE)</span> and the <span class="text-accent">Institution of Engineers (India) [IEI]</span>.</span>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
+            </section>
 
-<section id="extra-curricular" class="content-section">
-   <section id="extra-curricular" class="content-section">
-    <h2 class="section-heading">Extra Curricular Activities & Interests</h2>
-    <div class="card card-content">
-        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-            <li>
-                <span class="font-semibold text-accent inline">Literary and Creative Writing:</span>
-                Contributed articles to college magazines and online platforms focused on science communication and technology ethics.
-            </li>
-            <li>
-                <span class="font-semibold text-accent inline">Community Engagement:</span>
-                Involved in organizing student mentorship programs and career counseling sessions for underprivileged students.
-            </li>
-            <li>
-                <span class="font-semibold text-accent inline">Technical Events:</span>
-                Served as Event Coordinator for national-level technical symposiums, managing logistics for up to 500 participants.
-            </li>
-             <li>
-                <span class="font-semibold text-accent inline">Trekking and Nature Exploration:</span>
-                Regular participation in local and regional treks, fostering teamwork and resilience.
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section id="gallery" class="content-section">
-    <h2 class="section-heading">Gallery: Research, Work & Education</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/research1.png" alt="Lab Research Work" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Nanoparticle Synthesis</p>
-            </div>
+        </div> </main> <footer class="text-center py-4 text-xs mt-8">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2025 Dr. D. Sushmitha. All Rights Reserved. | Chemical Engineering Portfolio</p>
         </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/conference1.png" alt="Conference Presentation" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">International Conference</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/teaching1.png" alt="Teaching Moment" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Guest Lecture at JNTU</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/phd_grad.png" alt="PhD Graduation Ceremony" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">PhD Graduation (NITW)</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/vizag_steel.png" alt="Vizag Steel Plant" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Industrial Training (VSP)</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/book_chapter.png" alt="Book Chapter Cover" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Book Chapter Contribution</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="content-section">
-    <h2 class="section-heading">Contact & Professional Links</h2>
-    <div class="card card-content">
-        <div class="grid md:grid-cols-2 gap-4">
-            <div>
-                <h3>Personal Contact</h3>
-                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-                    <li><span class="font-semibold text-accent">Email:</span> <a href="mailto:sushmithache@gmail.com">sushmithache@gmail.com</a></li>
-                    <li><span class="font-semibold text-accent">Mobile:</span> +91 94901XXXXX (Available upon request)</li>
-                    <li><span class="font-semibold text-accent">Location:</span> Hyderabad, Telangana, India</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Professional Profiles</h3>
-                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-                    <li><span class="font-semibold text-accent">LinkedIn:</span> <a href="https://www.linkedin.com/in/sushmitha-d-ph-d-35431526" target="_blank">Dr. D. Sushmitha, Ph.D.</a></li>
-                    <li><span class="font-semibold text-accent">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=L07p48gAAAAJ" target="_blank">View Citations</a></li>
-                    <li><span class="font-semibold text-accent">ORCID:</span> <a href="https://orcid.org/0000-0002-9844-4866" target="_blank">0000-0002-9844-4866</a></li>
-                    <li><span class="font-semibold text-accent">ResearchGate:</span> <a href="https://www.researchgate.net/profile/D-Sushmitha" target="_blank">Dr. D. Sushmitha</a></li>
-                </ul>
-            </div>
-        </div>
-        <h3 class="mt-6">Reference</h3>
-        <p class="text-sm italic mt-2">Professional references and letter of recommendation are available upon request.</p>
-    </div>
-</section>
-        </div> 
-    </main>
-
-    <footer class="text-center py-3 text-xs border-t border-gray-700 mt-4">
-        <p class="text-gray-300">&copy; <span id="current-year"></span> Dr. D. Sushmitha. All rights reserved.</p>
-        <p class="text-gray-400">Chemical Engineering Specialist | Built with Tailwind CSS and Vanilla JS.</p>
     </footer>
-
+    
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Set current year in footer
-            document.getElementById('current-year').textContent = new Date().getFullYear();
-
+        document.addEventListener('DOMContentLoaded', () => {
             const navLinks = document.querySelectorAll('.nav-link');
-            const sections = document.querySelectorAll('.content-section');
+            const contentSections = document.querySelectorAll('.content-section');
 
-            // Function to handle section display
-            function showSection(targetId) {
-                // Deactivate all links and sections
+            const showSection = (targetId) => {
+                // Deactivate all sections and links
+                contentSections.forEach(section => section.classList.remove('active'));
                 navLinks.forEach(link => link.classList.remove('active'));
-                sections.forEach(section => section.classList.remove('active'));
 
-                // Activate the target link and section
-                const targetLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                // Activate the target section and link
                 const targetSection = document.getElementById(targetId);
+                const targetLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
 
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                    targetSection.scrollTop = 0; // Scroll to top on switch
+                }
                 if (targetLink) {
                     targetLink.classList.add('active');
                 }
-                if (targetSection) {
-                    targetSection.classList.add('active');
-                    targetSection.scrollTop = 0; // Scroll to top of the new section
-                }
-            }
+            };
 
-            // Event listener for navigation links
             navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Prevent default anchor link behavior (which causes full page scroll)
-                    e.preventDefault(); 
-                    
-                    const targetId = this.getAttribute('data-target');
-                    
-                    // Update the URL hash (optional, but good for back/forward buttons)
-                    history.pushState(null, '', `#${targetId}`);
-
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('data-target');
                     showSection(targetId);
+                    // Update URL hash without jumping
+                    history.pushState(null, null, `#${targetId}`);
                 });
             });
 
-            // Handle initial load based on URL hash (e.g., if page is loaded with #experience)
-            function handleHashChange() {
-                const hash = window.location.hash.substring(1); // Get hash without '#'
-                const initialTargetId = hash || 'about'; // Default to 'about' if no hash
-
-                // Use a slight delay to ensure the fadeIn animation runs correctly on load
-                setTimeout(() => {
-                    showSection(initialTargetId);
-                }, 10);
-            }
-            
-            // Run on load
-            handleHashChange();
-
-            // Also listen for hash changes (back/forward button)
-            window.addEventListener('hashchange', handleHashChange);
+            // Handle initial load via URL hash
+            const initialHash = window.location.hash.substring(1) || 'about';
+            showSection(initialHash);
         });
     </script>
-</body>
-</html>
+</body> </html> ```
