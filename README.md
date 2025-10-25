@@ -19,8 +19,8 @@
         }
         
         main {
-              padding-top: 0;
-              background-color: transparent; 
+            padding-top: 0;
+            background-color: transparent; 
         }
         
         /* Section Headings (H2) */
@@ -130,6 +130,42 @@
             font-weight: 600;
         }
         
+        /* --- START FIX FOR WIDER NAVIGATION BAR --- */
+        
+        /* 1. FORCE THE NAVIGATION BOX (The White Bar) TO BE WIDER */
+        header .header-nav-container {
+            /* Remove the Tailwind margin/padding around the nav bar to let it grow */
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        /* 2. TARGET THE <nav> ELEMENT AND SET A LARGE FIXED WIDTH */
+        header nav {
+            /* Set a generous fixed width to ensure ALL links (including Home/Contact) fit.
+               You may need to slightly adjust 1250px depending on the screen size. */
+            width: 1250px; 
+            
+            /* Center the wide nav bar visually */
+            margin-left: auto;
+            margin-right: auto;
+
+            /* Crucial: Prevent the content from being clipped by the main viewport. 
+               This will likely cause the entire page to show a horizontal scrollbar, 
+               which is the necessary result of making an element wider than the screen. */
+            overflow: visible !important; 
+            
+            /* Override the existing scroll behavior */
+            overflow-x: hidden !important;
+        }
+        
+        /* 3. Ensure the content container below the nav is also wide enough */
+        main .container {
+             max-width: 1250px; /* Match the nav width for layout consistency */
+        }
+        
+        /* --- END FIX FOR WIDER NAVIGATION BAR --- */
+
+
         /* Interactive Sections */
         .content-section {
             display: none;
@@ -186,7 +222,7 @@
             </div>
         
         <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
-            <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
+            <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm"> 
                 <a href="#about" class="nav-link active" data-target="about">Home</a>
                 <a href="#experience" class="nav-link" data-target="experience">Experience</a>
                 <a href="#education" class="nav-link" data-target="education">Education</a>
@@ -459,195 +495,182 @@
                             <li>MS Office Suite & Data Analysis</li>
                         </ul>
                     </div>
-
+                    
                     <div class="card">
-                        <h3>Lab Techniques & Handling</h3>
+                        <h3>Laboratory Proficiency</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li><span class="font-semibold text-accent">Chromatography</span> (HPLC, GC)</li>
-                            <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
-                            <li>Microscopy (SEM, TEM, AFM)</li>
+                            <li>Spectroscopy (FTIR, UV-Vis, X-Ray)</li>
                             <li>Thermal Analysis (TGA, DSC)</li>
-                            <li>Electrochemical Techniques</li>
+                            <li>Microscopy (SEM, TEM, AFM)</li>
+                            <li>Surface Analysis (Contact Angle, Potentiostat/Galvanostat)</li>
+                            <li>Process Equipment Operation</li>
                         </ul>
                     </div>
                     
                     <div class="card">
-                        <h3>Management & Teaching</h3>
+                        <h3>Management & Soft Skills</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li>Curriculum Development & Mentoring</li>
-                            <li>Team Leadership & HR Functions</li>
-                            <li>Business Development & CRM</li>
-                            <li>Placement & Internship Coordination</li>
-                            <li>Effective Communication & Presentation</li>
+                            <li>Team Leadership & Mentoring (B.Tech/M.Tech)</li>
+                            <li>Placement & Training Coordination</li>
+                            <li>Client Relationship Management (CRM)</li>
+                            <li>Technical Writing & Presentation</li>
+                            <li>Digital Marketing & HR/Payroll Management</li>
                         </ul>
                     </div>
                 </div>
             </section>
-
+            
             <section id="extracurricular" class="content-section">
                 <h2 class="section-heading">Awards & Recognition</h2>
                 <div class="card card-content">
                     <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-                        
+
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Peer Reviewer Recognition</span>
-                                <span class="block">Official Reviewer for 3 renowned Elsevier Journals:</span>
+                                <span class="font-semibold text-accent block">Reviewer Recognition (Elsevier)</span>
+                                <span class="block">Official Reviewer for the following Elsevier Journals:</span>
                                 <ul class="list-circle list-inside ml-6 text-xs space-y-1 mt-1">
-                                    <li>*Journal of Environmental Chemical Engineering*</li>
-                                    <li>*Journal of Hazardous Materials*</li>
-                                    <li>*International Journal of Biological Macromolecules*</li>
+                                    <li>*International Journal of Biological Macromolecules* (IF: 8.2)</li>
+                                    <li>*Separation Science and Technology* (IF: 2.3)</li>
+                                    <li>*Materials Today Proceedings* (IF: 1.46)</li>
                                 </ul>
                             </div>
+                            <a href="files/reviewer_recognition.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Conference & Research Awards</span>
-                                <span class="block">Best Presentation Award (EETSD-2020), NITW.</span>
-                                <span class="block italic text-xs">Recognized for contribution in Green/Eco-Friendly Materials research.</span>
+                                <span class="font-semibold text-accent block">National Level Award (Best Paper)</span>
+                                <span class="block">Awarded Best Paper at the National Level Conference, CHEMCON (2016), IIT-Madras.</span>
+                                <span class="block italic text-xs">For the paper: Ultrasound Assisted Pretreatment for efficient delignification of sawdust...</span>
                             </div>
+                            <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Academic Fellowships</span>
-                                <span class="block">MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
-                                <span class="block italic text-xs">Awarded based on GATE score qualification (3 times qualified).</span>
+                                <span class="block">AICTE Fellowship for M.Tech, and MHRD Scholarship for Ph.D.</span>
+                                <span class="block italic text-xs">Recognizing merit and excellence in post-graduate and doctoral studies.</span>
                             </div>
+                            <a href="files/fellowship_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
-                        
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Teaching & Student Mentoring Awards</span>
+                                <span class="block">Multiple internal college recognitions for effective teaching and student guidance.</span>
+                                <span class="block italic text-xs">Focused on mentoring students for projects, career choices, and personal development.</span>
+                            </div>
+                            </li>
                     </ul>
                 </div>
             </section>
-
-            <section id="extra-curricular" class="content-section">
+            
+            <section id="extra-curricular" class="content-section active">
                 <h2 class="section-heading">Extra Curricular Activities</h2>
                 <div class="card card-content">
-                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-                        
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Outreach & Social Activities</span>
-                                <span class="block">Active participation in various social and community service programs.</span>
-                            </div>
+                    <ul class="list-none space-y-4 text-base">
+                        <li>
+                            <h3 class="text-accent text-lg">Outreach & Social Activities</h3>
+                            <p>Active participation in various social and community service programs.</p>
                         </li>
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Student Mentoring & Advising</span>
-                                <span class="block">Mentored B.Tech and M.Tech students for projects, career choices, and personal development.</span>
-                            </div>
+                        <li>
+                            <h3 class="text-accent text-lg">Student Mentoring & Advising</h3>
+                            <p>Mentored B.Tech and M.Tech students for projects, career choices, and personal development.</p>
                         </li>
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Sports & Fitness</span>
-                                <span class="block">Enthusiastic participant in college sports events and maintaining a regular fitness routine.</span>
-                            </div>
+                        <li>
+                            <h3 class="text-accent text-lg">Sports & Fitness</h3>
+                            <p>Enthusiastic participant in college sports events and maintaining a regular fitness routine.</p>
                         </li>
-                        
                     </ul>
                 </div>
             </section>
 
             <section id="gallery" class="content-section">
-                <h2 class="section-heading">Research & Professional Gallery</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <h2 class="section-heading">Gallery & Moments</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%201.png" alt="Lab Work Image 1" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery1.png" alt="Gallery Image 1" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-sm">Conference Presentation</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%202.png" alt="Conference Presentation" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery2.png" alt="Gallery Image 2" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-sm">Lab Work</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%203.png" alt="Teaching Moment" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery3.png" alt="Gallery Image 3" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-sm">Graduation Day</p>
+                        </div>
                     </div>
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%204.png" alt="Group Photo" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%205.png" alt="Lab Work Image 5" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%206.png" alt="Industry Visit" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%207.png" alt="Academic Event" class="gallery-image">
-                    </div>
-                    <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%208.png" alt="Lab Work Image 8" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/gallery4.png" alt="Gallery Image 4" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-sm">Family Time</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section id="contact" class="content-section">
-                <h2 class="section-heading">Get In Touch</h2>
-                <div class="card p-6">
-                    <p class="text-base mb-4">I am actively seeking opportunities in academia, research, or industry where my expertise in Chemical Engineering, Process Intensification, and Biomass Valorisation can drive innovation.</p>
-                    <div class="space-y-3">
-                        <p class="flex items-center text-sm">
-                            <span class="font-semibold text-accent w-24">Email:</span>
-                            <a href="mailto:drsushmitha@example.com" class="hover:underline">Sushmitha.d.nitw@gmail.com</a>
-                        </p>
-                        <p class="flex items-center text-sm">
-                            <span class="font-semibold text-accent w-24">Phone:</span>
-                            <a href="tel:+917981541047" class="hover:underline">+91 7981541047 (Placeholder)</a>
-                        </p>
-                        <p class="flex items-start text-sm">
-                            <span class="font-semibold text-accent w-24 flex-shrink-0">LinkedIn:</span>
-                            <a href="https://linkedin.com/in/drsushmitha" target="_blank" class="hover:underline break-words">linkedin.com/in/drsushmitha (Placeholder)</a>
-                        </p>
-                        <p class="flex items-start text-sm">
-                            <span class="font-semibold text-accent w-24 flex-shrink-0">ResearchGate:</span>
-                            <a href="https://researchgate.net/profile/D-Sushmitha" target="_blank" class="hover:underline break-words">researchgate.net/profile/D-Sushmitha (Placeholder)</a>
-                        </p>
-                    </div>
+                <h2 class="section-heading">Contact & Details</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-3">
+                        <li><span class="font-semibold text-accent">Email:</span> <a href="mailto:yoursushmitha@example.com">yoursushmitha@example.com</a></li>
+                        <li><span class="font-semibold text-accent">Phone:</span> +91-XXX-XXX-XXXX</li>
+                        <li><span class="font-semibold text-accent">LinkedIn:</span> [Your LinkedIn Profile]</li>
+                        <li><span class="font-semibold text-accent">Address:</span> Kavali, Nellore, Andhra Pradesh, India</li>
+                    </ul>
                 </div>
             </section>
 
-        </div> </main> <footer class="text-center py-4 text-xs mt-8">
-        <div class="container mx-auto px-6">
-            <p>&copy; 2025 Dr. D. Sushmitha. All Rights Reserved. | Chemical Engineering Portfolio</p>
+
         </div>
-    </footer>
+    </main>
     
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const navLinks = document.querySelectorAll('.nav-link');
             const contentSections = document.querySelectorAll('.content-section');
 
-            const showSection = (targetId) => {
-                // Deactivate all sections and links
-                contentSections.forEach(section => section.classList.remove('active'));
+            const setActive = (targetId) => {
+                // Deactivate all links and content
                 navLinks.forEach(link => link.classList.remove('active'));
+                contentSections.forEach(section => section.classList.remove('active'));
 
-                // Activate the target section and link
-                const targetSection = document.getElementById(targetId);
-                const targetLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                // Activate the corresponding link and content
+                const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                const activeSection = document.querySelector(`#${targetId}`);
 
-                if (targetSection) {
-                    targetSection.classList.add('active');
-                    targetSection.scrollTop = 0; // Scroll to top on switch
-                }
-                if (targetLink) {
-                    targetLink.classList.add('active');
-                }
+                if (activeLink) activeLink.classList.add('active');
+                if (activeSection) activeSection.classList.add('active');
             };
 
+            // Event listener for navigation links
             navLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     const targetId = link.getAttribute('data-target');
-                    showSection(targetId);
+                    setActive(targetId);
+
                     // Update URL hash without jumping
-                    history.pushState(null, null, `#${targetId}`);
+                    history.pushState(null, '', `#${targetId}`);
                 });
             });
 
-            // Handle initial load via URL hash
+            // Handle initial load based on URL hash
             const initialHash = window.location.hash.substring(1) || 'about';
-            showSection(initialHash);
+            if (document.querySelector(`#${initialHash}`)) {
+                setActive(initialHash);
+            } else {
+                setActive('about'); // Default to 'about' if hash is invalid
+            }
         });
     </script>
-</body> </html> ```
+</body>
+</html>
