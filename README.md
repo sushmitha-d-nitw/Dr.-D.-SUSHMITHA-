@@ -33,7 +33,7 @@
             margin-bottom: 0.3rem;
 
             /***NEW: PULL UP HEADING TO REDUCE SPACE ABOVE***/
-            margin-top:-1.5rem;/*Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
+            margin-top:-1.5rem;/%Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
             font-size: 1rem;
@@ -50,7 +50,7 @@
             font-weight: 600;
             margin-bottom: 0; 
             /* **AMENDMENT 1: DECREASED SPACE ABOVE H3** (Ensuring margin-top is zero) */
-            margin-top: -1.5rem; /* Adjust this value( e.g., -1rem,-1.5rem) as needed
+            margin-top: 0; 
             padding-top: 0;
         }
 
