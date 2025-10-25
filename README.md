@@ -31,6 +31,9 @@
             line-height: 1.2rem;
             /* REDUCED SPACE BELOW H2 HEADING */
             margin-bottom: 0.3rem;
+
+            /***NEW: PULL UP HEADING TO REDUCE SPACE ABOVE***/
+            margin-top:-1.5rem;/%Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
             font-size: 1rem;
@@ -187,7 +190,7 @@
 <body class="flex flex-col min-h-screen">
 
     <header class="shadow-md py-2 sticky top-0 z-50">
-        <div class="container mx-auto px-2 md:px-2">
+        <div class="container mx-auto px-2 pt-2 pb-4">
         </div>
         
         <div class="container mx-auto px-2 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
