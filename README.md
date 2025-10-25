@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         /* BASE STYLES: FULL BLUE BACKGROUND, WHITE TEXT */
         body {
@@ -240,27 +240,7 @@
     <main class="flex-grow">
         <div class="container mx-auto px-6 py-4"> 
             
-            <section id="about" class="content-section active">
-                <div class="text-center md:flex md:items-center md:text-left">
-                    <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
-                    </div>
-                    <div class="md:w-2/3">
-                        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
-                        <h3 class="text-2xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
-                        <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
-                            I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
-                            My core expertise is in <span class="text-accent">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="text-accent">ASPEN</span> and <span class="text-accent">ANSYS</span>.
-                        </p>
-                        <div class="flex justify-center md:justify-start space-x-4 mt-4">
-                            <a href="#experience" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm" data-target="experience">View Career</a>
-                            <a href="#contact" class="bg-gray-200 hover:bg-gray-300 text-blue-900 font-bold py-2 px-4 rounded transition text-sm" data-target="contact">Connect</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="experience" class="content-section">
+            <section id="experience" class="content-section active">
                 <h2 class="section-heading">Professional Experience (10 Years, 7 Months)</h2>
                 <div class="card card-content">
                     <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
@@ -305,7 +285,7 @@
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Asst. Professor</span>
                                 <span class="block">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
-                                <span class="block italic text-xs">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
+                            <span class="block italic text-xs">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
                             </div>
                             <a href="files/experience_jntu_2011_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
@@ -364,7 +344,7 @@
                                 <span class="block">83.7 % | 2002 - 2004.</span>
                                 <span class="block italic text-xs">Narayana Junior college, Nellore, Andhra Pradesh.</span>
                             </div>
-                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
@@ -373,7 +353,7 @@
                                 <span class="block">80.3 % | 2001 - 2002.</span>
                                 <span class="block italic text-xs">St Mary’s School, Kavali, Nellore, Andhra Pradesh.</span>
                             </div>
-                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
 
@@ -383,7 +363,7 @@
                                 <span class="block">Qualified GATE three times (2009, 2010, 2012); Highest Rank: 1219.</span>
                                 <span class="block italic text-xs">Awarded MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
                             </div>
-                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
                     </ul>
                 </div>
@@ -479,16 +459,21 @@
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
                             <li>Process Intensification (Acoustic Cavitation, Microwave)</li>
                             <li>Biomass Valorisation (Lignin, Cellulose, Hydrochar)</li>
-                            <li>Advanced Coatings (Self-healing, Anti-corrosion)</li>
-                            <li>Reaction & Transport Phenomena</li>
-                            <li>Polymer & Nanomaterials Synthesis</li>
+                            <li>Paper Manufacturing</li>
+                            <li>UV-Protective cloth</li>
+                            <li>SAP (Super Absorbent Polymer)</li>
+                            <li>Supercapacitors</li>
+                            <li>Dielectric paints</li>
+                            <li>Conductive polymers</li>
+                            <li>Hydrogel</li>
+                            <li>Self-healing materials (corrosion/concrete)</li>
                         </ul>
                     </div>
                     
                     <div class="card">
-                        <h3>Simulation & Software</h3>
+                        <h3>Software Expertise</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li><span class="font-semibold text-accent">ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
+                            <li><span class="font-semibold text-accent">ASPEN plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
                             <li><span class="font-semibold text-accent">ANSYS</span> (CFD Modeling & Simulation)</li>
                             <li>Design Expert (RSM, DOE)</li>
                             <li>MATLAB (Programming & Modeling)</li>
@@ -567,7 +552,7 @@
                 </div>
             </section>
             
-            <section id="extra-curricular" class="content-section active">
+            <section id="extra-curricular" class="content-section">
                 <h2 class="section-heading">Extra Curricular Activities</h2>
                 <div class="card card-content">
                     <ul class="list-none space-y-4 text-base">
@@ -643,9 +628,17 @@
                 navLinks.forEach(link => link.classList.remove('active'));
                 contentSections.forEach(section => section.classList.remove('active'));
 
+                // Determine which section to display:
+                // If the user clicks 'Home' (#about), we display 'Experience'
+                // For all other clicks, we display the target section
+                let contentIdToDisplay = targetId;
+                if (targetId === 'about') {
+                    contentIdToDisplay = 'experience';
+                }
+
                 // Activate the corresponding link and content
                 const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
-                const activeSection = document.querySelector(`#${targetId}`);
+                const activeSection = document.querySelector(`#${contentIdToDisplay}`);
 
                 if (activeLink) activeLink.classList.add('active');
                 if (activeSection) activeSection.classList.add('active');
@@ -659,16 +652,22 @@
                     setActive(targetId);
 
                     // Update URL hash without jumping
-                    history.pushState(null, '', `#${targetId}`);
+                    const hashToSet = (targetId === 'about') ? 'experience' : targetId;
+                    history.pushState(null, '', `#${hashToSet}`);
                 });
             });
 
             // Handle initial load based on URL hash
-            const initialHash = window.location.hash.substring(1) || 'about';
-            if (document.querySelector(`#${initialHash}`)) {
+            const initialHash = window.location.hash.substring(1);
+            
+            // If a hash is present and valid, activate that section
+            if (document.querySelector(`.nav-link[data-target="${initialHash}"]`)) {
                 setActive(initialHash);
             } else {
-                setActive('about'); // Default to 'about' if hash is invalid
+                // Default to 'experience' if no valid hash is present or if the hash is missing/invalid.
+                // We set the 'Home' link as active, but display the 'Experience' content.
+                setActive('experience'); 
+                document.querySelector('.nav-link[data-target="about"]').classList.add('active');
             }
         });
     </script>
