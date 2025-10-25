@@ -13,7 +13,6 @@
             color: #ffffff; /* Default text color set to white for contrast */
         }
         
-        /* Ensure all main layout parts inherit or are transparent */
         header, footer {
             background-color: transparent; 
         }
@@ -37,20 +36,21 @@
         /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
-            /* **AMENDMENT 2: REDUCED H3 FONT SIZE** (From 1.15rem to 1.1rem) */
-            font-size: 1.1rem; 
-            line-height: 1.6rem;
+            /* **AMENDMENT 2: DECREASED H3 FONT SIZE** (From 1.1rem to 1rem) */
+            font-size: 1rem; 
+            line-height: 1.5rem;
             font-weight: 600;
-            /* **AMENDMENT 3: REDUCED VERTICAL MARGIN BEFORE SUBHEADINGS** (From 0.1rem to 0) */
             margin-bottom: 0; 
+            /* **AMENDMENT 1: DECREASED SPACE ABOVE H3** (Ensuring margin-top is zero) */
             margin-top: 0; 
             padding-top: 0;
         }
 
         /* Further reduce vertical margin before h3 inside publications-detail for tighter spacing */
         #publications-detail h3 {
-            margin-top: 0.5rem; 
-            margin-bottom: 0; /* Ensures consistent tight spacing */
+            /* **AMENDMENT 1: REDUCED MARGIN ABOVE THESE H3s** (From 0.5rem to 0.25rem) */
+            margin-top: 0.25rem; 
+            margin-bottom: 0; 
         }
 
         /* Sub-sub headings (H4/custom spans) */
@@ -59,7 +59,7 @@
             line-height: 1.5rem;
             font-weight: 700;
             color: #FFFF00; /* Bright Yellow accent */
-            margin-top: 0.5rem; /* Keep a little gap for these secondary headings */
+            margin-top: 0.5rem; 
             display: block;
         }
 
@@ -75,15 +75,14 @@
             color: #BBDEFB;
         }
 
-        /* WIDENED CONTAINER MAX-WIDTH FOR MORE HORIZONTAL SPACE */
+        /* Increased width for content */
         .container {
-            /* **AMENDMENT 1 (Part 1): INCREASED MAX-WIDTH FOR MORE HORIZONTAL SPACE** */
-            max-width: 1700px; 
+            width: 100%;
         }
         
         /* ADJUSTED PROFILE PICTURE STYLES */
         .profile-picture {
-            border-radius: 50%; /* Make it perfectly circular */
+            border-radius: 50%; 
             border: 6px solid #fff;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
             width: 100%; 
@@ -104,7 +103,8 @@
 
         .card {
             background-color: rgba(255, 255, 255, 0.1); 
-            padding: 0.75rem 1rem;
+            /* **AMENDMENT 1: REDUCED VERTICAL CARD PADDING** for tighter content */
+            padding: 0.5rem 1rem;
             border-radius: 6px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -116,12 +116,11 @@
         /* Navigation Links Style for Active State */
         .nav-link {
             color: #ffffff;
-            font-size: 1rem; 
-            padding-top: 0.5rem !important;
-            padding-bottom: 0.5rem !important;
-            /* **AMENDMENT 1 (Part 2): INCREASED HORIZONTAL MARGIN/INDENTATION** (Narrowing the navigation box) */
-            padding-left: 0.75rem !important; /* Reduced from 1.25rem to 0.75rem */
-            padding-right: 0.75rem !important; /* Reduced from 1.25rem to 0.75rem */
+            font-size: 0.9rem; 
+            padding-top: 0.35rem !important; 
+            padding-bottom: 0.35rem !important; 
+            padding-left: 0.75rem !important; 
+            padding-right: 0.75rem !important; 
             border-radius: 4px;
             transition: background-color 0.2s;
             white-space: nowrap; 
@@ -135,7 +134,7 @@
         .content-section {
             display: none;
             animation: fadeIn 0.5s ease-in-out;
-            max-height: calc(100vh - 120px); 
+            max-height: calc(100vh - 80px); 
             overflow-y: auto; 
             padding-right: 5px;
             background-color: #2A52BE; 
@@ -147,7 +146,7 @@
             from { opacity: 0; transform: translateY(3px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        /* Style for the scrollbar in content sections for better visibility */
+        
         .content-section::-webkit-scrollbar {
             width: 8px;
         }
@@ -182,12 +181,12 @@
 </head>
 <body class="flex flex-col min-h-screen">
 
-    <header class="shadow-md py-3 sticky top-0 z-50">
-        <div class="container mx-auto px-4 md:px-2">
+    <header class="shadow-md py-2 sticky top-0 z-50">
+        <div class="container mx-auto px-2 md:px-2">
         </div>
         
-        <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
-            <nav class="flex justify-center md:space-x-0.5 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
+        <div class="container mx-auto px-2 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
+            <nav class="flex justify-center md:space-x-0.5 space-x-1 mt-1 md:mt-0 text-sm overflow-x-auto">
                 <a href="#about" class="nav-link active" data-target="about">Home</a>
                 <a href="#education" class="nav-link" data-target="education">Education</a>
                 <a href="#experience" class="nav-link" data-target="experience">Experience</a>
@@ -203,7 +202,7 @@
     </header>
 
     <main class="flex-grow">
-        <div class="container mx-auto px-6 py-4"> 
+        <div class="container mx-auto px-2 py-4"> 
             
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
@@ -270,7 +269,6 @@
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Matriculation (SSC Board)</span>
                                 <span class="block">80.3 % | 2001 - 2002.</span>
-                                <span class="block italic text-xs">St Mary’s School, Kavali, Nellore, Andhra Pradesh.</span>
                             </div>
                             <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
@@ -324,7 +322,7 @@
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Researcher (Ph.D. Scholar)</span>
                                 <span class="block">NIT Warangal | May 2015 - Jul 2021.</span>
-                                <span class="block italic text-xs">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
+                            <span class="block italic text-xs">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
                             </div>
                             <a href="files/experience_nitw_research_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
