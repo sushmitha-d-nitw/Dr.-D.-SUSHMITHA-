@@ -26,16 +26,16 @@
         .section-heading {
             padding-bottom: 0.5rem;
             /* REDUCED FONT SIZE for H2 HEADINGS */
-            font-size: 1.5rem; 
+            font-size: 1rem; 
             /* TIGHTENED LINE HEIGHT */
-            line-height: 2rem;
+            line-height: 1.2rem;
             /* REDUCED SPACE BELOW H2 HEADING */
-            margin-bottom: 1rem;
+            margin-bottom: 0.3rem;
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            line-height: 3.0rem;
-            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            font-weight: 200;
         }
 
         /* Card/Sub-Section Headings (H3) */
