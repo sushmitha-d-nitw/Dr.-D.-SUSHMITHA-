@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Resume | Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght=700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght{700}&display=swap" rel="stylesheet">
     <style>
         /* BASE STYLES: FULL BLUE BACKGROUND, WHITE TEXT */
         body {
@@ -37,12 +37,12 @@
         /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
-            /* 1. REDUCED H3 FONT SIZE */
-            font-size: 1.15rem; 
+            /* **AMENDMENT 2: REDUCED H3 FONT SIZE** (From 1.15rem to 1.1rem) */
+            font-size: 1.1rem; 
             line-height: 1.6rem;
             font-weight: 600;
-            /* 2. REDUCED VERTICAL MARGIN BEFORE SUBHEADINGS */
-            margin-bottom: 0.1rem; 
+            /* **AMENDMENT 3: REDUCED VERTICAL MARGIN BEFORE SUBHEADINGS** (From 0.1rem to 0) */
+            margin-bottom: 0; 
             margin-top: 0; 
             padding-top: 0;
         }
@@ -50,7 +50,7 @@
         /* Further reduce vertical margin before h3 inside publications-detail for tighter spacing */
         #publications-detail h3 {
             margin-top: 0.5rem; 
-            margin-bottom: 0.1rem;
+            margin-bottom: 0; /* Ensures consistent tight spacing */
         }
 
         /* Sub-sub headings (H4/custom spans) */
@@ -77,7 +77,8 @@
 
         /* WIDENED CONTAINER MAX-WIDTH FOR MORE HORIZONTAL SPACE */
         .container {
-            max-width: 1600px; 
+            /* **AMENDMENT 1 (Part 1): INCREASED MAX-WIDTH FOR MORE HORIZONTAL SPACE** */
+            max-width: 1700px; 
         }
         
         /* ADJUSTED PROFILE PICTURE STYLES */
@@ -118,9 +119,9 @@
             font-size: 1rem; 
             padding-top: 0.5rem !important;
             padding-bottom: 0.5rem !important;
-            /* 3. INCREASED HORIZONTAL MARGIN/INDENTATION (left and right) */
-            padding-left: 1.25rem !important; 
-            padding-right: 1.25rem !important; 
+            /* **AMENDMENT 1 (Part 2): INCREASED HORIZONTAL MARGIN/INDENTATION** (Narrowing the navigation box) */
+            padding-left: 0.75rem !important; /* Reduced from 1.25rem to 0.75rem */
+            padding-right: 0.75rem !important; /* Reduced from 1.25rem to 0.75rem */
             border-radius: 4px;
             transition: background-color 0.2s;
             white-space: nowrap; 
@@ -186,7 +187,7 @@
         </div>
         
         <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
-            <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
+            <nav class="flex justify-center md:space-x-0.5 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
                 <a href="#about" class="nav-link active" data-target="about">Home</a>
                 <a href="#education" class="nav-link" data-target="education">Education</a>
                 <a href="#experience" class="nav-link" data-target="experience">Experience</a>
@@ -210,8 +211,8 @@
                         <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
-                        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
-                        <h3 class="text-2xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
+                        <h2 class="text-3xl md:text-4xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
+                        <h3 class="text-xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
                             I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
                             My core expertise is in <span class="text-accent">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="text-accent">ASPEN</span> and <span class="text-accent">ANSYS</span>.
