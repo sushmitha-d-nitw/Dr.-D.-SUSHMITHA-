@@ -189,28 +189,26 @@
 </head>
 <body class="flex flex-col min-h-screen">
 
-    <header class="shadow-md py-2 sticky top-0 z-50">
-        <div class="container mx-auto px-2 pt-2 pb-4">
-        </div>
-        
-       <div class="container mx-auto px-2 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
-  <nav class="flex justify-center md:space-x-0.5 space-x-1 mt-1 md:mt-0 text-sm sm:text-base md:text-lg lg:text-xl overflow-x-auto">
-    <a href="#about" class="nav-link active" data-target="about"><b>Home</b></a>
-    <a href="#education" class="nav-link" data-target="education"><b>Education</b></a>
-    <a href="#experience" class="nav-link" data-target="experience"><b>Experience</b></a>
-    <a href="#research" class="nav-link" data-target="research"><b>Research</b></a>
-    <a href="#publications-detail" class="nav-link" data-target="publications-detail"><b>Publications</b></a>
-    <a href="#skills" class="nav-link" data-target="skills"><b>Skills</b></a>
-    <a href="#extracurricular" class="nav-link" data-target="extracurricular"><b>Awards & Recognition</b></a>
-    <a href="#gallery" class="nav-link" data-target="gallery"><b>Gallery</b></a>
-    <a href="#contact" class="nav-link" data-target="contact"><b>Contact</b></a>
-  </nav>
-</div>
-    </header>
+  <header class="shadow-md py-0.5 sticky top-0 z-50 bg-blue-700">
+  <div class="mx-auto max-w-5xl px-2 flex flex-col md:flex-row justify-center items-center">
+    <nav class="flex justify-center md:space-x-1 space-x-2 mt-0 text-sm sm:text-base md:text-lg lg:text-xl text-white overflow-x-auto">
+      <a href="#about" class="nav-link active" data-target="about"><b>Home</b></a>
+      <a href="#education" class="nav-link" data-target="education"><b>Education</b></a>
+      <a href="#experience" class="nav-link" data-target="experience"><b>Experience</b></a>
+      <a href="#research" class="nav-link" data-target="research"><b>Research</b></a>
+      <a href="#publications-detail" class="nav-link" data-target="publications-detail"><b>Publications</b></a>
+      <a href="#skills" class="nav-link" data-target="skills"><b>Skills</b></a>
+      <a href="#gallery" class="nav-link" data-target="gallery"><b>Gallery</b></a>
+      <a href="#contact" class="nav-link" data-target="contact"><b>Contact</b></a>
+    </nav>
+  </div>
+</header>
 
     <main class="flex-grow">
-        <div class="container mx-auto px-2 py-4"> 
-            
+        <div class="container mx-auto max-w-5x1 px-2 py-4"> 
+
+            </div>
+            </main>
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
