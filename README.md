@@ -224,9 +224,6 @@
                 </div>
             </section>
 
- </ul>
-                </div>
-            </section>
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
                 <div class="card card-content">
@@ -352,6 +349,9 @@
                             </div>
                             <a href="files/experience_training_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
+                    </ul>
+                </div>
+            </section>
 
             <section id="research" class="content-section">
                 <h2 class="section-heading">Core Research & Metrics</h2>
@@ -391,6 +391,7 @@
                     </ul>
                 </div>
             </section>
+
             <section id="publications-detail" class="content-section">
                 <h2 class="section-heading">Publications: Journals & Conferences</h2>
                 <div class="card card-content">
@@ -467,12 +468,169 @@
                             <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
                             <li>Microscopy (SEM, TEM, AFM)</li>
                             <li>Thermal Analysis (TGA, DSC)</li>
-                            <li>Electrochemistry (CV, EIS, LPR)</li>
+                            <li>Electrochemical Analysis (Potentiostat)</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Management & Soft Skills</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>Project Management (Research & Industry)</li>
+                            <li>Team Leadership & Mentorship</li>
+                            <li>Curriculum Design & Teaching</li>
+                            <li>Business Development & CRM</li>
+                            <li>Excellent Communication & Presentation</li>
                         </ul>
                     </div>
                 </div>
             </section>
+
+            <section id="extracurricular" class="content-section">
+                <h2 class="section-heading">Awards & Recognition</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Reviewer Recognition (Elsevier)</span>
+                                <span class="block">Recognized as an official reviewer for **3 Elsevier journals**: *Journal of Cleaner Production, Cellulose, Ultrasonics Sonochemistry*.</span>
+                                <span class="block italic text-xs">A testament to expertise and contribution to peer-reviewed scientific literature.</span>
+                            </div>
+                            <a href="files/reviewer_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Best Paper Awards</span>
+                                <span class="block">Awarded for "Lignin Encapsulation..." at the **International Conference (EETSD-2020)**.</span>
+                                <span class="block italic text-xs">Recognized for significant scientific merit and presentation quality.</span>
+                            </div>
+                            <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
+                        </li>
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">GATE & Fellowship Awards</span>
+                                <span class="block">Qualified GATE three times, securing MHRD Ph.D. Scholarship and AICTE M.Tech Fellowship.</span>
+                                <span class="block italic text-xs">These national-level qualifications confirm high academic standards and technical aptitude.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="extra-curricular" class="content-section">
+                <h2 class="section-heading">Extracurricular Activities</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        <li>**Hostel Warden (May-Nov 2022):** Managed and supervised student living and discipline as a Hostel Warden at Excel Engineering College.</li>
+                        <li>**Placement Co-ordinator (2022):** Successfully coordinated industrial placements and internships for the Petrochemical Technology department.</li>
+                        <li>**Active Member of IICHE and IEI:** Maintained continuous professional development and networking within the Indian Institute of Chemical Engineers and Institution of Engineers (India).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="gallery" class="content-section">
+                <h2 class="section-heading">Research & Professional Gallery</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="relative group rounded-lg overflow-hidden">
+                        <img src="files/gallery_img_1.png" alt="Lab Research Setup" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Ultrasound Reactor Setup</p>
+                        </div>
+                    </div>
+                    <div class="relative group rounded-lg overflow-hidden">
+                        <img src="files/gallery_img_2.png" alt="Conference Presentation" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">International Conference Talk</p>
+                        </div>
+                    </div>
+                    <div class="relative group rounded-lg overflow-hidden">
+                        <img src="files/gallery_img_3.png" alt="Team Meeting" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Riss InfoTech Team Huddle</p>
+                        </div>
+                    </div>
+                    <div class="relative group rounded-lg overflow-hidden">
+                        <img src="files/gallery_img_4.png" alt="Teaching Moment" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Classroom Session</p>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+
+            <section id="contact" class="content-section">
+                <h2 class="section-heading">Contact & Professional Links</h2>
+                <div class="card card-content">
+                    <p class="text-lg font-semibold text-accent mb-3">Get in Touch</p>
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-2">
+                        <li>**Email:** <a href="mailto:Dr.sushmitha.d@gmail.com" class="text-blue-300 hover:text-blue-100">Dr.sushmitha.d@gmail.com</a></li>
+                        <li>**Phone:** <a href="tel:+919876543210" class="text-blue-300 hover:text-blue-100">+91 98765 43210 (Example)</a></li>
+                        <li>**LinkedIn:** <a href="[Your-LinkedIn-URL]" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
+                        <li>**Google Scholar:** <a href="[Your-Google-Scholar-URL]" target="_blank" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
+                        <li>**Permanent Address:** [Your Address Line 1], [Your Address Line 2]</li>
+                    </ul>
+
+                    <h3 class="mt-6">Download Resume</h3>
+                    <a href="files/Dr_D_Sushmitha_CV.pdf" download class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm mt-2">
+                        Download Complete CV (PDF)
+                    </a>
+                </div>
+            </section>
+
         </div>
     </main>
+
+    <footer class="text-center py-4 text-xs text-gray-300">
+        <div class="container mx-auto px-4">
+            &copy; 2025 Dr. D. Sushmitha. All rights reserved. | Built with Tailwind CSS.
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const contentSections = document.querySelectorAll('.content-section');
+
+            const activateSection = (targetId) => {
+                // Remove 'active' class from all links and sections
+                navLinks.forEach(link => link.classList.remove('active'));
+                contentSections.forEach(section => section.classList.remove('active'));
+
+                // Add 'active' class to the clicked link and the target section
+                const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+                const activeSection = document.getElementById(targetId);
+
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+                if (activeSection) {
+                    activeSection.classList.add('active');
+                    // Scroll to the top of the newly activated section's content area
+                    activeSection.scrollTop = 0; 
+                }
+            };
+
+            // Event listener for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('data-target');
+                    // Use history.pushState to update the URL hash without a full reload
+                    history.pushState(null, '', `#${targetId}`); 
+                    activateSection(targetId);
+                });
+            });
+
+            // Handle page load with a hash (e.g., #education in the URL)
+            const initialHash = window.location.hash ? window.location.hash.substring(1) : 'about';
+            activateSection(initialHash);
+
+            // Optional: Handle back/forward button clicks
+            window.addEventListener('popstate', () => {
+                const currentHash = window.location.hash ? window.location.hash.substring(1) : 'about';
+                activateSection(currentHash);
+            });
+        });
+    </script>
+    
 </body>
 </html>
