@@ -19,8 +19,8 @@
         }
         
         main {
-              padding-top: 0;
-              background-color: transparent; 
+            padding-top: 0;
+            background-color: transparent; 
         }
         
         /* Section Headings (H2) */
@@ -34,15 +34,23 @@
             font-weight: 700;
         }
 
-        /* Card/Sub-Section Headings (H3) - REDUCED SIZE AND MARGINS HERE */
+        /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
-            font-size: 1.25rem; /* Reduced from 1.5rem (text-xl) */
-            line-height: 1.75rem;
+            /* 1. REDUCED H3 FONT SIZE */
+            font-size: 1.15rem; 
+            line-height: 1.6rem;
             font-weight: 600;
-            margin-bottom: 0.25rem;
-            margin-top: 0; /* Removing excess top gap */
+            /* 2. REDUCED VERTICAL MARGIN BEFORE SUBHEADINGS */
+            margin-bottom: 0.1rem; 
+            margin-top: 0; 
             padding-top: 0;
+        }
+
+        /* Further reduce vertical margin before h3 inside publications-detail for tighter spacing */
+        #publications-detail h3 {
+            margin-top: 0.5rem; 
+            margin-bottom: 0.1rem;
         }
 
         /* Sub-sub headings (H4/custom spans) */
@@ -67,8 +75,9 @@
             color: #BBDEFB;
         }
 
+        /* WIDENED CONTAINER MAX-WIDTH FOR MORE HORIZONTAL SPACE */
         .container {
-            max-width: 1400px;
+            max-width: 1600px; 
         }
         
         /* ADJUSTED PROFILE PICTURE STYLES */
@@ -76,24 +85,21 @@
             border-radius: 50%; /* Make it perfectly circular */
             border: 6px solid #fff;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-            /* Ensure the image fills the circle without distortion */
-            width: 100%; /* Take full width of its parent div (e.g., w-36/w-48) */
-            height: 100%; /* Take full height of its parent div */
-            object-fit: cover; /* Crop to fit the circular shape */
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
         }
-        /* Added to ensure the parent div of the profile picture is also a perfect square */
         .md\:w-1\/3 > .flex.justify-center {
             position: relative;
-            width: 144px; /* Matches w-36, change to 192px for md:w-48 */
-            height: 144px; /* Ensures a perfect square */
+            width: 144px; 
+            height: 144px; 
         }
         @media (min-width: 768px) { /* md breakpoint */
             .md\:w-1\/3 > .flex.justify-center {
-                width: 192px; /* Matches md:w-48 */
-                height: 192px; /* Ensures a perfect square */
+                width: 192px; 
+                height: 192px; 
             }
         }
-
 
         .card {
             background-color: rgba(255, 255, 255, 0.1); 
@@ -112,8 +118,9 @@
             font-size: 1rem; 
             padding-top: 0.5rem !important;
             padding-bottom: 0.5rem !important;
-            padding-left: 0.6rem !important;
-            padding-right: 0.6rem !important;
+            /* 3. INCREASED HORIZONTAL MARGIN/INDENTATION (left and right) */
+            padding-left: 1.25rem !important; 
+            padding-right: 1.25rem !important; 
             border-radius: 4px;
             transition: background-color 0.2s;
             white-space: nowrap; 
@@ -155,36 +162,34 @@
         .relative.group {
             position: relative;
             width: 100%;
-            padding-bottom: 100%; /* Makes the container a perfect square based on its width */
-            height: 0; /* Resets height to make padding-bottom effective */
-            overflow: hidden; /* Hides any overflow from the image */
-            border: 2px solid #fff; /* Optional: Add a border for definition */
-            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            padding-bottom: 100%; 
+            height: 0; 
+            overflow: hidden; 
+            border: 2px solid #fff; 
+            box-sizing: border-box; 
         }
-        .gallery-image { /* This targets the <img> inside the .relative.group */
+        .gallery-image { 
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensures the image fills the square, cropping as needed */
+            object-fit: cover; 
             display: block;
         }
-
-
     </style>
 </head>
 <body class="flex flex-col min-h-screen">
 
     <header class="shadow-md py-3 sticky top-0 z-50">
         <div class="container mx-auto px-4 md:px-2">
-            </div>
+        </div>
         
         <div class="container mx-auto px-4 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
             <nav class="flex justify-center md:space-x-1 space-x-2 mt-2 md:mt-0 text-sm overflow-x-auto">
                 <a href="#about" class="nav-link active" data-target="about">Home</a>
-                <a href="#experience" class="nav-link" data-target="experience">Experience</a>
                 <a href="#education" class="nav-link" data-target="education">Education</a>
+                <a href="#experience" class="nav-link" data-target="experience">Experience</a>
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
                 <a href="#skills" class="nav-link" data-target="skills">Skills</a>
@@ -205,7 +210,7 @@
                         <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
-                        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Chemical Engineering Specialist</h2>
+                        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
                         <h3 class="text-2xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
                             I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
@@ -216,6 +221,72 @@
                             <a href="#contact" class="bg-gray-200 hover:bg-gray-300 text-blue-900 font-bold py-2 px-4 rounded transition text-sm" data-target="contact">Connect</a>
                         </div>
                     </div>
+                </div>
+            </section>
+
+ </ul>
+                </div>
+            </section>
+            <section id="education" class="content-section">
+                <h2 class="section-heading">Educational Qualifications</h2>
+                <div class="card card-content">
+                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Ph.D. in Chemical Engineering</span>
+                                <span class="block">NIT Warangal | Aug 2015 - Mar 2021.</span>
+                                <span class="block italic text-xs">Thesis: Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion inhibition coatings.</span>
+                            </div>
+                            <a href="files/phd_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">M.Tech in Chemical Engineering (7.28 CGPA)</span>
+                                <span class="block">NIT Warangal | Jul 2009 - Jul 2011.</span>
+                                <span class="block italic text-xs">Specialization: Computer Aided Process Equipment Design. Project: Improvement of Crude Benzol Production...</span>
+                            </div>
+                            <a href="files/mtech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">B.Tech in Chemical Engineering (67.56%)</span>
+                                <span class="block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
+                                <span class="block italic text-xs">Thesis: Simulation of large-scale membrane reformers (two-dimensional model).</span>
+                            </div>
+                            <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+                        
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Intermediate (Inter) - M.P.C. (Math's, Physics, Chemistry)</span>
+                                <span class="block">83.7 % | 2002 - 2004.</span>
+                                <span class="block italic text-xs">Narayana Junior college, Nellore, Andhra Pradesh.</span>
+                            </div>
+                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">Matriculation (SSC Board)</span>
+                                <span class="block">80.3 % | 2001 - 2002.</span>
+                                <span class="block italic text-xs">St Mary’s School, Kavali, Nellore, Andhra Pradesh.</span>
+                            </div>
+                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+
+
+                        <li class="flex justify-between items-start pr-4">
+                            <div class="flex-grow">
+                                <span class="font-semibold text-accent block">GATE Qualification & Fellowships</span>
+                                <span class="block">Qualified GATE three times (2009, 2010, 2012); Highest Rank: 1219.</span>
+                                <span class="block italic text-xs">Awarded MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
+                            </div>
+                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
             
@@ -282,72 +353,6 @@
                             <a href="files/experience_training_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
-                    </ul>
-                </div>
-            </section>
-            <section id="education" class="content-section">
-                <h2 class="section-heading">Educational Qualifications</h2>
-                <div class="card card-content">
-                    <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-                        
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Ph.D. in Chemical Engineering</span>
-                                <span class="block">NIT Warangal | Aug 2015 - Mar 2021.</span>
-                                <span class="block italic text-xs">Thesis: Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion inhibition coatings.</span>
-                            </div>
-                            <a href="files/phd_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">M.Tech in Chemical Engineering (7.28 CGPA)</span>
-                                <span class="block">NIT Warangal | Jul 2009 - Jul 2011.</span>
-                                <span class="block italic text-xs">Specialization: Computer Aided Process Equipment Design. Project: Improvement of Crude Benzol Production...</span>
-                            </div>
-                            <a href="files/mtech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">B.Tech in Chemical Engineering (67.56%)</span>
-                                <span class="block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
-                                <span class="block italic text-xs">Thesis: Simulation of large-scale membrane reformers (two-dimensional model).</span>
-                            </div>
-                            <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-                        
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Intermediate (Inter) - M.P.C. (Math's, Physics, Chemistry)</span>
-                                <span class="block">83.7 % | 2002 - 2004.</span>
-                                <span class="block italic text-xs">Narayana Junior college, Nellore, Andhra Pradesh.</span>
-                            </div>
-                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">Matriculation (SSC Board)</span>
-                                <span class="block">80.3 % | 2001 - 2002.</span>
-                                <span class="block italic text-xs">St Mary’s School, Kavali, Nellore, Andhra Pradesh.</span>
-                            </div>
-                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-
-
-                        <li class="flex justify-between items-start pr-4">
-                            <div class="flex-grow">
-                                <span class="font-semibold text-accent block">GATE Qualification & Fellowships</span>
-                                <span class="block">Qualified GATE three times (2009, 2010, 2012); Highest Rank: 1219.</span>
-                                <span class="block italic text-xs">Awarded MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
-                            </div>
-                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
             <section id="research" class="content-section">
                 <h2 class="section-heading">Core Research & Metrics</h2>
                 <div class="card card-content">
@@ -358,7 +363,7 @@
                                 <span class="font-semibold text-accent block">Core Research Areas</span>
                                 <span class="block italic text-xs">Expertise in: <span class="text-accent">Process Intensification</span>, Biorefinery, Biomass Valorisation, Paper Manufacturing, UV-Protective cloth, SAP, <span class="text-accent">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing materials (corrosion/concrete).</span>
                             </div>
-                            </li>
+                        </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
@@ -370,7 +375,7 @@
                                     <li><span class="text-accent">2</span> Book Chapters; <span class="text-accent">4</span> National Conference Papers</li>
                                 </ul>
                             </div>
-                            </li>
+                        </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
@@ -381,7 +386,7 @@
                                     <li>Memberships: Associate Member of <span class="text-accent">IICHE</span> and <span class="text-accent">IEI</span>.</li>
                                 </ul>
                             </div>
-                            </li>
+                        </li>
                         
                     </ul>
                 </div>
@@ -423,331 +428,51 @@
                     <ul class="list-disc list-inside text-sm ml-4 mt-2">
                         <li>Optimization of Microwave assisted delignification process parameters... (RESEARCH CONCLAVE-2017), NITW, Warangal.</li>
                         <li>Ultrasound Assisted Pretreatment for efficient delignification of sawdust using sodium per carbonate. (CHEMCON-2016), IIT-Madras.</li>
-                        <li>Simulation of large-scale membrane reformers by a two-dimensional model. (FUSION-07), JNTU A.</li>
-                        <li>Supercritical extraction. (TECHNOZION-07), NIT-W.</li>
+                        <li>Simulation of large-scale membrane reformers by a two-dimensional model. (FUSION-07), JNTU-A.</li>
+                        <li>Modelling of a high pressure... (Placeholder for 4th title).</li>
                     </ul>
                 </div>
             </section>
-
-<section id="skills" class="content-section">
-    <h2 class="section-heading">Skills & Core Expertise</h2>
-    <div class="grid md:grid-cols-2 gap-4">
-
-        <div class="card card-content md:col-span-2">
-            <h3>Software & Simulation</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Advanced tools for Process Modeling, Simulation, and Data Analysis.</p>
             
-            <h4 class="sub-sub-heading mt-2">Business Analytics Tools:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">Power BI (Data visualization):</span> Used to visualize data and share insights across an organization. Connects to various data sources to create interactive dashboards and reports.</li>
-                <li><span class="font-semibold">CRM software tool (Customer Relation Management).</span></li>
-            </ul>
+            <section id="skills" class="content-section">
+                <h2 class="section-heading">Technical & Professional Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    
+                    <div class="card">
+                        <h3>Domain Expertise</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>Process Intensification (Acoustic Cavitation, Microwave)</li>
+                            <li>Biomass Valorisation (Lignin, Cellulose, Hydrochar)</li>
+                            <li>Advanced Coatings (Self-healing, Anti-corrosion)</li>
+                            <li>Reaction & Transport Phenomena</li>
+                            <li>Polymer & Nanomaterials Synthesis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Simulation & Software</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li><span class="font-semibold text-accent">ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
+                            <li><span class="font-semibold text-accent">ANSYS</span> (CFD Modeling & Simulation)</li>
+                            <li>Design Expert (RSM, DOE)</li>
+                            <li>MATLAB (Programming & Modeling)</li>
+                            <li>MS Office Suite & Data Analysis</li>
+                        </ul>
+                    </div>
 
-            <h4 class="sub-sub-heading mt-3">Statistical and Data Analysis Tools:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">State ease:</span> Used for Econometrics, Panel Data, Epidemiology, and Social Science (for modeling the process and optimizing the model for best fit using regression).</li>
-                <li><span class="font-semibold">Mini Tab:</span> Used for Quality Control, Six Sigma, and Basic Statistics Education.</li>
-            </ul>
-            
-            <h4 class="sub-sub-heading mt-3">Process Simulation Tools (Macroscopic/Microscopic):</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">ASPEN Plus/HYSYS:</span> Expertise in modeling and simulation of steady-state and dynamic chemical processes (e.g., distillation, reactors, heat exchange).</li>
-                <li><span class="font-semibold">ANSYS (Fluent, CFX):</span> Experienced in Computational Fluid Dynamics (CFD) for simulating fluid flow, heat transfer, and related phenomena.</li>
-                <li><span class="font-semibold">AutoCAD:</span> Proficient in creating 2D/3D chemical process diagrams and equipment layouts.</li>
-            </ul>
-
-            <h4 class="sub-sub-heading mt-3">Other Technical Software:</h4>
-            <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                <li><span class="font-semibold">Origin:</span> For high-quality graphing and data analysis.</li>
-                <li><span class="font-semibold">Microsoft Office Suite:</span> Advanced proficiency (Word, Excel, PowerPoint).</li>
-            </ul>
-        </div>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const navLinks = document.querySelectorAll('.nav-link');
-        const contentSections = document.querySelectorAll('.content-section');
-
-        // Function to handle section switching
-        const showSection = (targetId) => {
-            // Deactivate all sections
-            contentSections.forEach(section => {
-                section.classList.remove('active');
-            });
-
-            // Deactivate all nav links
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-
-            // Activate the targeted section
-            const targetSection = document.getElementById(targetId);
-            if (targetSection) {
-                targetSection.classList.add('active');
-                targetSection.scrollTop = 0; // Scroll to top of the new section
-            }
-            
-            // Activate the corresponding nav link
-            const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
-            if (activeLink) {
-                activeLink.classList.add('active');
-            }
-        };
-
-        // Event listener for navigation links
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                // Extract the target ID from the data-target attribute
-                const targetId = link.getAttribute('data-target');
-                showSection(targetId);
-                
-                // Update URL hash without causing a jump
-                history.pushState(null, '', `#${targetId}`);
-            });
-        });
-
-        // Function to handle initial load based on URL hash
-        const initialLoad = () => {
-            let activeTarget = 'about'; // Default section
-
-            // Check if a specific section is requested in the URL hash
-            if (window.location.hash) {
-                const hash = window.location.hash.substring(1); // Remove the '#'
-                const hashLink = document.querySelector(`.nav-link[data-target="${hash}"]`);
-                if (hashLink) {
-                    activeTarget = hash;
-                }
-            }
-
-            // Show the initial section
-            showSection(activeTarget);
-        };
-
-        // Run the initial load function
-        initialLoad();
-
-        // Handle back/forward button navigation
-        window.addEventListener('popstate', initialLoad);
-    });
-</script>
-        
-        <div class="card card-content">
-            <h3>Laboratory & Analytical Skills</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Hands-on experience with advanced materials synthesis and characterization.</p>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
-                <li><span class="font-semibold">Chemical Synthesis:</span> Synthesis of Nano-materials (Lignin Nano capsules, Nano Cellulose), Hydrogel.</li>
-                <li><span class="font-semibold">Electrochemical Testing:</span> Cyclic Voltammetry (CV), Galvanostatic Charge-Discharge (GCD), Electrochemical Impedance Spectroscopy (EIS).</li>
-                <li><span class="font-semibold">Spectroscopy & Thermal Analysis:</span> FTIR, TGA, DSC, Raman Spectroscopy.</li>
-                <li><span class="font-semibold">Microscopy & Diffraction:</span> SEM, TEM, AFM, XRD.</li>
-                <li><span class="font-semibold">Process Equipment:</span> Batch/Semi-batch Reactors, High Pressure Autoclave, Ultrasonic Processors.</li>
-            </ul>
-        </div>
-
-        <div class="card card-content">
-            <h3>Teaching & Management Skills</h3>
-            <p class="text-sm text-e0e0e0 italic mb-2">Academic and administrative competencies developed over years of teaching.</p>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-sm">
-                <li><span class="font-semibold">Core Subjects:</span> Chemical Reaction Engineering, Transport Phenomena, Process Engineering Principles, Catalytic Engineering, Electrochemistry.</li>
-                <li><span class="font-semibold">Management:</span> HR/Payroll Management, Placement Co-ordination, Curriculum Development, Team Leadership.</li>
-                <li><span class="font-semibold">Mentoring:</span> Class Advisor/Mentor, Research Supervision for B.Tech/M.Tech students.</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="extracurricular" class="content-section">
-    <h2 class="section-heading">Awards & Professional Recognition</h2>
-    <div class="card card-content">
-        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Research Paper Recognition</span>
-                    <span class="block italic text-xs">Ph.D. journal paper published in <span class="text-accent">Ultrasonics Sonochemistry</span> (IF: 9.336), a top-tier Elsevier journal.</span>
+                    <div class="card">
+                        <h3>Lab Techniques & Handling</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li><span class="font-semibold text-accent">Chromatography</span> (HPLC, GC)</li>
+                            <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
+                            <li>Microscopy (SEM, TEM, AFM)</li>
+                            <li>Thermal Analysis (TGA, DSC)</li>
+                            <li>Electrochemistry (CV, EIS, LPR)</li>
+                        </ul>
+                    </div>
                 </div>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Peer Reviewer Status (Elsevier Journals)</span>
-                    <span class="block italic text-xs">Official reviewer for <span class="text-accent">Ultrasonics Sonochemistry (IF: 9.336)</span>, <span class="text-accent">Materials Letters (IF: 3.571)</span>, and <span class="text-accent">Journal of Materials Research and Technology (IF: 6.267)</span>.</span>
-                </div>
-                <a href="files/reviewer_certificates.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificates</a>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Fellowships & Scholarships</span>
-                    <span class="block italic text-xs">Awarded the <span class="text-accent">MHRD Scholarship</span> during Ph.D. and <span class="text-accent">AICTE Fellowship</span> during M.Tech.</span>
-                </div>
-            </li>
-            <li class="flex justify-between items-start pr-4">
-                <div class="flex-grow">
-                    <span class="font-semibold text-accent block">Professional Memberships</span>
-                    <span class="block italic text-xs">Associate Member of the <span class="text-accent">Indian Institute of Chemical Engineers (IICHE)</span> and the <span class="text-accent">Institution of Engineers (India) [IEI]</span>.</span>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section id="extra-curricular" class="content-section">
-   <section id="extra-curricular" class="content-section">
-    <h2 class="section-heading">Extra Curricular Activities & Interests</h2>
-    <div class="card card-content">
-        <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
-            <li>
-                <span class="font-semibold text-accent inline">Literary and Creative Writing:</span>
-                Contributed articles to college magazines and online platforms focused on science communication and technology ethics.
-            </li>
-            <li>
-                <span class="font-semibold text-accent inline">Community Engagement:</span>
-                Involved in organizing student mentorship programs and career counseling sessions for underprivileged students.
-            </li>
-            <li>
-                <span class="font-semibold text-accent inline">Technical Events:</span>
-                Served as Event Coordinator for national-level technical symposiums, managing logistics for up to 500 participants.
-            </li>
-             <li>
-                <span class="font-semibold text-accent inline">Trekking and Nature Exploration:</span>
-                Regular participation in local and regional treks, fostering teamwork and resilience.
-            </li>
-        </ul>
-    </div>
-</section>
-
-<section id="gallery" class="content-section">
-    <h2 class="section-heading">Gallery: Research, Work & Education</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/research1.png" alt="Lab Research Work" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Nanoparticle Synthesis</p>
-            </div>
+            </section>
         </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/conference1.png" alt="Conference Presentation" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">International Conference</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/teaching1.png" alt="Teaching Moment" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Guest Lecture at JNTU</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/phd_grad.png" alt="PhD Graduation Ceremony" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">PhD Graduation (NITW)</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/vizag_steel.png" alt="Vizag Steel Plant" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Industrial Training (VSP)</p>
-            </div>
-        </div>
-        <div class="relative group">
-            <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/main/website%20phototes/book_chapter.png" alt="Book Chapter Cover" class="gallery-image">
-            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <p class="text-white text-xs text-center p-2 font-semibold">Book Chapter Contribution</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="content-section">
-    <h2 class="section-heading">Contact & Professional Links</h2>
-    <div class="card card-content">
-        <div class="grid md:grid-cols-2 gap-4">
-            <div>
-                <h3>Personal Contact</h3>
-                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-                    <li><span class="font-semibold text-accent">Email:</span> <a href="mailto:sushmithache@gmail.com">sushmithache@gmail.com</a></li>
-                    <li><span class="font-semibold text-accent">Mobile:</span> +91 94901XXXXX (Available upon request)</li>
-                    <li><span class="font-semibold text-accent">Location:</span> Hyderabad, Telangana, India</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Professional Profiles</h3>
-                <ul class="list-disc list-inside text-sm ml-4 space-y-2 mt-2">
-                    <li><span class="font-semibold text-accent">LinkedIn:</span> <a href="https://www.linkedin.com/in/sushmitha-d-ph-d-35431526" target="_blank">Dr. D. Sushmitha, Ph.D.</a></li>
-                    <li><span class="font-semibold text-accent">Google Scholar:</span> <a href="https://scholar.google.com/citations?user=L07p48gAAAAJ" target="_blank">View Citations</a></li>
-                    <li><span class="font-semibold text-accent">ORCID:</span> <a href="https://orcid.org/0000-0002-9844-4866" target="_blank">0000-0002-9844-4866</a></li>
-                    <li><span class="font-semibold text-accent">ResearchGate:</span> <a href="https://www.researchgate.net/profile/D-Sushmitha" target="_blank">Dr. D. Sushmitha</a></li>
-                </ul>
-            </div>
-        </div>
-        <h3 class="mt-6">Reference</h3>
-        <p class="text-sm italic mt-2">Professional references and letter of recommendation are available upon request.</p>
-    </div>
-</section>
-        </div> 
     </main>
-
-    <footer class="text-center py-3 text-xs border-t border-gray-700 mt-4">
-        <p class="text-gray-300">&copy; <span id="current-year"></span> Dr. D. Sushmitha. All rights reserved.</p>
-        <p class="text-gray-400">Chemical Engineering Specialist | Built with Tailwind CSS and Vanilla JS.</p>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Set current year in footer
-            document.getElementById('current-year').textContent = new Date().getFullYear();
-
-            const navLinks = document.querySelectorAll('.nav-link');
-            const sections = document.querySelectorAll('.content-section');
-
-            // Function to handle section display
-            function showSection(targetId) {
-                // Deactivate all links and sections
-                navLinks.forEach(link => link.classList.remove('active'));
-                sections.forEach(section => section.classList.remove('active'));
-
-                // Activate the target link and section
-                const targetLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
-                const targetSection = document.getElementById(targetId);
-
-                if (targetLink) {
-                    targetLink.classList.add('active');
-                }
-                if (targetSection) {
-                    targetSection.classList.add('active');
-                    targetSection.scrollTop = 0; // Scroll to top of the new section
-                }
-            }
-
-            // Event listener for navigation links
-            navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    // Prevent default anchor link behavior (which causes full page scroll)
-                    e.preventDefault(); 
-                    
-                    const targetId = this.getAttribute('data-target');
-                    
-                    // Update the URL hash (optional, but good for back/forward buttons)
-                    history.pushState(null, '', `#${targetId}`);
-
-                    showSection(targetId);
-                });
-            });
-
-            // Handle initial load based on URL hash (e.g., if page is loaded with #experience)
-            function handleHashChange() {
-                const hash = window.location.hash.substring(1); // Get hash without '#'
-                const initialTargetId = hash || 'about'; // Default to 'about' if no hash
-
-                // Use a slight delay to ensure the fadeIn animation runs correctly on load
-                setTimeout(() => {
-                    showSection(initialTargetId);
-                }, 10);
-            }
-            
-            // Run on load
-            handleHashChange();
-
-            // Also listen for hash changes (back/forward button)
-            window.addEventListener('hashchange', handleHashChange);
-        });
-    </script>
 </body>
 </html>
