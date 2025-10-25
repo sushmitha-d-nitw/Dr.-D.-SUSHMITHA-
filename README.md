@@ -195,8 +195,8 @@
         
         <div class="container mx-auto px-2 md:px-2 flex flex-col md:flex-row justify-center items-center header-nav-container">
             <nav class="flex justify-center md:space-x-0.5 space-x-1 mt-1 md:mt-0 text-sm overflow-x-auto">
-                <a href="#about" class="nav-link active" data-target="about">Home</a>
-                <a href="#education" class="nav-link" data-target="education">Education</a>
+                <a href="#about" class="nav-link active" data-target="about"><b>Home</b></a>
+                <a href="#education" class="nav-link" data-target="education"><b>Education</b></a>
                 <a href="#experience" class="nav-link" data-target="experience">Experience</a>
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
