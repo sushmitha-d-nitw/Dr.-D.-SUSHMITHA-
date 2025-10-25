@@ -1,4 +1,3 @@
-```markdown
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -26,42 +25,33 @@
         /* Section Headings (H2) */
         .section-heading {
             padding-bottom: 0.5rem;
-            /* INCREASED FONT SIZE for H2 HEADINGS */
-            font-size: 1.5rem; /* ~24px - increase/decrease as desired */
-            /* ADJUSTED LINE HEIGHT */
-            line-height: 1.4;
-            /* MORE SPACE BELOW H2 HEADING */
-            margin-bottom: 0.75rem;
-            /* NORMAL SPACE ABOVE H2 */
-            margin-top: 1rem;
+            /* REDUCED FONT SIZE for H2 HEADINGS */
+            font-size: 1rem; 
+            /* TIGHTENED LINE HEIGHT */
+            line-height: 1.2rem;
+            /* REDUCED SPACE BELOW H2 HEADING */
+            margin-bottom: 0.3rem;
+
+            /***NEW: PULL UP HEADING TO REDUCE SPACE ABOVE***/
+            margin-top:-1.5rem;/%Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
-            font-weight: 700;
-        }
-
-        /* Larger sizes on medium+ screens */
-        @media (min-width: 768px) {
-            .section-heading {
-                font-size: 1.75rem; /* ~28px on md+ */
-            }
+            font-size: 1rem;
+            line-height: 1.2rem;
+            font-weight: 200;
         }
 
         /* Card/Sub-Section Headings (H3) */
         h3 {
             color: #ffffff;
-            /* INCREASED H3 FONT SIZE */
-            font-size: 1.125rem; /* ~18px */
+            /* **AMENDMENT 2: DECREASED H3 FONT SIZE** (From 1.1rem to 1rem) */
+            font-size: 1rem; 
             line-height: 1.5rem;
             font-weight: 600;
             margin-bottom: 0; 
+            /* **AMENDMENT 1: DECREASED SPACE ABOVE H3** (Ensuring margin-top is zero) */
             margin-top: 0; 
             padding-top: 0;
-        }
-
-        @media (min-width: 768px) {
-            h3 {
-                font-size: 1.25rem; /* ~20px on md+ */
-            }
         }
 
         /* Further reduce vertical margin before h3 inside publications-detail for tighter spacing */
@@ -134,7 +124,7 @@
         /* Navigation Links Style for Active State */
         .nav-link {
             color: #ffffff;
-            font-size: 1.05rem; 
+            font-size: 0.9rem; 
             padding-top: 0.35rem !important; 
             padding-bottom: 0.35rem !important; 
             padding-left: 0.75rem !important; 
@@ -222,14 +212,14 @@
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="p[...]
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/main%20.png" alt="Dr. D. Sushmitha Profile Picture" class="profile-picture w-36 h-36 md:w-48 md:h-48">
                     </div>
                     <div class="md:w-2/3">
                         <h2 class="text-3xl md:text-4xl font-extrabold leading-tight">Chemical Engineering Specialist</h2> 
                         <h3 class="text-xl font-semibold mt-2 text-accent">Process Intensification, Biomass Valorisation & Academic Excellence</h3>
                         <p class="mt-3 max-w-xl mx-auto md:mx-0 leading-relaxed text-base">
                             I leverage <span class="text-accent">over 10 years of experience</span> across academia, research, and management.
-                            My core expertise is in <span class="text-accent">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="text-accent">ASPEN</span> a[...]
+                            My core expertise is in <span class="text-accent">Sustainable Technology</span>, advanced coatings, and process modeling using <span class="text-accent">ASPEN</span> and <span class="text-accent">ANSYS</span>.
                         </p>
                         <div class="flex justify-center md:justify-start space-x-4 mt-4">
                             <a href="#experience" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm" data-target="experience">View Career</a>
@@ -248,9 +238,9 @@
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Ph.D. in Chemical Engineering</span>
                                 <span class="block">NIT Warangal | Aug 2015 - Mar 2021.</span>
-                                <span class="block italic text-xs">Thesis: Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion[...]
+                                <span class="block italic text-xs">Thesis: Intensification of delignification from Tectona grandis by acoustic cavitation for development of self-healing corrosion inhibition coatings.</span>
                             </div>
-                            <a href="files/phd_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shr[...]
+                            <a href="files/phd_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
@@ -259,7 +249,7 @@
                                 <span class="block">NIT Warangal | Jul 2009 - Jul 2011.</span>
                                 <span class="block italic text-xs">Specialization: Computer Aided Process Equipment Design. Project: Improvement of Crude Benzol Production...</span>
                             </div>
-                            <a href="files/mtech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-s[...]
+                            <a href="files/mtech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
@@ -268,7 +258,7 @@
                                 <span class="block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
                                 <span class="block italic text-xs">Thesis: Simulation of large-scale membrane reformers (two-dimensional model).</span>
                             </div>
-                            <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-s[...]
+                            <a href="files/btech_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
                         
                         <li class="flex justify-between items-start pr-4">
@@ -277,7 +267,7 @@
                                 <span class="block">83.7 % | 2002 - 2004.</span>
                                 <span class="block italic text-xs">Narayana Junior college, Nellore, Andhra Pradesh.</span>
                             </div>
-                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-s[...]
+                            <a href="files/inter_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
@@ -285,7 +275,7 @@
                                 <span class="font-semibold text-accent block">Matriculation (SSC Board)</span>
                                 <span class="block">80.3 % | 2001 - 2002.</span>
                             </div>
-                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-[...]
+                            <a href="files/matriculation_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
 
 
@@ -295,7 +285,7 @@
                                 <span class="block">Qualified GATE three times (2009, 2010, 2012); Highest Rank: 1219.</span>
                                 <span class="block italic text-xs">Awarded MHRD Scholarship (Ph.D.) and AICTE Fellowship (M.Tech).</span>
                             </div>
-                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml[...]
+                            <a href="files/gate_scorecard_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Certificate</a>
                         </li>
                     </ul>
                 </div>
@@ -310,45 +300,45 @@
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Asst. Professor (Temporary)</span>
                                 <span class="block">Biotech, JNTU-H | Jan 2025 - Present.</span>
-                                <span class="block italic text-xs">Taught: <span class="text-accent">Process engineering principles</span>. Labs: <span class="text-accent">Chemical Reaction Engin[...]
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Process engineering principles</span>. Labs: <span class="text-accent">Chemical Reaction Engineering Lab, Enzyme engineering Lab</span>.</span>
                             </div>
-                            <a href="files/experience_jntu_2025_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml[...]
+                            <a href="files/experience_jntu_2025_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Business Development & Sales Manager</span>
                                 <span class="block">Riss InfoTech | Jan - Aug 2023.</span>
-                                <span class="block italic text-xs">Managed CRM (<span class="text-accent">70 employees</span). Executed <span class="text-accent">Digital marketing</span>, <span [...]
+                                <span class="block italic text-xs">Managed CRM (<span class="text-accent">70 employees</span>). Executed <span class="text-accent">Digital marketing</span>, <span class="text-accent">HR/Payroll</span>. Acquired <span class="text-accent">Leadership skills</span>.</span>
                             </div>
-                            <a href="files/experience_riss_infotech_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transitio[...]
+                            <a href="files/experience_riss_infotech_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Asst. Professor & Coordinator</span>
                                 <span class="block">Petrochemical Tech, Excel Engg College | May - Nov 2022.</span>
-                                <span class="block italic text-xs">Taught: <span class="text-accent">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span class="text[...]
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Electrochemistry, CRE I & II, Catalytic Engg, Fluid Mechanics</span>. Roles: <span class="text-accent">Placement Co-ordinator, Hostel Warden, Class Advisor/Mentor, Internship Co-ordinator</span>.</span>
                             </div>
-                            <a href="files/experience_excel_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 f[...]
+                            <a href="files/experience_excel_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Researcher (Ph.D. Scholar)</span>
                                 <span class="block">NIT Warangal | May 2015 - Jul 2021.</span>
-                            <span class="block italic text-xs">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/[...]
+                            <span class="block italic text-xs">Project: <span class="text-accent">Process Intensification (delignification)</span>. Software: <span class="text-accent">ASPEN plus/Hysis, ANSYS (3D Modeling)</span>.</span>
                             </div>
-                            <a href="files/experience_nitw_research_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transitio[...]
+                            <a href="files/experience_nitw_research_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Asst. Professor</span>
                                 <span class="block">Biotech, JNTU-H | Dec 2011 - Apr 2014.</span>
-                                <span class="block italic text-xs">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engin[...]
+                                <span class="block italic text-xs">Taught: <span class="text-accent">Process Engg Principles, Advanced transport phenomenon, Bioprocess Modelling, Bioprocess engineering principles, Basic engineering mathematics</span>. Managed labs.</span>
                             </div>
-                            <a href="files/experience_jntu_2011_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml[...]
+                            <a href="files/experience_jntu_2011_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
 
                         <li class="flex justify-between items-start pr-4">
@@ -361,7 +351,7 @@
                                 <span class="block">KERBS & Indo American Pharma | 2007.</span>
                                 <span class="block italic text-xs">Training: Hands-on experience in equipment/processes and <span class="text-accent">Bulk Drug Production</span>.</span>
                             </div>
-                            <a href="files/experience_training_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-[...]
+                            <a href="files/experience_training_proof.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
                     </ul>
                 </div>
@@ -375,7 +365,7 @@
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
                                 <span class="font-semibold text-accent block">Core Research Areas</span>
-                                <span class="block italic text-xs">Expertise in: <span class="text-accent">Process Intensification</span>, Biorefinery, Biomass Valorisation, Paper Manufacturing, [...]
+                                <span class="block italic text-xs">Expertise in: <span class="text-accent">Process Intensification</span>, Biorefinery, Biomass Valorisation, Paper Manufacturing, UV-Protective cloth, SAP, <span class="text-accent">Supercapacitors</span>, Dielectric paints, Conductive polymers, Hydrogel, Self-healing materials (corrosion/concrete).</span>
                             </div>
                         </li>
 
@@ -412,12 +402,12 @@
                     
                     <h3>Journal Publications (6 Papers)</h3>
                     <ol class="list-decimal list-inside text-sm ml-4 mt-3 pub-list">
-                        <li><span class="font-semibold">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultra[...]
-                        <li><span class="font-semibold">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journa[...]
-                        <li><span class="font-semibold">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity by Incorporation of Nano Cellulose in Two pack epoxy polyamide syste[...]
-                        <li><span class="font-semibold">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* [...]
-                        <li><span class="font-semibold">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *Intern[...]
-                        <li><span class="font-semibold">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and de[...]
+                        <li><span class="font-semibold">Intensification of delignification of Tectona grandis saw dust as sustainable biomass using acoustic cavitational devices.</span> in *Ultrasonication and Sonochemistry* (IF: 9.336, Indexed: SCI, Scopus). <a href="https://doi.org/10.1016/j.ultsonch.2019.104914" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Development of Ultrahigh build solid self-healing coatings by silanized lignin Nano capsules.</span> in *Materials today Proceedings Journal*, Vol 45 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2021.02.576" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Self-healing Corrosion Inhibition Coatings with PH-Responsive Activity by Incorporation of Nano Cellulose in Two pack epoxy polyamide system.</span> in *Materials today Proceedings Journal*, Vol 46 (IF: 1.46, Indexed: Scopus). <a href="https://doi.org/10.1016/j.matpr.2020.09.341" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Thermal Modelling of a High Pressure Autoclave Reactor for Hydrothermal Carbonization.</span> in *Lecture Notes in Mechanical Engineering* (IF: 0.5, Indexed: Scopus). <a href="https://doi.org/10.1007/978-981-13-1903-763" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
+                        <li><span class="font-semibold">Synthesis, and Characterization of Cellulose Nano fibers, in enhancing the tensile stress properties of paper composites.</span> in *International Journal of Engineering & Technology* (Indexed: Scopus H-Index: 2).</li>
+                        <li><span class="font-semibold">Review on simulation of Heat Exchanger Using Aspen Plus Software.</span> in *International Journal of Emerging Trends in Engineering and development* (IF: 4.364, Indexed: Copernicus Index). <a href="http://www.rspublication.com/ijeted" target="_blank" class="text-blue-300 hover:text-blue-100">[Original Paper]</a></li>
                     </ol>
 
                     <h3 class="mt-6">International Conference Papers (15 Titles)</h3>
@@ -427,12 +417,12 @@
                         <li><span class="font-semibold">Evolvement Of Electric Double Layer Pseudo Capacitor By Self-healing Corrosion Inhibition Of Mild Steel.</span> (SEMCON-2022) </li>
                         <li><span class="font-semibold">Review on Ultra high build solvent less self-healing coatings.</span> (2nd ICAMSE-2021) </li>
                         <li><span class="font-semibold">Comparison and Evaluation of corrosion inhibition performance of organic coatings.</span> (ICRAMC-2021) </li>
-                        <li><span class="font-semibold">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highl[...]
+                        <li><span class="font-semibold">Lignin Encapsulation by Pickering Emulsion and In-Situ Polymerization for Corrosion Inhibition.</span> (EETSD-2020) <span class="isbn-highlight">ISBN: 978-93-86238-86-3</span></li>
                         <li><span class="font-semibold">Synthesis of Eco-Friendly and Multifunctional Lignin Based Cellulose Hydrogel from Tectona Grandis Sawdust.</span> (CRAFT 2020) </li>
-                        <li><span class="font-semibold">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019)[...]
-                        <li><span class="font-semibold">Optimization of Hydrothermally treated sawdust using RSM CCD.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</sp[...]
-                        <li><span class="font-semibold">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</[...]
-                        <li><span class="font-semibold">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">I[...]
+                        <li><span class="font-semibold">Investigation of a controlled release rate studies on Benzotriazole Loaded Electrospun Cellulose hallow Nano Fibers.</span> (Nanotech 2019) <span class="isbn-highlight">ISBN: 978-93-82829-68-3</span></li>
+                        <li><span class="font-semibold">Optimization of Hydrothermally treated sawdust using RSM CCD.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
+                        <li><span class="font-semibold">Intensification of enzyme activity using sonochemical approach.</span> (INCEEE-2019) <span class="isbn-highlight">ISBN: 978-81-928314-5-9</span></li>
+                        <li><span class="font-semibold">Thermal Modelling of a high pressure Autoclave Reactor for Hydrothermal Carbonization.</span> (ICNHTFF-2018) <span class="isbn-highlight">ISBN: 2341-582</span></li>
                         <li><span class="font-semibold">Kinetic study of degradation of bagasse hydro char using Thermo gravimetric analysis.</span> (ICONSWM 2017) </li>
                         <li><span class="font-semibold">Microwave assisted alkali-peroxide treated sawdust for delignification and its characterization.</span> (ICONSWM 2017) </li>
                         <li><span class="font-semibold">Hydrothermal Carbonization of Waste Biomass.</span> (IHMTC2017) <span class="isbn-highlight">ISBN: 978-1-56700-478-6</span></li>
@@ -509,7 +499,7 @@
                                 <span class="block">Recognized as an official reviewer for **3 Elsevier journals**: *Journal of Cleaner Production, Cellulose, Ultrasonics Sonochemistry*.</span>
                                 <span class="block italic text-xs">A testament to expertise and contribution to peer-reviewed scientific literature.</span>
                             </div>
-                            <a href="files/reviewer_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 fle[...]
+                            <a href="files/reviewer_certificate.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
@@ -517,7 +507,7 @@
                                 <span class="block">Awarded for "Lignin Encapsulation..." at the **International Conference (EETSD-2020)**.</span>
                                 <span class="block italic text-xs">Recognized for significant scientific merit and presentation quality.</span>
                             </div>
-                            <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-sh[...]
+                            <a href="files/best_paper_award.png" target="_blank" class="text-xs bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-1 px-2 rounded transition ml-4 flex-shrink-0 mt-1">View Proof</a>
                         </li>
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
@@ -536,7 +526,7 @@
                     <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
                         <li>**Hostel Warden (May-Nov 2022):** Managed and supervised student living and discipline as a Hostel Warden at Excel Engineering College.</li>
                         <li>**Placement Co-ordinator (2022):** Successfully coordinated industrial placements and internships for the Petrochemical Technology department.</li>
-                        <li>**Active Member of IICHE and IEI:** Maintained continuous professional development and networking within the Indian Institute of Chemical Engineers and Institution of [...]
+                        <li>**Active Member of IICHE and IEI:** Maintained continuous professional development and networking within the Indian Institute of Chemical Engineers and Institution of Engineers (India).</li>
                     </ul>
                 </div>
             </section>
@@ -648,4 +638,3 @@
     
 </body>
 </html>
-```
