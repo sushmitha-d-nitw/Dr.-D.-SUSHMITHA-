@@ -188,7 +188,7 @@
                 <a href="#research" class="nav-link" data-target="research">Research</a>
                 <a href="#publications-detail" class="nav-link" data-target="publications-detail">Publications</a>
                 <a href="#skills" class="nav-link" data-target="skills">Skills</a>
-                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards and Recognition</a>
+                <a href="#extracurricular" class="nav-link" data-target="extracurricular">Awards & Recognition</a>
                 <a href="#extra-curricular" class="nav-link" data-target="extra-curricular">Extra Curricular</a>
                 <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
                 <a href="#contact" class="nav-link" data-target="contact">Contact</a>
@@ -462,6 +462,74 @@
                 <li><span class="font-semibold">Microsoft Office Suite:</span> Advanced proficiency (Word, Excel, PowerPoint).</li>
             </ul>
         </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const navLinks = document.querySelectorAll('.nav-link');
+        const contentSections = document.querySelectorAll('.content-section');
+
+        // Function to handle section switching
+        const showSection = (targetId) => {
+            // Deactivate all sections
+            contentSections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Deactivate all nav links
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Activate the targeted section
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+                targetSection.scrollTop = 0; // Scroll to top of the new section
+            }
+            
+            // Activate the corresponding nav link
+            const activeLink = document.querySelector(`.nav-link[data-target="${targetId}"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        };
+
+        // Event listener for navigation links
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Extract the target ID from the data-target attribute
+                const targetId = link.getAttribute('data-target');
+                showSection(targetId);
+                
+                // Update URL hash without causing a jump
+                history.pushState(null, '', `#${targetId}`);
+            });
+        });
+
+        // Function to handle initial load based on URL hash
+        const initialLoad = () => {
+            let activeTarget = 'about'; // Default section
+
+            // Check if a specific section is requested in the URL hash
+            if (window.location.hash) {
+                const hash = window.location.hash.substring(1); // Remove the '#'
+                const hashLink = document.querySelector(`.nav-link[data-target="${hash}"]`);
+                if (hashLink) {
+                    activeTarget = hash;
+                }
+            }
+
+            // Show the initial section
+            showSection(activeTarget);
+        };
+
+        // Run the initial load function
+        initialLoad();
+
+        // Handle back/forward button navigation
+        window.addEventListener('popstate', initialLoad);
+    });
+</script>
         
         <div class="card card-content">
             <h3>Laboratory & Analytical Skills</h3>
