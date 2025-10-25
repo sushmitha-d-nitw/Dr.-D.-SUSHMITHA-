@@ -25,7 +25,12 @@
         /* Section Headings (H2) */
         .section-heading {
             padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
+            /* REDUCED FONT SIZE for H2 HEADINGS */
+            font-size: 1.5rem; 
+            /* TIGHTENED LINE HEIGHT */
+            line-height: 2rem;
+            /* REDUCED SPACE BELOW H2 HEADING */
+            margin-bottom: 1rem;
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
