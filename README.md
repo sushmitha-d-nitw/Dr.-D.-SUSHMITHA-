@@ -33,12 +33,12 @@
             margin-bottom: 0.3rem;
 
             /***NEW: PULL UP HEADING TO REDUCE SPACE ABOVE***/
-            margin-top:-1.5rem;/%Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
+            margin-top:-1.5rem;/*Adjust this value (e.g., -1rem, -1.5rem )as needed*/ 
             color: #ffffff; 
             font-family: 'Playfair Display', serif;
             font-size: 1rem;
             line-height: 1.2rem;
-            font-weight: 200;
+            font-weight: 300;
         }
 
         /* Card/Sub-Section Headings (H3) */
@@ -46,8 +46,8 @@
             color: #ffffff;
             /* **AMENDMENT 2: DECREASED H3 FONT SIZE** (From 1.1rem to 1rem) */
             font-size: 1rem; 
-            line-height: 1.5rem;
-            font-weight: 600;
+            line-height: 1.0rem;
+            font-weight: 300;
             margin-bottom: 0; 
             /* **AMENDMENT 1: DECREASED SPACE ABOVE H3** (Ensuring margin-top is zero) */
             margin-top: 0; 
@@ -228,7 +228,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="education" class="content-section">
                 <h2 class="section-heading">Educational Qualifications</h2>
                 <div class="card card-content">
@@ -358,7 +357,7 @@
             </section>
 
             <section id="research" class="content-section">
-                <h2 class="section-heading">Core Research & Metrics</h2>
+                <h2 class="text-3x1 font-boldmb-3 mt-0 section-heading">Core Research & Metrics</h2>
                 <div class="card card-content">
                     <ul class="list-disc list-inside text-sm ml-4 space-y-3 mt-3">
                         
@@ -580,8 +579,6 @@
                 </div>
             </section>
 
-        </div>
-    </main>
 
     <footer class="text-center py-4 text-xs text-gray-300">
         <div class="container mx-auto px-4">
