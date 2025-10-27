@@ -207,13 +207,13 @@
     <main class="flex-grow">
         <div class="container mx-auto max-w-5x1 px-2 py-4"> 
 
-<section id="home" class="min-h-screen flex flex-col justify-center items-center bg-blue-900 text-white">
+ </div>
+            </main>
+<section id="home" class="min-h-screen flex flex-col justify-center items-top bg-blue-900 text-white">
   <h1 class="text-4xl font-bold">Welcome to Dr. D. Sushmitha’s Portfolio</h1>
   <p class="mt-4 text-lg">Explore my work, research, and publications.</p>
 </section>
 
-            </div>
-            </main>
             <section id="about" class="content-section active">
                 <div class="text-center md:flex md:items-center md:text-left">
                     <div class="md:w-1/3 flex justify-center mb-4 md:mb-0 md:mr-6">
