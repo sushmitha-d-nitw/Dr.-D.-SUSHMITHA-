@@ -208,11 +208,12 @@
         <div class="container mx-auto max-w-5x1 px-2 py-4"> 
 
  </div>
-            </main>
+         </main>   
+            <main>
 <section id="home" class="min-h-screen flex flex-col justify-center items-center bg-blue-900 text-white">
   <h1 class="text-4xl font-bold">Welcome to Dr. D. Sushmitha’s Portfolio</h1>
   <p class="mt-4 text-lg">Explore my work, research, and publications.</p>
-</div>
+
 </section>
 
             <section id="about" class="content-section active">
