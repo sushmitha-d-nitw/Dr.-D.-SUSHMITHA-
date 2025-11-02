@@ -534,33 +534,27 @@
                 <h2 class="section-heading">Research & Professional Gallery</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="    https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%201.jpg" alt="Conference" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%201.jpg" alt="Conference talk" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Conference Setup</p>
+                            <p class="text-white text-xs text-center p-2">Conference Talk</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
                         <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%202.png" alt="Inaguration" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Inaguration Talk</p>
+                            <p class="text-white text-xs text-center p-2">Inaguration</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
                         <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%203.jpg" alt=" Conference Judge" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Conference Judge Huddle</p>
+                            <p class="text-white text-xs text-center p-2">Conference Judge</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%204.png  -prize" alt="Reasearch & Teaching Momentums" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%204.png" alt="Reasearch & Teaching Momentums" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2"> Research & Teaching Momentums </p>
-                        </div>
-                    </div>
-                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="files/gallery_img_4.png" alt="Research & Teaching Momentums" class="gallery-image">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Classroom Session</p>
                         </div>
                     </div>
                      <div class="relative group rounded-lg overflow-hidden">
