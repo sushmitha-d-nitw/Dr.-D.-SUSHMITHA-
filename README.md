@@ -588,11 +588,12 @@
                 <div class="card card-content">
                     <p class="text-lg font-semibold text-accent mb-3">Get in Touch</p>
                     <ul class="list-disc list-inside text-sm ml-4 space-y-2">
-                        <li>**Email:** <a href="mailto:Dr.sushmitha.d@gmail.com" class="text-blue-300 hover:text-blue-100">Dr.sushmitha.d@gmail.com</a></li>
-                        <li>**Phone:** <a href="tel:+919876543210" class="text-blue-300 hover:text-blue-100">+91 98765 43210 (Example)</a></li>
-                        <li>**LinkedIn:** <a href="[Your-LinkedIn-URL]" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
-                        <li>**Google Scholar:** <a href="[Your-Google-Scholar-URL]" target="_blank" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
-                        <li>**Permanent Address:** [Your Address Line 1], [Your Address Line 2]</li>
+                        <li>Email: <a href="mailto:sushmitha.d.nitw@gmail.com" class="text-blue-300 hover:text-blue-100">sushmitha.d.nitw@gmail.com</a></li>
+                        <li>Phone: <a href="tel:+917981541047" class="text-blue-300 hover:text-blue-100">+917981541047 (Example)</a></li>
+                        <li>LinkedIn: <a href="[www.linkedin.com/in/sushmitha-0aa49b30]" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
+                        <li>Google Scholar: <a href="[ https://scholar.google.com/citations?user=Qk1uTQYAAAAJ&hl=en]" target="_blank" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
+                        <li>Orcid ID: <a href="[https://orcid.org/0000-0002-1125-6904View this author’s ORCID profileCurriculum]" target="_blank" class="text-blue-300 hover:text-blue-100">Orcid Profile</a></li>
+                        <li>ScopusID: 57213192955</li>
                     </ul>
 
                     <h3 class="mt-6">Download Resume</h3>
