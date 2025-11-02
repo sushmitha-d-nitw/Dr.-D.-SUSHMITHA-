@@ -534,27 +534,55 @@
                 <h2 class="section-heading">Research & Professional Gallery</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="files/gallery_img_1.png" alt="Lab Research Setup" class="gallery-image">
+                        <img src="    https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%201.jpg" alt="Conference" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Ultrasound Reactor Setup</p>
+                            <p class="text-white text-xs text-center p-2">Conference Setup</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="files/gallery_img_2.png" alt="Conference Presentation" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%202.png" alt="Inaguration" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">International Conference Talk</p>
+                            <p class="text-white text-xs text-center p-2">Inaguration Talk</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="files/gallery_img_3.png" alt="Team Meeting" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%203.jpg" alt=" Conference Judge" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                            <p class="text-white text-xs text-center p-2">Riss InfoTech Team Huddle</p>
+                            <p class="text-white text-xs text-center p-2">Conference Judge Huddle</p>
                         </div>
                     </div>
                     <div class="relative group rounded-lg overflow-hidden">
-                        <img src="files/gallery_img_4.png" alt="Teaching Moment" class="gallery-image">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%204.png  -prize" alt="Reasearch & Teaching Momentums" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2"> Research & Teaching Momentums </p>
+                        </div>
+                    </div>
+                     <div class="relative group rounded-lg overflow-hidden">
+                        <img src="files/gallery_img_4.png" alt="Research & Teaching Momentums" class="gallery-image">
                         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                             <p class="text-white text-xs text-center p-2">Classroom Session</p>
+                        </div>
+                    </div>
+                     <div class="relative group rounded-lg overflow-hidden">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%205.jpg " alt="Traditional events" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Traditional events</p>
+                        </div>
+                    </div>
+                     <div class="relative group rounded-lg overflow-hidden">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%206.jpg " alt="Food Donation" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Food Donation</p>
+                        </div>
+                    </div> <div class="relative group rounded-lg overflow-hidden">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/sush.png" alt="Traditional events" class="Clasical Dance">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">Clasical Dance</p>
+                        </div>
+                    </div> <div class="relative group rounded-lg overflow-hidden">
+                        <img src="https://raw.githubusercontent.com/sushmitha-d-nitw/Dr.D.SUSHMITHA/refs/heads/main/website%20phototes/Image%209.png" alt=" ExtraCurricular Activity Momentums" class="gallery-image">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white text-xs text-center p-2">ExtraCurricular Activity Momentums</p>
                         </div>
                     </div>
                     </div>
