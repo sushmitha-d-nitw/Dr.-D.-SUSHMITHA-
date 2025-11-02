@@ -456,10 +456,10 @@
                     <div class="card">
                         <h3>Simulation & Software</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li><span class="font-semibold text-accent">ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
-                            <li><span class="font-semibold text-accent">ANSYS</span> (CFD Modeling & Simulation)</li>
+                            <li>ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
+                            <li>ANSYS</span> (CFD Modeling & Simulation)</li>
                             <li>Design Expert (RSM, DOE)</li>
-                            <li>MATLAB (Programming & Modeling)</li>
+                            <li>Web development ( HTML Code in GIT-HUB)</li>
                             <li>MS Office Suite & Data Analysis</li>
                         </ul>
                     </div>
@@ -467,7 +467,7 @@
                     <div class="card">
                         <h3>Lab Techniques & Handling</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li><span class="font-semibold text-accent">Chromatography</span> (HPLC, GC)</li>
+                            <li>Chromatography</span> (HPLC, GC)</li>
                             <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
                             <li>Microscopy (SEM, TEM, AFM)</li>
                             <li>Thermal Analysis (TGA, DSC)</li>
@@ -481,7 +481,8 @@
                             <li>Project Management (Research & Industry)</li>
                             <li>Team Leadership & Mentorship</li>
                             <li>Curriculum Design & Teaching</li>
-                            <li>Business Development & CRM</li>
+                            <li>Business DevelopmentTools (Power BI & CRM)</li>
+                            <li>Pay roll generation</li>
                             <li>Excellent Communication & Presentation</li>
                         </ul>
                     </div>
