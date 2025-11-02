@@ -244,7 +244,7 @@
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
-                                <span class="font-semibold text-accent block">M.Tech in Chemical Engineering (7.28 CGPA)</span>
+                                <span class="font-semibold text-accent block">M.Tech in Chemical Engineering (7.29 CGPA)</span>
                                 <span class="block">NIT Warangal | Jul 2009 - Jul 2011.</span>
                                 <span class="block italic text-xs">Specialization: Computer Aided Process Equipment Design. Project: Improvement of Crude Benzol Production...</span>
                             </div>
@@ -253,7 +253,7 @@
 
                         <li class="flex justify-between items-start pr-4">
                             <div class="flex-grow">
-                                <span class="font-semibold text-accent block">B.Tech in Chemical Engineering (67.56%)</span>
+                                <span class="font-semibold text-accent block">B.Tech in Chemical Engineering (First class)</span>
                                 <span class="block">JNTU Anantapur | Jul 2004 - Jul 2008.</span>
                                 <span class="block italic text-xs">Thesis: Simulation of large-scale membrane reformers (two-dimensional model).</span>
                             </div>
@@ -456,8 +456,8 @@
                     <div class="card">
                         <h3>Simulation & Software</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li>ASPEN Plus/Hysis</span> (Process Flow Sheet & Simulation)</li>
-                            <li>ANSYS</span> (CFD Modeling & Simulation)</li>
+                            <li>ASPEN Plus/Hysis (Process Flow Sheet & Simulation)</li>
+                            <li>ANSYS (CFD Modeling & Simulation)</li>
                             <li>Design Expert (RSM, DOE)</li>
                             <li>Web development ( HTML Code in GIT-HUB)</li>
                             <li>MS Office Suite & Data Analysis</li>
@@ -467,7 +467,7 @@
                     <div class="card">
                         <h3>Lab Techniques & Handling</h3>
                         <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
-                            <li>Chromatography</span> (HPLC, GC)</li>
+                            <li>Chromatography (HPLC, GC)</li>
                             <li>Spectroscopy (FTIR, UV-Vis, NMR)</li>
                             <li>Microscopy (SEM, TEM, AFM)</li>
                             <li>Thermal Analysis (TGA, DSC)</li>
