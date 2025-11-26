@@ -622,9 +622,7 @@
             <li>Scopus ID: 57213192955</li>
 
         </ul>
-    </div>
-</section>
-
+        </div>
                     <h3 class="mt-6">Download Resume</h3>
                     <a href="files/Dr_D_Sushmitha_CV.pdf" download class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm mt-2">
                         Download Complete CV (PDF)
