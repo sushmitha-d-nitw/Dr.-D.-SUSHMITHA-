@@ -583,18 +583,47 @@
                     </div>
             </section>
 
-            <section id="contact" class="content-section">
-                <h2 class="section-heading">Contact & Professional Links</h2>
-                <div class="card card-content">
-                    <p class="text-lg font-semibold text-accent mb-3">Get in Touch</p>
-                    <ul class="list-disc list-inside text-sm ml-4 space-y-2">
-                        <li>Email: <a href="mailto:sushmitha.d.nitw@gmail.com" class="text-blue-300 hover:text-blue-100">sushmitha.d.nitw@gmail.com</a></li>
-                        <li>Phone: <a href="tel:+917981541047" class="text-blue-300 hover:text-blue-100">+917981541047 (Example)</a></li>
-                        <li>LinkedIn: <a href="www.linkedin.com/in/sushmitha-0aa49b30" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
-                        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ&hl=en" target="_blank" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
-                        <li>Orcid ID: <a href="https://orcid.org/0000-0002-1125-6904View this author’s ORCID profileCurriculum" target="_blank" class="text-blue-300 hover:text-blue-100">Orcid Profile</a></li>
-                        <li>ScopusID: 57213192955</li>
-                    </ul>
+          <section id="contact" class="content-section">
+    <h2 class="section-heading">Contact & Professional Links</h2>
+    <div class="card card-content">
+        <p class="text-lg font-semibold text-accent mb-3">Get in Touch</p>
+        <ul class="list-disc list-inside text-sm ml-4 space-y-2">
+
+            <li>Email: 
+                <a href="mailto:sushmitha.d.nitw@gmail.com" class="text-blue-300 hover:text-blue-100">
+                    sushmitha.d.nitw@gmail.com
+                </a>
+            </li>
+
+            <li>Phone: 
+                <a href="tel:+917981541047" class="text-blue-300 hover:text-blue-100">
+                    +917981541047
+                </a>
+            </li>
+
+            <li>LinkedIn: 
+                <a href="https://www.linkedin.com/in/sushmitha-0aa49b30" target="_blank" class="text-blue-300 hover:text-blue-100">
+                    linkedin.com/in/drsushmitha
+                </a>
+            </li>
+
+            <li>Google Scholar: 
+                <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ&hl=en" target="_blank" class="text-blue-300 hover:text-blue-100">
+                    View My Citations & Profile
+                </a>
+            </li>
+
+            <li>ORCID ID: 
+                <a href="https://orcid.org/0000-0002-1125-6904" target="_blank" class="text-blue-300 hover:text-blue-100">
+                    ORCID Profile
+                </a>
+            </li>
+
+            <li>Scopus ID: 57213192955</li>
+
+        </ul>
+    </div>
+</section>
 
                     <h3 class="mt-6">Download Resume</h3>
                     <a href="files/Dr_D_Sushmitha_CV.pdf" download class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded transition text-sm mt-2">
