@@ -590,9 +590,9 @@
                     <ul class="list-disc list-inside text-sm ml-4 space-y-2">
                         <li>Email: <a href="mailto:sushmitha.d.nitw@gmail.com" class="text-blue-300 hover:text-blue-100">sushmitha.d.nitw@gmail.com</a></li>
                         <li>Phone: <a href="tel:+917981541047" class="text-blue-300 hover:text-blue-100">+917981541047 (Example)</a></li>
-                        <li>LinkedIn: <a href="[www.linkedin.com/in/sushmitha-0aa49b30]" target="www.linkedin.com/in/sushmitha-0aa49b30" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
-                        <li>Google Scholar: <a href="[ https://scholar.google.com/citations?user=Qk1uTQYAAAAJ&hl=en]" target="https://surl.lu/nwbosy" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
-                        <li>Orcid ID: <a href="[https://orcid.org/0000-0002-1125-6904View this author’s ORCID profileCurriculum]" target="https://orcid.org/0000-0002-1125-6904View this author’s ORCID profileCurriculum" class="text-blue-300 hover:text-blue-100">Orcid Profile</a></li>
+                        <li>LinkedIn: <a href="www.linkedin.com/in/sushmitha-0aa49b30" target="_blank" class="text-blue-300 hover:text-blue-100">linkedin.com/in/drsushmitha</a></li>
+                        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=Qk1uTQYAAAAJ&hl=en" target="_blank" class="text-blue-300 hover:text-blue-100">View My Citations & Profile</a></li>
+                        <li>Orcid ID: <a href="https://orcid.org/0000-0002-1125-6904View this author’s ORCID profileCurriculum" target="_blank" class="text-blue-300 hover:text-blue-100">Orcid Profile</a></li>
                         <li>ScopusID: 57213192955</li>
                     </ul>
 
